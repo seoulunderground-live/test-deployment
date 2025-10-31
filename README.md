@@ -5,22 +5,17 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-10-31T04:21:58Z
-- **Source Commit**: [`a52d59797f4df3ca970b691a0355aed0b0a02aad`](https://github.com/keunwoochoi/seoulunderground.live/commit/a52d59797f4df3ca970b691a0355aed0b0a02aad)
+- **Build Time**: 2025-10-31T04:29:28Z
+- **Source Commit**: [`b17c0a1ba193bad292dc5a799d8d3dc79d43187b`](https://github.com/keunwoochoi/seoulunderground.live/commit/b17c0a1ba193bad292dc5a799d8d3dc79d43187b)
 - **Branch**: `korean-jazz`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18962615990)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18962738160)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: Fix data symlink: remove checked-out dir first
+- **Message**: Remove debug logging from test workflow
 
-The issue: ln -sf ./data was creating a symlink INSIDE the existing
-data/ directory (which git checked out with README.md and app.db),
-not replacing it.
-
-The fix: rm -rf ./data first, then create symlink. Now export script
-will see data/seoul/jazz/gemini_analyzed/venues/ correctly.
+Now identical to production workflow for data symlink step.
 
 ## Deployment URLs
 
