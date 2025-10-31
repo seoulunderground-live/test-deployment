@@ -5,33 +5,31 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-10-31T05:14:37Z
-- **Source Commit**: [`0bc68e58859a0d0c19d07bf8c4db4a503ac855bf`](https://github.com/keunwoochoi/seoulunderground.live/commit/0bc68e58859a0d0c19d07bf8c4db4a503ac855bf)
+- **Build Time**: 2025-10-31T05:24:29Z
+- **Source Commit**: [`32c92e4701fd22204784cb3c41700f91d0203626`](https://github.com/keunwoochoi/seoulunderground.live/commit/32c92e4701fd22204784cb3c41700f91d0203626)
 - **Branch**: `korean-jazz`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18963434265)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18963599363)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: Add [Today] and [Tomorrow] buttons to date filters
+- **Message**: Refactor date filter: use discriminated union for type safety
 
-Changes:
-- Added 5 date filter buttons: [All] [Today] [Tomorrow] [This week] [Next week]
-- Added dayFilter state (null | 0 | 1) for day-level filtering
-- Added 'tomorrow' translation (Tomorrow / 내일)
-- URL params: ?day=0 (today), ?day=1 (tomorrow), ?week=0, ?week=1
-- Day and week filters are mutually exclusive
+Major improvements:
+1. Replaced dayFilter/weekFilter with single DateFilter discriminated union
+2. Centralized date range calculation in calculateDateRange()
+3. Centralized URL parsing/generation in helper functions
+4. Eliminated repeated logic (dayFilter === null && weekFilter === null)
+5. Added explicit comment about 'this week' definition (starts from today)
 
-Fix:
-- Use undefined (not null) for unmodified params in button onClick
-- This prevents one handler from clearing another's param
+Benefits:
+- Type safe: impossible to have invalid filter states
+- Single source of truth for filter logic
+- Easier to add new filters (e.g., 'this weekend', 'next month')
+- Reduced code duplication (4x repeated condition → 1 function)
+- Cleaner state management (1 filter vs 2 nullable ints)
 
-Result:
-- [All]: All future events (no URL param)
-- [Today]: ?day=0 (shows only today's events)
-- [Tomorrow]: ?day=1 (shows only tomorrow's events)
-- [This week]: ?week=0 (shows this week)
-- [Next week]: ?week=1 (shows next week)
+No functional changes - all buttons work the same as before.
 
 ## Deployment URLs
 
