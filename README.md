@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-10-31T06:44:04Z
-- **Source Commit**: [`b8a6af98f328640868b9b161fce3cb2ee9e158ca`](https://github.com/keunwoochoi/seoulunderground.live/commit/b8a6af98f328640868b9b161fce3cb2ee9e158ca)
-- **Branch**: `viewfix`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18964958919)
+- **Build Time**: 2025-10-31T16:04:54Z
+- **Source Commit**: [`2285d6242954d4564c737e239ebe2945e475b799`](https://github.com/keunwoochoi/seoulunderground.live/commit/2285d6242954d4564c737e239ebe2945e475b799)
+- **Branch**: `feat/timezone`
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18978206947)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: reflect gemini comment
+- **Message**: fix time issue. add js test for this
 
 ## Deployment URLs
 
