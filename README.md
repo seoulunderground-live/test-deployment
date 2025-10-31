@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-10-30T22:36:11Z
-- **Source Commit**: [`890382a4d642028c0f79aa41816bbb18b50a235a`](https://github.com/keunwoochoi/seoulunderground.live/commit/890382a4d642028c0f79aa41816bbb18b50a235a)
+- **Build Time**: 2025-10-31T02:00:27Z
+- **Source Commit**: [`c3dc75e71b88dffdbe6c2e98350f9b7e3feca32e`](https://github.com/keunwoochoi/seoulunderground.live/commit/c3dc75e71b88dffdbe6c2e98350f9b7e3feca32e)
 - **Branch**: `korean-jazz`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18956947282)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18960396493)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: lets see
+- **Message**: lots of fix
 
 ## Deployment URLs
 
