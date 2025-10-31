@@ -5,19 +5,19 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-10-31T02:23:21Z
-- **Source Commit**: [`e293b81bb50e074cf3e385103f94df03c8133578`](https://github.com/keunwoochoi/seoulunderground.live/commit/e293b81bb50e074cf3e385103f94df03c8133578)
+- **Build Time**: 2025-10-31T03:23:46Z
+- **Source Commit**: [`b6000dd1fdd08b99361ceaa9cf74bfea90318cad`](https://github.com/keunwoochoi/seoulunderground.live/commit/b6000dd1fdd08b99361ceaa9cf74bfea90318cad)
 - **Branch**: `korean-jazz`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18960754179)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18961704032)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: show event
+- **Message**: test is now at test subdomain
 
 ## Deployment URLs
 
-- **Test Site**: https://seoulunderground-live.github.io/test-deployment
+- **Test Site**: https://test.seoulunderground.live
 - **Production Site**: https://seoulunderground.live
 
 ## Data Snapshot
