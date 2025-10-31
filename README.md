@@ -5,28 +5,33 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-10-31T05:07:10Z
-- **Source Commit**: [`5b2a8f0017b2d1c195e4a9b77c7418ef0ea571aa`](https://github.com/keunwoochoi/seoulunderground.live/commit/5b2a8f0017b2d1c195e4a9b77c7418ef0ea571aa)
+- **Build Time**: 2025-10-31T05:14:37Z
+- **Source Commit**: [`0bc68e58859a0d0c19d07bf8c4db4a503ac855bf`](https://github.com/keunwoochoi/seoulunderground.live/commit/0bc68e58859a0d0c19d07bf8c4db4a503ac855bf)
 - **Branch**: `korean-jazz`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18963303969)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18963434265)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: Fix 'Next week' button showing same events as 'This week'
+- **Message**: Add [Today] and [Tomorrow] buttons to date filters
 
-Issue: Next week button was showing the same events as this week because
-the API was always sending fromDt=today, not fromDt=startOfNextWeek.
+Changes:
+- Added 5 date filter buttons: [All] [Today] [Tomorrow] [This week] [Next week]
+- Added dayFilter state (null | 0 | 1) for day-level filtering
+- Added 'tomorrow' translation (Tomorrow / 내일)
+- URL params: ?day=0 (today), ?day=1 (tomorrow), ?week=0, ?week=1
+- Day and week filters are mutually exclusive
 
 Fix:
-- API mode: Use fromDate (calculated start of week) for specific weeks
-- Static mode: Use fromDate for specific weeks, not always today
-- Logic: weekFilter === null → today, weekFilter !== null → fromDate
+- Use undefined (not null) for unmodified params in button onClick
+- This prevents one handler from clearing another's param
 
 Result:
-- [All]: Shows all future events (from today onwards)
-- [This week]: Shows today through end of week (today + 6 days)
-- [Next week]: Shows start of next week through end (today + 7 to +13)
+- [All]: All future events (no URL param)
+- [Today]: ?day=0 (shows only today's events)
+- [Tomorrow]: ?day=1 (shows only tomorrow's events)
+- [This week]: ?week=0 (shows this week)
+- [Next week]: ?week=1 (shows next week)
 
 ## Deployment URLs
 
