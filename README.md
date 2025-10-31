@@ -5,19 +5,17 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-10-31T04:13:03Z
-- **Source Commit**: [`b98be62957f3e3b519887b0a04a331488ff4002d`](https://github.com/keunwoochoi/seoulunderground.live/commit/b98be62957f3e3b519887b0a04a331488ff4002d)
+- **Build Time**: 2025-10-31T04:20:08Z
+- **Source Commit**: [`94620de972c8f8aa9d2d75fbbb53db7235d03943`](https://github.com/keunwoochoi/seoulunderground.live/commit/94620de972c8f8aa9d2d75fbbb53db7235d03943)
 - **Branch**: `korean-jazz`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18962479007)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18962588864)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: Symlink data directory in workflow for venue export
+- **Message**: Add debug logging for data directory symlink
 
-The workflow runs in its own checkout directory which doesn't have
-the gitignored data files. Symlink from actual dev workspace so the
-export script can access venue/musician analyzed data.
+Check if seoul/jazz/gemini_analyzed/venues/ is accessible.
 
 ## Deployment URLs
 
