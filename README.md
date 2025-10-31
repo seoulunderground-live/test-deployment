@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-10-31T06:33:15Z
-- **Source Commit**: [`822d7e93e4dfe9de8a49a63026322a657e2d38ca`](https://github.com/keunwoochoi/seoulunderground.live/commit/822d7e93e4dfe9de8a49a63026322a657e2d38ca)
-- **Branch**: `views`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18964776591)
+- **Build Time**: 2025-10-31T06:44:04Z
+- **Source Commit**: [`b8a6af98f328640868b9b161fce3cb2ee9e158ca`](https://github.com/keunwoochoi/seoulunderground.live/commit/b8a6af98f328640868b9b161fce3cb2ee9e158ca)
+- **Branch**: `viewfix`
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18964958919)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: haha
+- **Message**: reflect gemini comment
 
 ## Deployment URLs
 
