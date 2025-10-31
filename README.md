@@ -5,28 +5,29 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-10-31T04:43:45Z
-- **Source Commit**: [`1dfd7ad4d1dcfbe9fcc4690c385733dfc7ecb36f`](https://github.com/keunwoochoi/seoulunderground.live/commit/1dfd7ad4d1dcfbe9fcc4690c385733dfc7ecb36f)
+- **Build Time**: 2025-10-31T04:57:59Z
+- **Source Commit**: [`6eaf526814b1e78cbc3e9d882744548cc196a46f`](https://github.com/keunwoochoi/seoulunderground.live/commit/6eaf526814b1e78cbc3e9d882744548cc196a46f)
 - **Branch**: `korean-jazz`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18962949772)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18963156152)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: Stop tracking data/app.db and data/README.md
-
-These files should never have been in git:
-- data/app.db: SQLite database (changes constantly, large)
-- data/README.md: Local documentation only
+- **Message**: Refactor week navigation: URL-based relative weeks + 'All' = all future events
 
 Changes:
-1. Untrack both files: git rm --cached
-2. Simplify .gitignore: data/** (all excluded)
-3. Fix .gitignore: frontend/public/api/ (was *.json, missed subdirs)
-4. Move data docs to main README.md
-5. Remove rm -rf from workflows (git won't create data/ anymore)
+- [All] button now means 'all future events' (default, no URL param)
+- [This week] uses ?week=0 (relative to current week)
+- [Next week] uses ?week=1 (relative to current week)
+- Removed showAllEvents state, replaced with weekFilter (null | 0 | 1 | ...)
+- URL params: No 'week' param = all future, 'week=N' = specific week
+- Simplified updateUrlParams to only handle week and query
+- Disabled keyboard shortcuts (h/l/t) - use buttons instead
 
-Workflow symlink now works cleanly without removing anything first.
+Benefits:
+- URLs are always valid relative to opening time
+- 'All' button is now default (shows all future events)
+- Cleaner state management (single weekFilter instead of multiple booleans)
 
 ## Deployment URLs
 
