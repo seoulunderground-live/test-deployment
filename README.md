@@ -5,21 +5,19 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-10-31T04:00:08Z
-- **Source Commit**: [`26ee040d2a3053dade34e3519bff6f9bc090be87`](https://github.com/keunwoochoi/seoulunderground.live/commit/26ee040d2a3053dade34e3519bff6f9bc090be87)
+- **Build Time**: 2025-10-31T04:13:03Z
+- **Source Commit**: [`b98be62957f3e3b519887b0a04a331488ff4002d`](https://github.com/keunwoochoi/seoulunderground.live/commit/b98be62957f3e3b519887b0a04a331488ff4002d)
 - **Branch**: `korean-jazz`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18962258584)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18962479007)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: Add .gitignore and data/** to workflow triggers
+- **Message**: Symlink data directory in workflow for venue export
 
-Workflow now triggers on:
-- .gitignore changes (affects what data gets exported)
-- data/** changes (venue/musician analyzed data)
-
-This ensures deployment runs when data structure or gitignore patterns change.
+The workflow runs in its own checkout directory which doesn't have
+the gitignored data files. Symlink from actual dev workspace so the
+export script can access venue/musician analyzed data.
 
 ## Deployment URLs
 
