@@ -5,25 +5,28 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-10-31T05:01:40Z
-- **Source Commit**: [`f1b0f50d0f8d6aef1acae2b895eba432b350c8ef`](https://github.com/keunwoochoi/seoulunderground.live/commit/f1b0f50d0f8d6aef1acae2b895eba432b350c8ef)
+- **Build Time**: 2025-10-31T05:07:10Z
+- **Source Commit**: [`5b2a8f0017b2d1c195e4a9b77c7418ef0ea571aa`](https://github.com/keunwoochoi/seoulunderground.live/commit/5b2a8f0017b2d1c195e4a9b77c7418ef0ea571aa)
 - **Branch**: `korean-jazz`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18963207100)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18963303969)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: Fix 'All' button to show only future events, not past events
+- **Message**: Fix 'Next week' button showing same events as 'This week'
 
-Issue: 'All' button was showing all events including past ones.
+Issue: Next week button was showing the same events as this week because
+the API was always sending fromDt=today, not fromDt=startOfNextWeek.
 
 Fix:
-- Always filter from today onwards in both API and static modes
-- API mode: Always send fromDt=today, only add toDt for specific weeks
-- Static mode: Always filter d >= today first, then apply toDate for weeks
-- Result: 'All' button shows future events only, as intended
+- API mode: Use fromDate (calculated start of week) for specific weeks
+- Static mode: Use fromDate for specific weeks, not always today
+- Logic: weekFilter === null → today, weekFilter !== null → fromDate
 
-This ensures 'All' (전체) truly means 'all future events'.
+Result:
+- [All]: Shows all future events (from today onwards)
+- [This week]: Shows today through end of week (today + 6 days)
+- [Next week]: Shows start of next week through end (today + 7 to +13)
 
 ## Deployment URLs
 
