@@ -5,7 +5,7 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-10-31T16:04:54Z
+- **Build Time**: 2025-10-31T16:55:23Z
 - **Source Commit**: [`2285d6242954d4564c737e239ebe2945e475b799`](https://github.com/keunwoochoi/seoulunderground.live/commit/2285d6242954d4564c737e239ebe2945e475b799)
 - **Branch**: `feat/timezone`
 - **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18978206947)
