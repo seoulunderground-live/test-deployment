@@ -5,22 +5,25 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-01T03:28:06Z
-- **Source Commit**: [`fb452a0d6b436a6ba5eb3ee5d32d663ecb7c722a`](https://github.com/keunwoochoi/seoulunderground.live/commit/fb452a0d6b436a6ba5eb3ee5d32d663ecb7c722a)
+- **Build Time**: 2025-11-01T04:04:11Z
+- **Source Commit**: [`44bfd747a0f84408d141d39a9c6fd1ef97130469`](https://github.com/keunwoochoi/seoulunderground.live/commit/44bfd747a0f84408d141d39a9c6fd1ef97130469)
 - **Branch**: `venue-tab`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18990037871)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18991050758)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: fix: export_static_json datetime type error
+- **Message**: fix: stop creating placeholder venues in database
 
-- Change _get_today_kst_start() to return datetime object instead of string
-- crud.list_events expects datetime and calls .isoformat() on it
-- Add tests to prevent regression of type errors in export functions
+Changed event import behavior:
+- No longer creates placeholder venues when events reference unknown handles
+- Unknown venues are logged to venue_candidates.csv for manual review
+- Events will have venue_id=None if venue not in database
 
-Fixes deployment error:
-  AttributeError: 'str' object has no attribute 'isoformat'
+This keeps the venue database clean - only venues from venue_handles.txt
+that have been properly enriched should be in the database.
+
+Manually deleted 5 existing placeholder venues from local database.
 
 ## Deployment URLs
 
