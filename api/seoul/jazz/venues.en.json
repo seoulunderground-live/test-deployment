@@ -1,6 +1,6 @@
 [
   {
-    "id": "ven_4e20d1aa-54e0-421b-8098-36c5324c313d",
+    "id": "ven_faf3684a-250c-41a7-a11a-56da86ad4032",
     "ig_handle": "allthatjazz_itaewon",
     "name_irl": "All That Jazz Itaewon",
     "location_text": null,
@@ -8,7 +8,7 @@
     "location_lon": null,
     "phone": "02-795-5701",
     "email": null,
-    "google_map_url": "https://maps.google.com/?cid=1629884300631888791",
+    "google_map_url": null,
     "booking_url": "https://booking.naver.com/booking/5/bizes/1409968",
     "homepage_url": "http://allthatjazz.kr",
     "websites": [
@@ -61,7 +61,7 @@
     }
   },
   {
-    "id": "ven_af1ae7fe-6276-486e-8b3b-2d36c8d4be0f",
+    "id": "ven_c4a2e2ee-3206-4b1c-9f87-8cf6d4a69df3",
     "ig_handle": "asome_ground",
     "name_irl": "Awesome Ground",
     "location_text": null,
@@ -69,7 +69,7 @@
     "location_lon": null,
     "phone": null,
     "email": null,
-    "google_map_url": "https://maps.google.com/?cid=2095809664248845139",
+    "google_map_url": null,
     "booking_url": "https://asomemusic.com/product-category/program/",
     "homepage_url": "https://asomemusic.com/",
     "websites": [],
@@ -121,7 +121,7 @@
     }
   },
   {
-    "id": "ven_9dc62893-9ec1-4071-878c-d403c0583318",
+    "id": "ven_14353c52-4daf-4118-b227-164af0b623ef",
     "ig_handle": "bluecat.fezh",
     "name_irl": "BLUE CAT 블루캣",
     "location_text": null,
@@ -177,7 +177,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_feae468a-a69d-4c71-bc77-f3ea64bc98dc",
+    "id": "ven_5fa5d142-0183-476c-8292-fd4c1327a565",
     "ig_handle": "blueming_jazz",
     "name_irl": "BLUEMING Jazz & Malt",
     "location_text": null,
@@ -264,13 +264,13 @@
     }
   },
   {
-    "id": "ven_c9fa0500-8235-4c75-8293-3a90f25d5c68",
+    "id": "ven_f1ef7692-acee-4159-958f-4d45ce5b122f",
     "ig_handle": "banjul_stage",
     "name_irl": "Banjul Stage",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": "02-735-5437",
+    "phone": null,
     "email": null,
     "google_map_url": "https://maps.google.com/?cid=10111399887885419610",
     "booking_url": "https://m.booking.naver.com/booking/12/bizes/870531",
@@ -323,7 +323,7 @@
     }
   },
   {
-    "id": "ven_4046d613-72d0-4595-94ee-e806f3a91df2",
+    "id": "ven_051ba099-06cc-4393-ade6-09cafb35961a",
     "ig_handle": "boogiewoogieseoul",
     "name_irl": "Boogie Woogie Noksapyeong Jazz Bar",
     "location_text": null,
@@ -400,7 +400,7 @@
     }
   },
   {
-    "id": "ven_7feea26f-ab6a-4e18-928e-0ea0183e7d3a",
+    "id": "ven_e2246fba-487a-400a-9929-8c5b678d9001",
     "ig_handle": "bottler_euljiro",
     "name_irl": "Bottler Euljiro",
     "location_text": null,
@@ -411,9 +411,7 @@
     "google_map_url": "https://maps.google.com/?cid=12127455814016865441",
     "booking_url": "https://app.catchtable.co.kr/ct/shop/bottler?from=share&type=VISIT_RESERVATION",
     "homepage_url": null,
-    "websites": [
-      "https://naver.me/FaVOXLSn"
-    ],
+    "websites": [],
     "subway_nearby": null,
     "food_policy": null,
     "age_limit": null,
@@ -465,13 +463,13 @@
     }
   },
   {
-    "id": "ven_7c03d477-67a0-4b00-b9ee-6d7ea5ee4dc2",
+    "id": "ven_903f987c-4be6-4719-99f7-0db65551de47",
     "ig_handle": "jazzclub_evans",
     "name_irl": "CLUB EVANS",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": "02-337-8361",
+    "phone": null,
     "email": null,
     "google_map_url": null,
     "booking_url": null,
@@ -565,7 +563,7 @@
     }
   },
   {
-    "id": "ven_9595dbeb-6c02-4603-b20a-d2a10e4ed69c",
+    "id": "ven_efd0e5b5-58eb-46db-b819-051f26c4eb2e",
     "ig_handle": "cafeblackfactory",
     "name_irl": "Cafeblackfactory",
     "location_text": null,
@@ -634,7 +632,7 @@
     }
   },
   {
-    "id": "ven_c3034fef-62ee-47a1-a42d-9de8b47c3c11",
+    "id": "ven_b01357aa-7383-4499-97b3-6dccadba9e8e",
     "ig_handle": "chunnyun.jazz",
     "name_irl": "Cheonnyeondongando",
     "location_text": null,
@@ -713,15 +711,15 @@
     }
   },
   {
-    "id": "ven_7a3c5286-248a-4e8b-beaf-f73512c79eea",
+    "id": "ven_ac8f4ea6-5aa1-4964-9ab5-c1d84eac1b7c",
     "ig_handle": "chunnyun.jonggak",
     "name_irl": "Chunnyun Dongando Jonggak",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": "050-71433-0619",
+    "phone": null,
     "email": null,
-    "google_map_url": "https://maps.google.com/?cid=9176070558265640633",
+    "google_map_url": null,
     "booking_url": "https://m.place.naver.com/restaurant/1789291657",
     "homepage_url": null,
     "websites": [],
@@ -770,7 +768,7 @@
     }
   },
   {
-    "id": "ven_81ac1d82-7bf2-4dfb-b0ca-6aa84db62c8e",
+    "id": "ven_43aefd42-ea03-49e8-bb05-01d8699bab60",
     "ig_handle": "bar_tican",
     "name_irl": "Cocktail Bar BARTICAN",
     "location_text": null,
@@ -837,7 +835,7 @@
     }
   },
   {
-    "id": "ven_4c2a1430-6ec1-49a3-8859-aa70717139c8",
+    "id": "ven_170b8471-6cb5-4ea7-b271-180ce0cbc536",
     "ig_handle": "concino_concrete",
     "name_irl": "Concino Concrete",
     "location_text": null,
@@ -906,7 +904,7 @@
     }
   },
   {
-    "id": "ven_2b7dbbdb-11db-4924-94f1-011ab20f67fe",
+    "id": "ven_ae228474-7d5d-47d3-b0a5-f75d696ec9c9",
     "ig_handle": "dido_jazz_lounge",
     "name_irl": "Dido Jazz Lounge",
     "location_text": null,
@@ -1007,7 +1005,7 @@
     }
   },
   {
-    "id": "ven_06f0a6f0-0d57-42b4-96f3-71dd947ba07a",
+    "id": "ven_c50798b6-f88d-4a3a-9031-2c0368824213",
     "ig_handle": "entry55_official",
     "name_irl": "Entry 55",
     "location_text": null,
@@ -1107,7 +1105,7 @@
     }
   },
   {
-    "id": "ven_cabd94c8-891f-4a3f-8938-8612e1438c08",
+    "id": "ven_d6ccde0e-0cb6-4dd2-8551-642659fe6767",
     "ig_handle": "flatnine_jazzbar",
     "name_irl": "FLATNINE",
     "location_text": null,
@@ -1186,7 +1184,7 @@
     }
   },
   {
-    "id": "ven_03d0942f-5065-4e90-83c1-e569c6f17bb1",
+    "id": "ven_d0572a64-620d-4ece-a9be-f30606bd3780",
     "ig_handle": "ghetto_alive",
     "name_irl": "GhettoAlive",
     "location_text": null,
@@ -1238,7 +1236,7 @@
     }
   },
   {
-    "id": "ven_b625d036-b340-462e-8c60-4acd3a7008b3",
+    "id": "ven_90a2fa2d-5cc3-429c-93ab-95d403d8ab32",
     "ig_handle": "___key001",
     "name_irl": "Giwon",
     "location_text": null,
@@ -1293,7 +1291,7 @@
     }
   },
   {
-    "id": "ven_aed5b530-ad5c-421c-93f2-93120727e32b",
+    "id": "ven_52114b37-bd85-48d0-ac5a-03e655c93551",
     "ig_handle": "mammy__blue",
     "name_irl": "Hwayang-dong Jazz Club Mammy Blue",
     "location_text": null,
@@ -1376,7 +1374,7 @@
     }
   },
   {
-    "id": "ven_245eba51-d0ed-4528-a6ac-0b21e36e878a",
+    "id": "ven_37887db7-9a8d-4eaf-b199-cfb0a0a3b391",
     "ig_handle": "idenhouseinsta",
     "name_irl": "IDENHouse 아이덴하우스",
     "location_text": null,
@@ -1426,7 +1424,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_066113a7-b24b-42b6-ba67-759d15f506a9",
+    "id": "ven_ad9fd05c-84a6-4a3f-a361-c6e99326f53b",
     "ig_handle": "jazperformance",
     "name_irl": "JAZ",
     "location_text": null,
@@ -1483,7 +1481,7 @@
     }
   },
   {
-    "id": "ven_80631d26-fe1b-4095-871f-acc9ff70048e",
+    "id": "ven_f3bc3169-b683-4be2-8cd6-50c6fa99f543",
     "ig_handle": "jazzclub_janus",
     "name_irl": "Jazz Club Janus",
     "location_text": null,
@@ -1578,7 +1576,7 @@
     }
   },
   {
-    "id": "ven_5de755d8-1592-4707-a38b-e047055df765",
+    "id": "ven_8e2fa972-4e33-4b7e-9dd0-b950c03a4b45",
     "ig_handle": "kindseoul.kr",
     "name_irl": "KIND SEOUL",
     "location_text": null,
@@ -1589,9 +1587,7 @@
     "google_map_url": null,
     "booking_url": "https://booking.naver.com/booking/6/bizes/1417951",
     "homepage_url": null,
-    "websites": [
-      "https://forms.gle/zq96RQDGDkdFZzWH6"
-    ],
+    "websites": [],
     "subway_nearby": null,
     "food_policy": null,
     "age_limit": null,
@@ -1643,7 +1639,7 @@
     }
   },
   {
-    "id": "ven_a453f534-96d5-4359-92f9-5b2eb103e930",
+    "id": "ven_8df997a3-78ba-4f95-871c-2beac603b6c3",
     "ig_handle": "laidback2019",
     "name_irl": "Laidback Jazz Club Jazz Bar",
     "location_text": null,
@@ -1727,7 +1723,7 @@
     }
   },
   {
-    "id": "ven_c42a2b7f-8834-4116-8b5e-c942d49d614d",
+    "id": "ven_a29641a1-a037-401c-8679-35fc2a3dab10",
     "ig_handle": "yoori.kim_mullaejazzin",
     "name_irl": "Live Hall Mullae Jazz IN",
     "location_text": null,
@@ -1782,7 +1778,7 @@
     }
   },
   {
-    "id": "ven_8d1e66d3-e742-4223-bc2f-b50a0b391f2a",
+    "id": "ven_d756431f-d579-4087-93fa-4d0bde69e126",
     "ig_handle": "michiko.seoul_official",
     "name_irl": "MICHIKO SEOUL",
     "location_text": null,
@@ -1840,7 +1836,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_62771892-1b9b-4f5d-b504-d08e939a8fce",
+    "id": "ven_a393bfa9-9d9c-4dae-821d-6fe764b1b410",
     "ig_handle": "cafe_minor_swing",
     "name_irl": "Minor Swing",
     "location_text": null,
@@ -1850,10 +1846,8 @@
     "email": null,
     "google_map_url": null,
     "booking_url": "https://linktr.ee/minorswing",
-    "homepage_url": "https://linktr.ee/minorswing",
-    "websites": [
-      "https://linktr.ee/minorswing"
-    ],
+    "homepage_url": null,
+    "websites": [],
     "subway_nearby": null,
     "food_policy": null,
     "age_limit": null,
@@ -1925,7 +1919,7 @@
     }
   },
   {
-    "id": "ven_b5c281b5-9fd5-4d66-b822-1e0ff1093aa1",
+    "id": "ven_b1ef9e95-b541-4550-ba6d-6b7c4400e31e",
     "ig_handle": "newall_jazz",
     "name_irl": "Newall Jazz Lounge",
     "location_text": null,
@@ -1979,7 +1973,7 @@
     }
   },
   {
-    "id": "ven_5d71f0ad-c6e5-4ec1-9793-ffc3e87513a1",
+    "id": "ven_4060c88f-dac6-460b-9947-9ab0ba82f715",
     "ig_handle": "oleojazzpub",
     "name_irl": "Oleojazzpub",
     "location_text": null,
@@ -2059,7 +2053,7 @@
     }
   },
   {
-    "id": "ven_d6b80397-1460-45e4-b70d-4b73b14e4147",
+    "id": "ven_38ec4044-f9ab-4adb-9c86-3e35d7d8ba8d",
     "ig_handle": "positive_zero_lounge",
     "name_irl": "Positive Zero Lounge",
     "location_text": null,
@@ -2067,7 +2061,7 @@
     "location_lon": null,
     "phone": "02-462-5994",
     "email": null,
-    "google_map_url": "https://maps.google.com/?cid=3590662693102319101",
+    "google_map_url": null,
     "booking_url": null,
     "homepage_url": null,
     "websites": [],
@@ -2113,7 +2107,7 @@
     }
   },
   {
-    "id": "ven_223f813e-cc5c-4bdd-8b2c-6c9cd396b17b",
+    "id": "ven_c5ecb690-77ed-446b-aed5-327aee8773bc",
     "ig_handle": "seobs_bar",
     "name_irl": "SEOB's",
     "location_text": null,
@@ -2200,20 +2194,18 @@
     }
   },
   {
-    "id": "ven_9026fdbd-f6ba-40f8-9b5c-f174bc268f98",
+    "id": "ven_c5460403-44ca-4112-9abc-9fb66d78c968",
     "ig_handle": "seoul_garage_bar",
     "name_irl": "Seoul Garage",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": "010-6630-6980",
+    "phone": null,
     "email": null,
-    "google_map_url": "https://maps.google.com/?cid=16084038525693329250",
+    "google_map_url": null,
     "booking_url": "https://litt.ly/seoulgaragebar",
     "homepage_url": "https://litt.ly/seoulgaragebar",
-    "websites": [
-      "https://litt.ly/seoulgaragebar"
-    ],
+    "websites": [],
     "subway_nearby": null,
     "food_policy": null,
     "age_limit": null,
@@ -2268,7 +2260,7 @@
     }
   },
   {
-    "id": "ven_a8b09d83-986e-4fb8-bb71-9a1e74eee7ec",
+    "id": "ven_b7117c19-3e90-4a90-bf12-bbbd6b08a178",
     "ig_handle": "sounddog_jazz",
     "name_irl": "Sound Dog",
     "location_text": null,
@@ -2360,7 +2352,7 @@
     }
   },
   {
-    "id": "ven_da0dc032-495f-4385-9755-0ada37cde51c",
+    "id": "ven_464386be-36b4-4b7d-9eca-b8f7b5810046",
     "ig_handle": "wonderlous.itw",
     "name_irl": "Wonderlous Itaewon",
     "location_text": null,
@@ -2426,7 +2418,7 @@
     }
   },
   {
-    "id": "ven_42471d4b-bb44-4d30-825b-924e6bd576a0",
+    "id": "ven_257b6e5a-e123-4d15-b05e-073d43eacd82",
     "ig_handle": "yellow__taxi",
     "name_irl": "Yellow Taxi",
     "location_text": null,
@@ -2480,7 +2472,7 @@
     }
   },
   {
-    "id": "ven_124b71f3-4fc5-4a06-abdc-eb87ad61eba1",
+    "id": "ven_aa67033e-603d-406e-9684-36b856d38e55",
     "ig_handle": "yeonnam5701",
     "name_irl": "Yeonnam 5701",
     "location_text": null,
@@ -2569,7 +2561,7 @@
     }
   },
   {
-    "id": "ven_c54fe318-c3ce-4d3c-919b-29d8758969af",
+    "id": "ven_2a3b25a8-41b4-49d3-8650-93dc3bfcfcc3",
     "ig_handle": "oldblue_jazz",
     "name_irl": "oldblue",
     "location_text": null,
@@ -2628,7 +2620,7 @@
     }
   },
   {
-    "id": "ven_744d833e-7edf-4295-95e4-b8fa1c077f13",
+    "id": "ven_5c2a5229-9752-44f0-b1bd-3de8c465484b",
     "ig_handle": "cafe_gig",
     "name_irl": "긱",
     "location_text": null,
@@ -2666,7 +2658,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_17fa26c0-5d5a-41c5-a57d-6b5528558139",
+    "id": "ven_2995c546-1bdd-42c3-b4f6-92873afd2561",
     "ig_handle": "rustic_jazz",
     "name_irl": "러스틱재즈",
     "location_text": null,
@@ -2724,7 +2716,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_4a555b12-a636-47fc-9dca-546d7f469eb7",
+    "id": "ven_99d890df-554b-425e-a644-4fd965630c5b",
     "ig_handle": "eulji_libro",
     "name_irl": "리브로",
     "location_text": null,
@@ -2782,7 +2774,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_22334c40-d3ec-4275-8c91-adafcd18995f",
+    "id": "ven_5b2c325c-611a-4d1f-9941-0b8bce017128",
     "ig_handle": "myjazzgarden",
     "name_irl": "마이재즈가든 | MyJazzGarden",
     "location_text": null,
@@ -2836,7 +2828,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_e04b62a1-029c-4c57-8825-466a7bf82e35",
+    "id": "ven_e7ab4a78-35a5-497b-b16a-e037d75a0293",
     "ig_handle": "teddy.valley",
     "name_irl": "부평재즈바 테디벨리 Teddy Valley",
     "location_text": null,
@@ -2876,7 +2868,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_03b87d58-64bc-4a88-bec0-72fb2cf9ef42",
+    "id": "ven_bfb58d2a-355e-490d-ae41-679e38752839",
     "ig_handle": "bluechicago_jazzbar",
     "name_irl": "블루시카고 재즈바 DAEGU",
     "location_text": null,
@@ -2936,7 +2928,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_72296839-0f17-4939-b12a-95cc4a8f5e9e",
+    "id": "ven_5611599d-de9f-4a8e-82dc-ca5a03de998e",
     "ig_handle": "samsungri_",
     "name_irl": "삼성리",
     "location_text": null,
@@ -2990,7 +2982,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_3dd92be8-d48f-4209-9d65-fe934e082776",
+    "id": "ven_8a878a78-dfbe-47b7-95d5-0b783cbf3745",
     "ig_handle": "theironfairiesseoul",
     "name_irl": "아이언페어리즈 서울",
     "location_text": null,
@@ -3022,7 +3014,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_07c7a46d-11cc-4ef9-9dbc-b4ab86d9fc25",
+    "id": "ven_288b0b39-3826-4406-846d-9d5686d0223b",
     "ig_handle": "jazzgarage_official",
     "name_irl": "재즈 가라지",
     "location_text": null,
@@ -3056,7 +3048,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_5ac06c8e-c41e-43e4-b262-85171ee2c392",
+    "id": "ven_bc2ce765-1d6d-4840-acd7-18e0a0599432",
     "ig_handle": "jazzclubbottomline",
     "name_irl": "재즈 클럽 버텀라인 (Jazz Club Bottomline)",
     "location_text": null,
@@ -3114,7 +3106,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_ba585c8a-8801-4f22-931a-02f3b612537c",
+    "id": "ven_bcd7dee3-a6fb-4f2f-8551-1247c18fc909",
     "ig_handle": "jazzlounge_official",
     "name_irl": "재즈라운지 건대와인바",
     "location_text": null,
@@ -3161,7 +3153,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_16b8b288-1ddc-4a9d-aa41-4da761c4d521",
+    "id": "ven_c2514e01-7405-42ff-9f0d-bb1532009e1d",
     "ig_handle": "jazzxover",
     "name_irl": "재즈엑스오버",
     "location_text": null,
@@ -3205,7 +3197,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_f8041652-83a2-4cf9-a036-6b2f43ce8691",
+    "id": "ven_575a3709-5b8f-4763-8a62-5ffeb27b26d6",
     "ig_handle": "club_piers",
     "name_irl": "클럽 피어스",
     "location_text": null,
@@ -3237,7 +3229,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_7ca541d0-4950-40f4-8b34-f335379ced0c",
+    "id": "ven_1d69646d-f03c-446c-9667-fe9a0a66a194",
     "ig_handle": "pungjane2021",
     "name_irl": "풍자네 부엌(음악과 낭만을 공유하는 곳 우리 모두가 함께 만드는 공간입니다.)",
     "location_text": null,
@@ -3277,7 +3269,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_8c2b05df-0516-417b-9471-59c37189ef6e",
+    "id": "ven_356bc863-20a2-4d8d-92b8-e625fa2f5523",
     "ig_handle": "houseofbrown.seoul",
     "name_irl": "하우스 오브 브라운 재즈바",
     "location_text": null,
@@ -3328,7 +3320,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_4080c057-44bb-4aa6-a9e1-72d061bc36f7",
+    "id": "ven_ec5e76ab-26a5-4038-9b1b-e5d6576dde63",
     "ig_handle": "houseofblue.seoul",
     "name_irl": "하우스 오브 블루 재즈바",
     "location_text": null,
@@ -3360,7 +3352,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_ef3d0015-3c70-440b-a6c0-a1e80860bd3d",
+    "id": "ven_60118215-b65f-4324-9890-6ce15303d305",
     "ig_handle": "subriot_hbc",
     "name_irl": null,
     "location_text": null,
@@ -3380,7 +3372,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_2d85f234-c7e2-4662-9247-8e08f1785d34",
+    "id": "ven_41df2a84-3c0f-4183-8254-7c1f524de14f",
     "ig_handle": "pubg.seongsu",
     "name_irl": null,
     "location_text": null,
@@ -3400,7 +3392,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_1271ab6c-917c-4e48-b8e7-c810d3793c9b",
+    "id": "ven_47824220-a9fb-4369-bfce-64345d78c269",
     "ig_handle": "club_musicspace",
     "name_irl": null,
     "location_text": null,
@@ -3420,7 +3412,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_87283586-6597-4985-a280-1cc6b526e43f",
+    "id": "ven_160bb4eb-6c83-4a33-8c73-ac19e2b5645e",
     "ig_handle": "seongsu_federation",
     "name_irl": null,
     "location_text": null,
@@ -3440,7 +3432,7 @@
     "i18n_data": null
   },
   {
-    "id": "ven_97c787e2-3b60-4d6a-af02-9c9f39e2f82e",
+    "id": "ven_6ad1f5fa-64e6-4e7e-b4a6-ca4792dfec74",
     "ig_handle": "objectivestudio_",
     "name_irl": null,
     "location_text": null,

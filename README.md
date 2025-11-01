@@ -5,7 +5,7 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-01T02:33:54Z
+- **Build Time**: 2025-11-01T03:28:06Z
 - **Source Commit**: [`fb452a0d6b436a6ba5eb3ee5d32d663ecb7c722a`](https://github.com/keunwoochoi/seoulunderground.live/commit/fb452a0d6b436a6ba5eb3ee5d32d663ecb7c722a)
 - **Branch**: `venue-tab`
 - **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18990037871)
