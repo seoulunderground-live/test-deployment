@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-01T20:22:57Z
-- **Source Commit**: [`9a9ac65bcb98901f8b506fa012e91bca4d912daf`](https://github.com/keunwoochoi/seoulunderground.live/commit/9a9ac65bcb98901f8b506fa012e91bca4d912daf)
+- **Build Time**: 2025-11-01T23:48:32Z
+- **Source Commit**: [`188021fbd9c48c4bb84d48ab9df4c69a9c70f98a`](https://github.com/keunwoochoi/seoulunderground.live/commit/188021fbd9c48c4bb84d48ab9df4c69a9c70f98a)
 - **Branch**: `venue-tab`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19002174072)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19004399245)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: before naver map
+- **Message**: all!
 
 ## Deployment URLs
 

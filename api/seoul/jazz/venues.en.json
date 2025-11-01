@@ -1192,7 +1192,7 @@
     "location_lon": null,
     "phone": "02-461-1125",
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=4488758983597558316",
     "booking_url": null,
     "homepage_url": null,
     "websites": [],
@@ -1207,6 +1207,8 @@
           "name": "GhettoAlive",
           "address_text": "104 Wangsimni-ro, Seongsu-dong 1(il)-ga, Seongdong-gu, Seoul, South Korea",
           "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
           "notes": null,
@@ -1217,7 +1219,7 @@
             },
             "address_text": {
               "en": "104 Wangsimni-ro, Seongsu-dong 1(il)-ga, Seongdong-gu, Seoul, South Korea",
-              "ko": "서울 성동구 성수동1가 왕십리로 104"
+              "ko": "서울 성동구 왕십리로 104 (성수동1가)"
             },
             "notes": null
           }
