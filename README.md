@@ -5,15 +5,22 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-10-31T16:55:23Z
-- **Source Commit**: [`2285d6242954d4564c737e239ebe2945e475b799`](https://github.com/keunwoochoi/seoulunderground.live/commit/2285d6242954d4564c737e239ebe2945e475b799)
-- **Branch**: `feat/timezone`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18978206947)
+- **Build Time**: 2025-11-01T02:33:54Z
+- **Source Commit**: [`fb452a0d6b436a6ba5eb3ee5d32d663ecb7c722a`](https://github.com/keunwoochoi/seoulunderground.live/commit/fb452a0d6b436a6ba5eb3ee5d32d663ecb7c722a)
+- **Branch**: `venue-tab`
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18990037871)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: fix time issue. add js test for this
+- **Message**: fix: export_static_json datetime type error
+
+- Change _get_today_kst_start() to return datetime object instead of string
+- crud.list_events expects datetime and calls .isoformat() on it
+- Add tests to prevent regression of type errors in export functions
+
+Fixes deployment error:
+  AttributeError: 'str' object has no attribute 'isoformat'
 
 ## Deployment URLs
 
