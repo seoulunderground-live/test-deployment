@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-01T20:02:46Z
-- **Source Commit**: [`bb3cf0ec378891f721845d72aaa2e313d607bc3e`](https://github.com/keunwoochoi/seoulunderground.live/commit/bb3cf0ec378891f721845d72aaa2e313d607bc3e)
+- **Build Time**: 2025-11-01T20:22:57Z
+- **Source Commit**: [`9a9ac65bcb98901f8b506fa012e91bca4d912daf`](https://github.com/keunwoochoi/seoulunderground.live/commit/9a9ac65bcb98901f8b506fa012e91bca4d912daf)
 - **Branch**: `venue-tab`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19001909110)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19002174072)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: updating deploy yaml to clean dist dir
+- **Message**: before naver map
 
 ## Deployment URLs
 
