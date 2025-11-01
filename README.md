@@ -5,25 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-01T04:04:11Z
-- **Source Commit**: [`44bfd747a0f84408d141d39a9c6fd1ef97130469`](https://github.com/keunwoochoi/seoulunderground.live/commit/44bfd747a0f84408d141d39a9c6fd1ef97130469)
+- **Build Time**: 2025-11-01T20:02:46Z
+- **Source Commit**: [`bb3cf0ec378891f721845d72aaa2e313d607bc3e`](https://github.com/keunwoochoi/seoulunderground.live/commit/bb3cf0ec378891f721845d72aaa2e313d607bc3e)
 - **Branch**: `venue-tab`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/18991050758)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19001909110)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: fix: stop creating placeholder venues in database
-
-Changed event import behavior:
-- No longer creates placeholder venues when events reference unknown handles
-- Unknown venues are logged to venue_candidates.csv for manual review
-- Events will have venue_id=None if venue not in database
-
-This keeps the venue database clean - only venues from venue_handles.txt
-that have been properly enriched should be in the database.
-
-Manually deleted 5 existing placeholder venues from local database.
+- **Message**: updating deploy yaml to clean dist dir
 
 ## Deployment URLs
 
