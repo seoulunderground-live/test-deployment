@@ -4957,6 +4957,104 @@
     }
   },
   {
+    "ig_handle": "rustic_jazz",
+    "address_text": null,
+    "address_components": null,
+    "location_lat": null,
+    "location_lon": null,
+    "subway_nearby": null,
+    "opening_hours": null,
+    "typical_show_times": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": null,
+      "fri": [
+        "19:40",
+        "21:00"
+      ],
+      "sat": [
+        "19:40",
+        "21:00"
+      ],
+      "sun": [
+        "19:40",
+        "21:00"
+      ]
+    },
+    "genres": [
+      "Jazz"
+    ],
+    "websites": [
+      "http://www.jazzrustic.co.kr"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/rustic_jazz",
+      "homepage": "http://www.jazzrustic.co.kr",
+      "booking": null,
+      "google_map": "https://maps.google.com/?cid=2518566375600343369"
+    },
+    "contacts": {
+      "phone": "050-71390-5280",
+      "email": null
+    },
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "locations": [
+      {
+        "location_id": "main",
+        "name": "러스틱재즈",
+        "address_text": "74 Mangwon-ro, Mapo-gu, Seoul, South Korea",
+        "address_components": {
+          "street": "74 Mangwon-ro",
+          "district": "Mapo-gu",
+          "city": "Seoul",
+          "postal_code": null,
+          "country": "South Korea"
+        },
+        "subway_nearby": null,
+        "booking_link": null,
+        "notes": null,
+        "i18n": {
+          "name": {
+            "en": "Rustic Jazz",
+            "ko": "러스틱재즈"
+          },
+          "address_text": {
+            "en": "74 Mangwon-ro, Mapo-gu, Seoul, South Korea",
+            "ko": "서울 마포구 망원로 74"
+          },
+          "notes": null
+        }
+      }
+    ],
+    "last_analyzed_at": "2024-07-30T00:00:00Z",
+    "confidence": 0.9,
+    "extraction_version": "1.0",
+    "sources": [
+      "ig_profile_snapshot",
+      "maps:https://maps.google.com/?cid=2518566375600343369",
+      "gemini:enrich"
+    ],
+    "prompt_name": "venue_profile_enrich",
+    "prompt_version": "2.3.0",
+    "i18n": {
+      "name": {
+        "en": "Rustic Jazz",
+        "ko": "러스틱재즈"
+      },
+      "address_text": null,
+      "notes": {
+        "en": "Space rental and reservation information",
+        "ko": "공간대여 및 예약안내"
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
     "ig_handle": "samsungri_",
     "address_text": null,
     "address_components": null,
@@ -6076,78 +6174,5 @@
       "age_limit": null
     },
     "naver_subway_nearby": "2문래역 1번 출구에서 468m\n미터"
-  },
-  {
-    "ig_handle": "rustic_jazz",
-    "name": "러스틱재즈",
-    "address_text": null,
-    "address_components": null,
-    "location_lat": null,
-    "location_lon": null,
-    "subway_nearby": null,
-    "opening_hours": null,
-    "typical_show_times": {
-      "mon": null,
-      "tue": null,
-      "wed": null,
-      "thu": null,
-      "fri": [
-        "19:40",
-        "21:00"
-      ],
-      "sat": [
-        "19:40",
-        "21:00"
-      ],
-      "sun": [
-        "19:40",
-        "21:00"
-      ]
-    },
-    "genres": [
-      "Jazz"
-    ],
-    "websites": [
-      "http://www.jazzrustic.co.kr"
-    ],
-    "links": {
-      "instagram": "https://www.instagram.com/rustic_jazz",
-      "homepage": "http://www.jazzrustic.co.kr",
-      "booking": null,
-      "google_map": null
-    },
-    "contacts": {
-      "phone": null,
-      "email": null
-    },
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "notes": "공간대여 및 예약안내",
-    "locations": [
-      {
-        "location_id": "main",
-        "name": "러스틱재즈",
-        "address_text": "74 Mangwon-ro, Mapo-gu",
-        "address_components": {
-          "street": "74 Mangwon-ro",
-          "district": "Mapo-gu",
-          "city": null,
-          "postal_code": null,
-          "country": null
-        },
-        "subway_nearby": null,
-        "booking_link": null,
-        "notes": null
-      }
-    ],
-    "last_analyzed_at": "2024-07-30T00:00:00Z",
-    "confidence": 0.9,
-    "extraction_version": "1.0",
-    "sources": [
-      "ig_profile_snapshot"
-    ],
-    "prompt_name": "venue_profile_analyze",
-    "prompt_version": "2.1.0"
   }
 ]
