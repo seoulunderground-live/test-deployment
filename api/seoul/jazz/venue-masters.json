@@ -3824,7 +3824,8 @@
       "instagram": "https://www.instagram.com/jazzxover",
       "homepage": null,
       "booking": "https://catchtable.co.kr/jazzxover",
-      "google_map": "https://maps.google.com/?cid=4259537056996752822"
+      "google_map": "https://maps.google.com/?cid=4259537056996752822",
+      "naver_map": "https://naver.me/x1Vv9rxc"
     },
     "contacts": {
       "phone": "02-6397-0171",
@@ -3956,7 +3957,8 @@
       },
       "food_policy": null,
       "age_limit": null
-    }
+    },
+    "naver_subway_nearby": "2성수역 2번 출구에서 335m\n미터"
   },
   {
     "ig_handle": "kindseoul.kr",
@@ -4288,7 +4290,8 @@
       "instagram": "https://www.instagram.com/michiko.seoul_official",
       "homepage": null,
       "booking": "https://app.catchtable.co.kr/ct/shop/michiko",
-      "google_map": null
+      "google_map": null,
+      "naver_map": "https://naver.me/FO9oyl6U"
     },
     "contacts": {
       "phone": "02-544-6779",
@@ -4339,7 +4342,8 @@
       "notes": null,
       "food_policy": null,
       "age_limit": null
-    }
+    },
+    "naver_subway_nearby": "7신분당논현역 3번 출구에서 202m\n미터"
   },
   {
     "ig_handle": "myjazzgarden",
@@ -4378,7 +4382,8 @@
       "instagram": "https://www.instagram.com/myjazzgarden",
       "homepage": "http://linktr.ee/mjgarden",
       "booking": "https://naver.me/FgScgs7l",
-      "google_map": null
+      "google_map": null,
+      "naver_map": "https://naver.me/FTXwhZGX"
     },
     "contacts": {
       "phone": null,
@@ -4519,7 +4524,8 @@
       },
       "food_policy": null,
       "age_limit": null
-    }
+    },
+    "naver_subway_nearby": "5마곡역 4번 출구에서 308m\n미터"
   },
   {
     "ig_handle": "newall_jazz",
@@ -5014,7 +5020,8 @@
       "instagram": "https://www.instagram.com/rustic_jazz",
       "homepage": "http://www.jazzrustic.co.kr",
       "booking": null,
-      "google_map": "https://maps.google.com/?cid=2518566375600343369"
+      "google_map": "https://maps.google.com/?cid=2518566375600343369",
+      "naver_map": "https://naver.me/5apDEoVg"
     },
     "contacts": {
       "phone": "050-71390-5280",
@@ -5074,7 +5081,8 @@
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
-    }
+    },
+    "naver_subway_nearby": "6망원역 2번 출구에서 579m\n미터"
   },
   {
     "ig_handle": "samsungri_",
