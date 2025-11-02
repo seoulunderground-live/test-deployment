@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-02T19:08:43Z
-- **Source Commit**: [`a6cac528596016e1a6210e0633a6b1e09aadc716`](https://github.com/keunwoochoi/seoulunderground.live/commit/a6cac528596016e1a6210e0633a6b1e09aadc716)
+- **Build Time**: 2025-11-02T19:10:21Z
+- **Source Commit**: [`bd13b308fa7f99784488d5a7228e1ba5ecab02cf`](https://github.com/keunwoochoi/seoulunderground.live/commit/bd13b308fa7f99784488d5a7228e1ba5ecab02cf)
 - **Branch**: `k/fix-auto-deployment`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19016848806)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19016870366)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: reduce spacing
+- **Message**: reflect gemini comment
 
 ## Deployment URLs
 
