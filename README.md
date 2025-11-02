@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-02T18:28:43Z
-- **Source Commit**: [`acda3a323581fdf5861976dd0bfcde3e6c1fd5c4`](https://github.com/keunwoochoi/seoulunderground.live/commit/acda3a323581fdf5861976dd0bfcde3e6c1fd5c4)
+- **Build Time**: 2025-11-02T18:41:31Z
+- **Source Commit**: [`538cad36b2e17debdeb9de33f82f3444259e3060`](https://github.com/keunwoochoi/seoulunderground.live/commit/538cad36b2e17debdeb9de33f82f3444259e3060)
 - **Branch**: `k/fix-auto-deployment`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19016392002)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19016540935)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: more time
+- **Message**: fix the look
 
 ## Deployment URLs
 
