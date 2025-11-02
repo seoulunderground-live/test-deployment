@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-01T23:56:26Z
-- **Source Commit**: [`5e3d579f7a3c1f45d8260a91689512ab65e9a1af`](https://github.com/keunwoochoi/seoulunderground.live/commit/5e3d579f7a3c1f45d8260a91689512ab65e9a1af)
+- **Build Time**: 2025-11-02T00:20:40Z
+- **Source Commit**: [`691a45b6205b3072afbc3e6d6c13b1c77decb7b8`](https://github.com/keunwoochoi/seoulunderground.live/commit/691a45b6205b3072afbc3e6d6c13b1c77decb7b8)
 - **Branch**: `venue-tab`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19004464697)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19004723357)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: reflect gemini comment
+- **Message**: final fix! lets gooo
 
 ## Deployment URLs
 

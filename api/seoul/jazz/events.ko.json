@@ -1,11 +1,11 @@
 [
   {
-    "id": "evt_20251102_e602215b-9a5a-4d7c-9180-23c1a23776ee",
+    "id": "evt_20251102_41d6db31-c2a0-4c1e-a482-ca132bdf52d2",
     "event_key": "src:https://www.instagram.com/p/DQbg3kpkiVl/|dt:2025-11-02T16:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQbg3kpkiVl/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-02T07:00:00+00:00",
     "price": "15,000원",
@@ -25,12 +25,12 @@
     }
   },
   {
-    "id": "evt_20251102_93d099fd-d58d-46c3-96fd-10105ef92231",
+    "id": "evt_20251102_d691bc08-1407-4e4f-ac26-b3d6a6cdf3d2",
     "event_key": "src:https://www.instagram.com/p/DQSoOghEqCq/|dt:2025-11-02T18:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQSoOghEqCq/",
     "venue_handle": "entry55_official",
     "musician_ids": [],
-    "venue_id": "ven_39c68d3c-84ce-483a-b522-68004c24b943",
+    "venue_id": "ven_e2c903c1-8494-474d-91a9-7d324d32efa6",
     "venue_location_id": "sadang",
     "datetime": "2025-11-02T09:00:00+00:00",
     "price": null,
@@ -50,12 +50,12 @@
     }
   },
   {
-    "id": "evt_20251102_e347c423-ee32-47b6-975e-bfb84fee37b7",
+    "id": "evt_20251102_a756c74c-da6a-44d0-9043-6ce228fbd6ad",
     "event_key": "src:https://www.instagram.com/p/DQTO32mExX6/|dt:2025-11-02T18:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQTO32mExX6/",
     "venue_handle": "newall_jazz",
     "musician_ids": [],
-    "venue_id": "ven_36146c57-5b16-409a-8bd0-ffe823ece4ed",
+    "venue_id": "ven_13c4e0a1-d6a0-4c1f-9f81-692c49d44ff6",
     "venue_location_id": "main",
     "datetime": "2025-11-02T09:00:00+00:00",
     "price": null,
@@ -75,12 +75,12 @@
     }
   },
   {
-    "id": "evt_20251102_00686248-ab07-469f-944d-3e34f926b3cd",
+    "id": "evt_20251102_e0f5732d-e8f8-4170-8994-ccb6bf7a09a9",
     "event_key": "src:https://www.instagram.com/p/DQWJbLUEY4m/|dt:2025-11-02T19:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQWJbLUEY4m/",
     "venue_handle": "oleojazzpub",
     "musician_ids": [],
-    "venue_id": "ven_5c8826ff-c1ca-47b5-9d12-5f45cb42f32f",
+    "venue_id": "ven_6010c251-68ce-4fec-85e8-b567dfa74222",
     "venue_location_id": "main",
     "datetime": "2025-11-02T10:00:00+00:00",
     "price": "15,000원",
@@ -100,12 +100,12 @@
     }
   },
   {
-    "id": "evt_20251102_fcbfc7d7-4fd2-494f-a5c4-23cac4dc7d65",
+    "id": "evt_20251102_515cc995-692f-4666-a3aa-83b2ebad8c4c",
     "event_key": "src:https://www.instagram.com/p/DQQTkPnEpzh/|dt:2025-11-02T19:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQQTkPnEpzh/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-02T10:00:00+00:00",
     "price": "20,000원",
@@ -125,12 +125,12 @@
     }
   },
   {
-    "id": "evt_20251102_337989de-b1c8-43e2-917e-7a9228365dd2",
+    "id": "evt_20251102_08e39a43-c417-458b-840d-f305677f36a3",
     "event_key": "src:https://www.instagram.com/p/DQbg3kpkiVl/|dt:2025-11-02T19:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQbg3kpkiVl/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-02T10:30:00+00:00",
     "price": "15,000원",
@@ -150,12 +150,12 @@
     }
   },
   {
-    "id": "evt_20251102_d485a0d4-0dca-47cd-b305-7e45b331134e",
+    "id": "evt_20251102_cfcef4c2-5913-467f-98c7-5912be6033ad",
     "event_key": "src:https://www.instagram.com/p/DQeA1j_iR1n/|dt:2025-11-02T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeA1j_iR1n/",
     "venue_handle": "chunnyun.jazz",
     "musician_ids": [],
-    "venue_id": "ven_645e619a-d2cc-430f-a951-928f92b56f7d",
+    "venue_id": "ven_96ca3cd6-8814-4cd8-b2d3-ecd6ac840920",
     "venue_location_id": "jonggak",
     "datetime": "2025-11-02T11:00:00+00:00",
     "price": null,
@@ -175,12 +175,12 @@
     }
   },
   {
-    "id": "evt_20251102_3cdbaa2f-d7fb-42cd-a207-58be450bca69",
+    "id": "evt_20251102_b793d993-560e-42b7-97ec-62369904676b",
     "event_key": "src:https://www.instagram.com/p/DQTD_oLgXpK/|dt:2025-11-02T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQTD_oLgXpK/",
     "venue_handle": "houseofblue.seoul",
     "musician_ids": [],
-    "venue_id": "ven_bf5aa568-e3b7-4d91-8fc7-8bf3aa6036f3",
+    "venue_id": "ven_89808ad3-ed37-4c4f-be9a-dd0dc0aec682",
     "venue_location_id": "main",
     "datetime": "2025-11-02T11:00:00+00:00",
     "price": null,
@@ -200,12 +200,12 @@
     }
   },
   {
-    "id": "evt_20251102_0f9b598e-a758-4a33-bcb9-a19237bb54af",
+    "id": "evt_20251102_f093d713-b119-4d0d-b57a-47371e37c6b7",
     "event_key": "src:https://www.instagram.com/p/DQJQd6pgKmz/|dt:2025-11-02T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQJQd6pgKmz/",
     "venue_handle": "jazzclub_janus",
     "musician_ids": [],
-    "venue_id": "ven_ffca9fca-27d2-4d96-970d-e4f7f295f80c",
+    "venue_id": "ven_c946b2e0-8480-4ae5-acce-afeb98891257",
     "venue_location_id": "main",
     "datetime": "2025-11-02T11:00:00+00:00",
     "price": "20,000원",
@@ -225,12 +225,12 @@
     }
   },
   {
-    "id": "evt_20251102_45556bd6-1166-4ce3-b684-6cfa652d6cb4",
+    "id": "evt_20251102_43ee21f7-e58a-4bce-bcc1-a47bfa45b5e6",
     "event_key": "src:https://www.instagram.com/p/DQSoOghEqCq/|dt:2025-11-02T20:10:00+09:00",
     "source_url": "https://www.instagram.com/p/DQSoOghEqCq/",
     "venue_handle": "entry55_official",
     "musician_ids": [],
-    "venue_id": "ven_39c68d3c-84ce-483a-b522-68004c24b943",
+    "venue_id": "ven_e2c903c1-8494-474d-91a9-7d324d32efa6",
     "venue_location_id": "sadang",
     "datetime": "2025-11-02T11:10:00+00:00",
     "price": null,
@@ -250,12 +250,12 @@
     }
   },
   {
-    "id": "evt_20251102_d8ca6884-ed3a-4700-91d4-f7a53975ed0d",
+    "id": "evt_20251102_44a0c4e2-fa7f-4abd-bb06-fcd3f39fcfb9",
     "event_key": "src:https://www.instagram.com/p/DQdWz3ckhqM/|dt:2025-11-02T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQdWz3ckhqM/",
     "venue_handle": "eulji_libro",
     "musician_ids": [],
-    "venue_id": "ven_04758ebc-de2d-4881-8306-2da06cebf3af",
+    "venue_id": "ven_510ada92-dd5c-4091-bc88-4ec1c4cfebe5",
     "venue_location_id": "main",
     "datetime": "2025-11-02T11:30:00+00:00",
     "price": null,
@@ -275,12 +275,12 @@
     }
   },
   {
-    "id": "evt_20251102_f0bd56ad-7faf-4e34-b969-c00da4090c95",
+    "id": "evt_20251102_4a6801c2-0f2c-49f3-b710-fd63d5def9aa",
     "event_key": "src:https://www.instagram.com/p/DQTrbehEqU3/|dt:2025-11-02T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQTrbehEqU3/",
     "venue_handle": "michiko.seoul_official",
     "musician_ids": [],
-    "venue_id": "ven_7106f530-d0cb-4d96-97c8-2c9985117da2",
+    "venue_id": "ven_9176a362-5729-4b6a-80f7-47cf4871f4a3",
     "venue_location_id": "main",
     "datetime": "2025-11-02T11:30:00+00:00",
     "price": null,
@@ -300,12 +300,12 @@
     }
   },
   {
-    "id": "evt_20251102_495b9f0e-1029-4b25-ac89-2ce6c0314922",
+    "id": "evt_20251102_d348a290-7e91-4ffa-910f-77425a5cb424",
     "event_key": "src:https://www.instagram.com/p/DQTWYEQk1L2/|dt:2025-11-02T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQTWYEQk1L2/",
     "venue_handle": "houseofbrown.seoul",
     "musician_ids": [],
-    "venue_id": "ven_56477e3d-358a-49d3-b55d-d923286c6f34",
+    "venue_id": "ven_3f4c9fee-aea8-414d-9939-8252919b143c",
     "venue_location_id": "main",
     "datetime": "2025-11-02T12:30:00+00:00",
     "price": null,
@@ -325,12 +325,12 @@
     }
   },
   {
-    "id": "evt_20251102_ced3015b-03cc-4655-b051-71b5ac930018",
+    "id": "evt_20251102_9a349a63-2337-422a-a58f-c13f2b3c4400",
     "event_key": "src:https://www.instagram.com/p/DQT7nezk7PQ/|dt:2025-11-02T18:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQT7nezk7PQ/",
     "venue_handle": "boogiewoogieseoul",
     "musician_ids": [],
-    "venue_id": "ven_6dbd0db4-53c5-4874-a7f8-7696bbdf344f",
+    "venue_id": "ven_46c60e6a-9d89-49b0-a379-17fb6d954e81",
     "venue_location_id": "main",
     "datetime": "2025-11-02T13:00:00+00:00",
     "price": null,
@@ -350,12 +350,12 @@
     }
   },
   {
-    "id": "evt_20251102_f542f7b9-1f7d-43fa-89de-e154cbb4fafd",
+    "id": "evt_20251102_6ae68ea8-97bd-4740-ba69-4b0e985cd967",
     "event_key": "src:https://www.instagram.com/p/DQeNRv_Ettp/|dt:2025-11-02T19:40:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeXf2nkg6z/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
-    "venue_id": "ven_9640f965-eabc-4983-b03a-7b44efc85841",
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
     "venue_location_id": "main",
     "datetime": "2025-11-02T13:00:00+00:00",
     "price": "무료입장",
@@ -375,12 +375,12 @@
     }
   },
   {
-    "id": "evt_20251102_fa35e00a-4544-4f36-818e-bfbc06501339",
+    "id": "evt_20251102_c17c36c6-f925-4682-b38b-d57d30e3346f",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-02T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-02T14:00:00+00:00",
     "price": null,
@@ -400,12 +400,12 @@
     }
   },
   {
-    "id": "evt_20251103_361e533d-ded4-4da6-adcd-cde291cc7822",
+    "id": "evt_20251103_ed6177c5-94ea-4b1a-9b83-d75572343ae8",
     "event_key": "src:https://www.instagram.com/p/DQeA1j_iR1n/|dt:2025-11-03T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeA1j_iR1n/",
     "venue_handle": "chunnyun.jazz",
     "musician_ids": [],
-    "venue_id": "ven_645e619a-d2cc-430f-a951-928f92b56f7d",
+    "venue_id": "ven_96ca3cd6-8814-4cd8-b2d3-ecd6ac840920",
     "venue_location_id": "jonggak",
     "datetime": "2025-11-03T11:00:00+00:00",
     "price": null,
@@ -425,12 +425,12 @@
     }
   },
   {
-    "id": "evt_20251103_471e7700-7fd0-408a-9d94-20746e18f7ee",
+    "id": "evt_20251103_27e9c241-437c-4461-a4a4-96b36032aee6",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-03T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-03T11:00:00+00:00",
     "price": null,
@@ -450,12 +450,12 @@
     }
   },
   {
-    "id": "evt_20251103_96b66b62-bd5d-418b-bef6-e5cff4a24d50",
+    "id": "evt_20251103_14470f9d-d572-4cbc-992d-a4b4bc8521d4",
     "event_key": "src:https://www.instagram.com/p/DQehDyekRJB/|dt:2025-11-03T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQehDyekRJB/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
-    "venue_id": "ven_e488e413-5739-4415-a2f3-9630a0194d83",
+    "venue_id": "ven_fc96bf20-a8fe-4bc4-b582-ebb2878ade62",
     "venue_location_id": "main",
     "datetime": "2025-11-03T11:00:00+00:00",
     "price": null,
@@ -475,12 +475,12 @@
     }
   },
   {
-    "id": "evt_20251103_e46f7a61-e107-4a3e-bbf7-8095bb2042f0",
+    "id": "evt_20251103_b09a202b-327a-4512-956b-36b6f9c4244e",
     "event_key": "src:https://www.instagram.com/p/DQQTkPnEpzh/|dt:2025-11-03T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQQTkPnEpzh/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-03T11:00:00+00:00",
     "price": "20,000원",
@@ -500,12 +500,12 @@
     }
   },
   {
-    "id": "evt_20251103_ead63b26-84c1-4d1a-b3f8-2beb274f6178",
+    "id": "evt_20251103_b9d8676d-f3bd-41bb-9c47-d2360178fa07",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-03T21:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-03T13:30:00+00:00",
     "price": null,
@@ -525,12 +525,12 @@
     }
   },
   {
-    "id": "evt_20251104_ca1e0aba-498f-4ba5-8bec-461171ed5ba0",
+    "id": "evt_20251104_d14a856b-2226-47da-b77d-3b75428e76d3",
     "event_key": "src:https://www.instagram.com/p/DQeA1j_iR1n/|dt:2025-11-04T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeA1j_iR1n/",
     "venue_handle": "chunnyun.jazz",
     "musician_ids": [],
-    "venue_id": "ven_645e619a-d2cc-430f-a951-928f92b56f7d",
+    "venue_id": "ven_96ca3cd6-8814-4cd8-b2d3-ecd6ac840920",
     "venue_location_id": "jonggak",
     "datetime": "2025-11-04T11:00:00+00:00",
     "price": null,
@@ -550,12 +550,12 @@
     }
   },
   {
-    "id": "evt_20251104_0896d863-08d8-4be9-b090-08e72665bae5",
+    "id": "evt_20251104_ddc3f54f-02e6-48a3-a9c9-0729ea4a9e16",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-04T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-04T11:00:00+00:00",
     "price": null,
@@ -575,12 +575,12 @@
     }
   },
   {
-    "id": "evt_20251104_550047fb-67a4-4320-ba94-07a086ac4d53",
+    "id": "evt_20251104_069ec41b-eabb-4f0b-8435-39873ea9f172",
     "event_key": "src:https://www.instagram.com/p/DQehDyekRJB/|dt:2025-11-04T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQehDyekRJB/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
-    "venue_id": "ven_e488e413-5739-4415-a2f3-9630a0194d83",
+    "venue_id": "ven_fc96bf20-a8fe-4bc4-b582-ebb2878ade62",
     "venue_location_id": "main",
     "datetime": "2025-11-04T11:00:00+00:00",
     "price": null,
@@ -600,12 +600,12 @@
     }
   },
   {
-    "id": "evt_20251104_daa6863f-4576-458a-8983-a2f68cf7374f",
+    "id": "evt_20251104_99f7d651-a652-4d06-8042-792a99b1dc74",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-04T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-04T11:00:00+00:00",
     "price": "20,000원",
@@ -625,12 +625,12 @@
     }
   },
   {
-    "id": "evt_20251104_93264bd6-9347-4c8b-a922-bf152dc6d47b",
+    "id": "evt_20251104_11efcd64-d7b1-46e8-9ceb-b1e6f608f321",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-04T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-04T13:30:00+00:00",
     "price": null,
@@ -650,12 +650,12 @@
     }
   },
   {
-    "id": "evt_20251105_d9008b6d-7f96-44da-b215-8ef84ac540c2",
+    "id": "evt_20251105_ec3bb70d-384f-45c9-a304-c1aed19645c8",
     "event_key": "src:https://www.instagram.com/p/DQeA1j_iR1n/|dt:2025-11-05T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeA1j_iR1n/",
     "venue_handle": "chunnyun.jazz",
     "musician_ids": [],
-    "venue_id": "ven_645e619a-d2cc-430f-a951-928f92b56f7d",
+    "venue_id": "ven_96ca3cd6-8814-4cd8-b2d3-ecd6ac840920",
     "venue_location_id": "jonggak",
     "datetime": "2025-11-05T11:00:00+00:00",
     "price": null,
@@ -675,12 +675,12 @@
     }
   },
   {
-    "id": "evt_20251105_bfee33ba-527a-4171-9198-b1974672c928",
+    "id": "evt_20251105_64e58bc6-6652-4dd6-b990-67b69ee48bb3",
     "event_key": "src:https://www.instagram.com/p/DQeXodXj6Ax/|dt:2025-11-05T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeXodXj6Ax/",
     "venue_handle": "concino_concrete",
     "musician_ids": [],
-    "venue_id": "ven_b5ca8fc4-e6f6-436e-abdf-da797413fe10",
+    "venue_id": "ven_e5d1b7bb-0fe1-4956-94a7-e312940f32d2",
     "venue_location_id": "main",
     "datetime": "2025-11-05T11:00:00+00:00",
     "price": "30,000원",
@@ -700,12 +700,12 @@
     }
   },
   {
-    "id": "evt_20251105_3683b751-b836-491b-baa7-64037c3746e6",
+    "id": "evt_20251105_041d6eef-0c7e-4aa8-8954-109488e08cf1",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-05T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-05T11:00:00+00:00",
     "price": null,
@@ -725,12 +725,12 @@
     }
   },
   {
-    "id": "evt_20251105_8af14b47-ebef-4da1-8b0f-d41648e1e5d7",
+    "id": "evt_20251105_cee9aea4-f702-4f6e-8038-208a7e291a2e",
     "event_key": "src:https://www.instagram.com/p/DQehDyekRJB/|dt:2025-11-05T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQehDyekRJB/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
-    "venue_id": "ven_e488e413-5739-4415-a2f3-9630a0194d83",
+    "venue_id": "ven_fc96bf20-a8fe-4bc4-b582-ebb2878ade62",
     "venue_location_id": "main",
     "datetime": "2025-11-05T11:00:00+00:00",
     "price": null,
@@ -750,12 +750,12 @@
     }
   },
   {
-    "id": "evt_20251105_e7d47de3-5057-4515-9b68-65f25bc83fd0",
+    "id": "evt_20251105_3c71485f-becc-4fef-babe-07abeb1396a1",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-05T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-05T11:00:00+00:00",
     "price": "20,000원",
@@ -775,12 +775,12 @@
     }
   },
   {
-    "id": "evt_20251105_67864146-5931-4111-b6c7-d993110a098c",
+    "id": "evt_20251105_6f296bc9-e69f-4002-9512-be6f4623282e",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-05T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
-    "venue_id": "ven_391cd6db-241a-48fd-b9fa-5caca6a2a4fa",
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
     "venue_location_id": "main",
     "datetime": "2025-11-05T13:00:00+00:00",
     "price": "5,000원",
@@ -800,12 +800,12 @@
     }
   },
   {
-    "id": "evt_20251105_2785e28c-8bf5-4df5-a71b-e8ce32e617e8",
+    "id": "evt_20251105_d4352220-9310-46db-ba98-c4f45a92bafb",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-05T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-05T13:30:00+00:00",
     "price": null,
@@ -825,12 +825,12 @@
     }
   },
   {
-    "id": "evt_20251106_f85ba48a-75d7-4505-8e93-9b11b328b89c",
+    "id": "evt_20251106_2e8b0005-8b1a-4c85-ac16-902b9a48832c",
     "event_key": "src:https://www.instagram.com/p/DQeA1j_iR1n/|dt:2025-11-06T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeA1j_iR1n/",
     "venue_handle": "chunnyun.jazz",
     "musician_ids": [],
-    "venue_id": "ven_645e619a-d2cc-430f-a951-928f92b56f7d",
+    "venue_id": "ven_96ca3cd6-8814-4cd8-b2d3-ecd6ac840920",
     "venue_location_id": "jonggak",
     "datetime": "2025-11-06T11:00:00+00:00",
     "price": null,
@@ -850,12 +850,12 @@
     }
   },
   {
-    "id": "evt_20251106_f2dad793-58b2-4612-8511-ac63102a644e",
+    "id": "evt_20251106_9891ba3c-cb2d-4071-adc6-7d6a2543dce0",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-06T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-06T11:00:00+00:00",
     "price": null,
@@ -875,12 +875,12 @@
     }
   },
   {
-    "id": "evt_20251106_78b6a04d-8a5a-4ca9-8750-e563fdf018aa",
+    "id": "evt_20251106_7de06cb8-b678-49d6-9f42-3e9673113c67",
     "event_key": "src:https://www.instagram.com/p/DQehDyekRJB/|dt:2025-11-06T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQehDyekRJB/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
-    "venue_id": "ven_e488e413-5739-4415-a2f3-9630a0194d83",
+    "venue_id": "ven_fc96bf20-a8fe-4bc4-b582-ebb2878ade62",
     "venue_location_id": "main",
     "datetime": "2025-11-06T11:00:00+00:00",
     "price": null,
@@ -900,12 +900,12 @@
     }
   },
   {
-    "id": "evt_20251106_fa543beb-942c-499b-b709-094a0fff8564",
+    "id": "evt_20251106_4682e18e-6685-4ce0-8192-059a9903b5e6",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-06T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-06T11:00:00+00:00",
     "price": "20,000원",
@@ -925,12 +925,12 @@
     }
   },
   {
-    "id": "evt_20251106_d213a9fd-8e1e-452a-9781-0bea14792d17",
+    "id": "evt_20251106_9af4e266-009a-4537-9546-7bbd1082928e",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-06T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
-    "venue_id": "ven_391cd6db-241a-48fd-b9fa-5caca6a2a4fa",
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
     "venue_location_id": "main",
     "datetime": "2025-11-06T13:00:00+00:00",
     "price": "5,000원",
@@ -950,12 +950,12 @@
     }
   },
   {
-    "id": "evt_20251106_9354dbc9-e098-4ab4-b0a6-5842e80defa2",
+    "id": "evt_20251106_7e9e643c-a5bd-49b9-b471-83247561a9c6",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-06T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-06T13:30:00+00:00",
     "price": null,
@@ -975,12 +975,12 @@
     }
   },
   {
-    "id": "evt_20251107_36dac52b-2539-43f5-bdcf-17449ee5fa55",
+    "id": "evt_20251107_2d6d0e47-9e1f-4d34-8cc0-eb522a533d76",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-07T19:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-07T10:30:00+00:00",
     "price": null,
@@ -1000,12 +1000,12 @@
     }
   },
   {
-    "id": "evt_20251107_c3ac8909-5f7b-4162-a848-8b4e3d90e48e",
+    "id": "evt_20251107_e629b316-4f4d-4c26-bf7b-608a58bcb78b",
     "event_key": "src:https://www.instagram.com/p/DQeA1j_iR1n/|dt:2025-11-07T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeA1j_iR1n/",
     "venue_handle": "chunnyun.jazz",
     "musician_ids": [],
-    "venue_id": "ven_645e619a-d2cc-430f-a951-928f92b56f7d",
+    "venue_id": "ven_96ca3cd6-8814-4cd8-b2d3-ecd6ac840920",
     "venue_location_id": "jonggak",
     "datetime": "2025-11-07T11:00:00+00:00",
     "price": null,
@@ -1025,12 +1025,12 @@
     }
   },
   {
-    "id": "evt_20251107_34bfc79f-bc58-4f9e-aa7f-4a4025ae7e00",
+    "id": "evt_20251107_b7ebc46f-1e87-4487-85af-05840e558203",
     "event_key": "src:https://www.instagram.com/p/DQehDyekRJB/|dt:2025-11-07T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQehDyekRJB/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
-    "venue_id": "ven_e488e413-5739-4415-a2f3-9630a0194d83",
+    "venue_id": "ven_fc96bf20-a8fe-4bc4-b582-ebb2878ade62",
     "venue_location_id": "main",
     "datetime": "2025-11-07T11:00:00+00:00",
     "price": null,
@@ -1050,12 +1050,12 @@
     }
   },
   {
-    "id": "evt_20251107_b0ee3fed-4af6-45b1-852f-e4b3611e64d2",
+    "id": "evt_20251107_2a3dcbd5-c632-4092-81f6-c26e9320f815",
     "event_key": "src:https://www.instagram.com/p/DQWCKTPD92M/|dt:2025-11-07T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQWCKTPD92M/",
     "venue_handle": "laidback2019",
     "musician_ids": [],
-    "venue_id": "ven_e66e41b3-874f-42f7-8741-35343eaacda2",
+    "venue_id": "ven_01bd0cf2-58de-4958-8fa1-587c32402f42",
     "venue_location_id": "main",
     "datetime": "2025-11-07T11:00:00+00:00",
     "price": "10,000원",
@@ -1075,12 +1075,12 @@
     }
   },
   {
-    "id": "evt_20251107_48fd467a-2836-4f0e-a6ca-f048c140f99f",
+    "id": "evt_20251107_c6ab33a3-d7c9-4a7c-99a5-8f446a0856af",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-07T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-07T11:00:00+00:00",
     "price": "20,000원",
@@ -1100,12 +1100,12 @@
     }
   },
   {
-    "id": "evt_20251107_24015ee2-c405-43d8-bf44-d9c07d43ed1b",
+    "id": "evt_20251107_f3709df2-7ef2-4ecb-9bab-35790029976a",
     "event_key": "src:https://www.instagram.com/p/DQTu4dNj1LM/|dt:2025-11-07T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
     "venue_handle": "asome_ground",
     "musician_ids": [],
-    "venue_id": "ven_9110c048-3a75-456c-b82c-892f42b06a48",
+    "venue_id": "ven_21093912-e7d2-41df-9bc8-2e35319d24cb",
     "venue_location_id": "main",
     "datetime": "2025-11-07T11:30:00+00:00",
     "price": null,
@@ -1125,12 +1125,12 @@
     }
   },
   {
-    "id": "evt_20251107_7202a68f-3482-4b48-a22b-87d309d46046",
+    "id": "evt_20251107_629bf161-b0f1-4358-85dd-5cd9e106a4e3",
     "event_key": "src:https://www.instagram.com/p/DQeC03NDwKp/|dt:2025-11-07T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
     "venue_handle": "blueming_jazz",
     "musician_ids": [],
-    "venue_id": "ven_03c97121-8be8-4d8f-8666-bc6ff15349ee",
+    "venue_id": "ven_5bfd6468-bcfa-4b44-b5c5-bb012c6b6493",
     "venue_location_id": "main",
     "datetime": "2025-11-07T11:30:00+00:00",
     "price": null,
@@ -1150,12 +1150,12 @@
     }
   },
   {
-    "id": "evt_20251107_2367ed29-709f-4894-b9f0-c75658b3f6b5",
+    "id": "evt_20251107_8e66eba6-b695-41a2-ba9c-b26c6c90a00f",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-07T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
-    "venue_id": "ven_391cd6db-241a-48fd-b9fa-5caca6a2a4fa",
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
     "venue_location_id": "main",
     "datetime": "2025-11-07T12:00:00+00:00",
     "price": "10,000원",
@@ -1175,12 +1175,12 @@
     }
   },
   {
-    "id": "evt_20251107_73d895c6-6b00-4b40-a790-df8c848cfa5c",
+    "id": "evt_20251107_314b3cbf-fea9-40db-a0c0-46387bfeba2d",
     "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-07T19:40:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
-    "venue_id": "ven_9640f965-eabc-4983-b03a-7b44efc85841",
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
     "venue_location_id": "main",
     "datetime": "2025-11-07T12:00:00+00:00",
     "price": "11,000원",
@@ -1200,12 +1200,12 @@
     }
   },
   {
-    "id": "evt_20251107_f537c9de-7a20-4b56-82a0-69ef718fc71e",
+    "id": "evt_20251107_2f0a8601-c13a-46a7-9fe6-f611e679e04f",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-07T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-07T13:30:00+00:00",
     "price": null,
@@ -1225,12 +1225,12 @@
     }
   },
   {
-    "id": "evt_20251107_2cdc2e18-a965-4dee-886a-52eb147e91da",
+    "id": "evt_20251107_c81b204f-3e1c-41ae-ad6e-73f196ae16c3",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-07T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-07T14:00:00+00:00",
     "price": null,
@@ -1250,12 +1250,12 @@
     }
   },
   {
-    "id": "evt_20251108_3de5bcc0-5961-41b8-9d9f-ad645fc0d531",
+    "id": "evt_20251108_302955d7-064e-4a85-9e3c-4ad05cd7ed87",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-08T16:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-08T07:00:00+00:00",
     "price": null,
@@ -1275,12 +1275,12 @@
     }
   },
   {
-    "id": "evt_20251108_c091137b-6207-4fe0-a92d-b81f3b3b5f34",
+    "id": "evt_20251108_460b1ab6-c371-4ecb-95e7-0d5c4474f0ea",
     "event_key": "src:https://www.instagram.com/p/DQeBTbWkqB3/|dt:2025-11-08T16:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeBTbWkqB3/",
     "venue_handle": "teddy.valley",
     "musician_ids": [],
-    "venue_id": "ven_fe8c61af-c7b7-403d-9117-768022b1adaf",
+    "venue_id": "ven_641cfbfb-8dca-4ad6-857d-033d8f1a0664",
     "venue_location_id": "main",
     "datetime": "2025-11-08T07:00:00+00:00",
     "price": "25,000원",
@@ -1300,12 +1300,12 @@
     }
   },
   {
-    "id": "evt_20251108_e3f3ff2e-3807-4779-86a2-8b07d4bd765a",
+    "id": "evt_20251108_47755801-03eb-4e8f-9e22-17d831f1c06b",
     "event_key": "src:https://www.instagram.com/p/DQeA1j_iR1n/|dt:2025-11-08T18:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeA1j_iR1n/",
     "venue_handle": "chunnyun.jazz",
     "musician_ids": [],
-    "venue_id": "ven_645e619a-d2cc-430f-a951-928f92b56f7d",
+    "venue_id": "ven_96ca3cd6-8814-4cd8-b2d3-ecd6ac840920",
     "venue_location_id": "jonggak",
     "datetime": "2025-11-08T09:00:00+00:00",
     "price": null,
@@ -1325,12 +1325,12 @@
     }
   },
   {
-    "id": "evt_20251108_c46c1aa5-81f2-48b0-9509-bb53207f9523",
+    "id": "evt_20251108_26d84dac-d6dc-478d-9abe-faa3d6cac8b2",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-08T19:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-08T10:30:00+00:00",
     "price": null,
@@ -1350,12 +1350,12 @@
     }
   },
   {
-    "id": "evt_20251108_05b2f798-61de-4c0c-ad48-f39055e714c8",
+    "id": "evt_20251108_a3d63ae4-5824-4d76-8b1c-f6ac855e7ffe",
     "event_key": "src:https://www.instagram.com/p/DQbx7otks3k/|dt:2025-11-08T19:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQbx7otks3k/",
     "venue_handle": "myjazzgarden",
     "musician_ids": [],
-    "venue_id": "ven_b58f5b5f-11db-4051-a445-c4be70cff162",
+    "venue_id": "ven_c5028fc9-34f8-4e07-8d41-fcdc5ac06371",
     "venue_location_id": "main",
     "datetime": "2025-11-08T10:30:00+00:00",
     "price": null,
@@ -1375,12 +1375,12 @@
     }
   },
   {
-    "id": "evt_20251108_15c53a98-3d1a-4609-bf74-f156e915ec38",
+    "id": "evt_20251108_b1b80cdd-7bbb-45d8-99a4-b0350944b746",
     "event_key": "src:https://www.instagram.com/p/DQehDyekRJB/|dt:2025-11-08T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQehDyekRJB/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
-    "venue_id": "ven_e488e413-5739-4415-a2f3-9630a0194d83",
+    "venue_id": "ven_fc96bf20-a8fe-4bc4-b582-ebb2878ade62",
     "venue_location_id": "main",
     "datetime": "2025-11-08T11:00:00+00:00",
     "price": null,
@@ -1400,12 +1400,12 @@
     }
   },
   {
-    "id": "evt_20251108_458cc223-fbd0-4bfa-a7e8-f07498c4c661",
+    "id": "evt_20251108_6f90be0f-52e4-47c1-aeee-66c6f6e296a9",
     "event_key": "src:https://www.instagram.com/p/DQWCKTPD92M/|dt:2025-11-08T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQWCKTPD92M/",
     "venue_handle": "laidback2019",
     "musician_ids": [],
-    "venue_id": "ven_e66e41b3-874f-42f7-8741-35343eaacda2",
+    "venue_id": "ven_01bd0cf2-58de-4958-8fa1-587c32402f42",
     "venue_location_id": "main",
     "datetime": "2025-11-08T11:00:00+00:00",
     "price": "10,000원",
@@ -1425,12 +1425,12 @@
     }
   },
   {
-    "id": "evt_20251108_17347ae5-247c-4f1c-8c38-d04f81c12877",
+    "id": "evt_20251108_53d798bc-6665-4670-bce5-7dd998e21d3d",
     "event_key": "src:https://www.instagram.com/p/DQRBj8RkgZc/|dt:2025-11-08T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRBj8RkgZc/",
     "venue_handle": "seobs_bar",
     "musician_ids": [],
-    "venue_id": "ven_e17e31bc-9bac-429b-8b2f-199ba0284eef",
+    "venue_id": "ven_9347e75e-6aef-4f8f-b3fe-835f5d68032f",
     "venue_location_id": "main",
     "datetime": "2025-11-08T11:00:00+00:00",
     "price": null,
@@ -1450,12 +1450,12 @@
     }
   },
   {
-    "id": "evt_20251108_e6ff556a-785d-456e-b90b-ab2429a1b528",
+    "id": "evt_20251108_d2a566a4-84fa-4c40-b2fe-7ca933005506",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-08T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-08T11:00:00+00:00",
     "price": "20,000원",
@@ -1475,12 +1475,12 @@
     }
   },
   {
-    "id": "evt_20251108_29d0ec4c-6d5e-4352-9684-7d3c638e3738",
+    "id": "evt_20251108_1670801b-42e0-49e8-9c9b-aa53270e0e26",
     "event_key": "src:https://www.instagram.com/p/DQeC03NDwKp/|dt:2025-11-08T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
     "venue_handle": "blueming_jazz",
     "musician_ids": [],
-    "venue_id": "ven_03c97121-8be8-4d8f-8666-bc6ff15349ee",
+    "venue_id": "ven_5bfd6468-bcfa-4b44-b5c5-bb012c6b6493",
     "venue_location_id": "main",
     "datetime": "2025-11-08T11:30:00+00:00",
     "price": null,
@@ -1500,12 +1500,12 @@
     }
   },
   {
-    "id": "evt_20251108_8c676cd8-6928-47ed-939e-8efcbad5fa45",
+    "id": "evt_20251108_1f6438be-5e5c-4c4c-a512-c0c92e80133b",
     "event_key": "src:https://www.instagram.com/p/DQeA1j_iR1n/|dt:2025-11-08T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeA1j_iR1n/",
     "venue_handle": "chunnyun.jazz",
     "musician_ids": [],
-    "venue_id": "ven_645e619a-d2cc-430f-a951-928f92b56f7d",
+    "venue_id": "ven_96ca3cd6-8814-4cd8-b2d3-ecd6ac840920",
     "venue_location_id": "nakwon",
     "datetime": "2025-11-08T11:50:00+00:00",
     "price": null,
@@ -1525,12 +1525,12 @@
     }
   },
   {
-    "id": "evt_20251108_0a445ea4-3229-401a-9118-13b1b37bae56",
+    "id": "evt_20251108_9c2a120f-5a24-4cf4-8cab-c5cb9fb098d1",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-08T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
-    "venue_id": "ven_391cd6db-241a-48fd-b9fa-5caca6a2a4fa",
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
     "venue_location_id": "main",
     "datetime": "2025-11-08T12:00:00+00:00",
     "price": "10,000원",
@@ -1550,12 +1550,12 @@
     }
   },
   {
-    "id": "evt_20251108_b3a10268-6ff3-424b-aafd-b4a1dcd81507",
+    "id": "evt_20251108_1a43f82b-2326-428d-b099-33d8e62aad9a",
     "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-08T19:40:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
-    "venue_id": "ven_9640f965-eabc-4983-b03a-7b44efc85841",
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
     "venue_location_id": "main",
     "datetime": "2025-11-08T12:00:00+00:00",
     "price": "11,000원",
@@ -1575,12 +1575,12 @@
     }
   },
   {
-    "id": "evt_20251108_38330bfe-94dd-42eb-9f70-92a957d2f972",
+    "id": "evt_20251108_f781da9c-b13e-4fb9-9484-22e307223637",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-08T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-08T13:30:00+00:00",
     "price": null,
@@ -1600,12 +1600,12 @@
     }
   },
   {
-    "id": "evt_20251108_fd72dd4e-a560-4935-9157-3a9f1f2ff981",
+    "id": "evt_20251108_a0094f9f-2937-45f4-acee-2d43f6bab5ed",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-08T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-08T14:00:00+00:00",
     "price": null,
@@ -1625,12 +1625,12 @@
     }
   },
   {
-    "id": "evt_20251109_b91b0e7d-4432-446e-b7f4-3fec31ec07cd",
+    "id": "evt_20251109_28482992-c6d0-4c1f-a922-7d07abb33d1b",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-09T16:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-09T07:00:00+00:00",
     "price": null,
@@ -1650,12 +1650,12 @@
     }
   },
   {
-    "id": "evt_20251109_b3978ee2-3468-458b-b5b7-81e4fcd1836c",
+    "id": "evt_20251109_4ed7d875-9af2-4fea-8feb-f5d4e34553e2",
     "event_key": "src:https://www.instagram.com/p/DQA3mDsCV7v/|dt:2025-11-09T19:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQA3mDsCV7v/",
     "venue_handle": "banjul_stage",
     "musician_ids": [],
-    "venue_id": "ven_0901771c-9510-4c90-aecb-74163fd01705",
+    "venue_id": "ven_acaa6719-765d-4530-a30a-d5e6b268f8b1",
     "venue_location_id": "main",
     "datetime": "2025-11-09T10:00:00+00:00",
     "price": "25,000원",
@@ -1675,12 +1675,12 @@
     }
   },
   {
-    "id": "evt_20251109_97c5f8c5-74ae-486b-8bfd-32ff54e835eb",
+    "id": "evt_20251109_b88c4e6a-c2dd-4181-acad-903df0b30e6a",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-09T19:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-09T10:00:00+00:00",
     "price": "20,000원",
@@ -1700,12 +1700,12 @@
     }
   },
   {
-    "id": "evt_20251109_b00c39d8-2a5b-4228-b283-df71945a232d",
+    "id": "evt_20251109_e9b1ba42-5da4-44ab-8935-71a531795c26",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-09T19:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-09T10:30:00+00:00",
     "price": null,
@@ -1725,12 +1725,12 @@
     }
   },
   {
-    "id": "evt_20251109_58a4c483-dcfb-4905-9853-874184a28fe2",
+    "id": "evt_20251109_f5269d6f-11e9-4f95-9611-9b49ecadd329",
     "event_key": "src:https://www.instagram.com/p/DQehDyekRJB/|dt:2025-11-09T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQehDyekRJB/",
     "venue_handle": "jazzclub_evans",
     "musician_ids": [],
-    "venue_id": "ven_e488e413-5739-4415-a2f3-9630a0194d83",
+    "venue_id": "ven_fc96bf20-a8fe-4bc4-b582-ebb2878ade62",
     "venue_location_id": "main",
     "datetime": "2025-11-09T11:00:00+00:00",
     "price": null,
@@ -1750,12 +1750,12 @@
     }
   },
   {
-    "id": "evt_20251109_901d64d9-3c67-41f9-9578-40886d58799b",
+    "id": "evt_20251109_8708c3fd-2198-4469-8389-3f4e94385b2b",
     "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-09T19:40:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
-    "venue_id": "ven_9640f965-eabc-4983-b03a-7b44efc85841",
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
     "venue_location_id": "main",
     "datetime": "2025-11-09T12:00:00+00:00",
     "price": "11,000원",
@@ -1775,12 +1775,12 @@
     }
   },
   {
-    "id": "evt_20251110_f63bc9f0-7067-49f9-98b4-bf319ab3620a",
+    "id": "evt_20251110_2c0b7818-17bc-4677-a99b-78d2ed4cf315",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-10T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-10T11:00:00+00:00",
     "price": null,
@@ -1800,12 +1800,12 @@
     }
   },
   {
-    "id": "evt_20251110_75014f0c-cbb0-4cb6-ab6c-dab848753fd9",
+    "id": "evt_20251110_1518ec5d-3c39-42c1-9b84-873a9c91edbb",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-10T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-10T11:00:00+00:00",
     "price": "20,000원",
@@ -1825,12 +1825,12 @@
     }
   },
   {
-    "id": "evt_20251110_4971721f-ab84-48e3-a7f4-f4d53ca0a410",
+    "id": "evt_20251110_935492a9-e7d4-45df-a06e-68d99799ba95",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-10T21:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-10T13:30:00+00:00",
     "price": null,
@@ -1850,12 +1850,12 @@
     }
   },
   {
-    "id": "evt_20251111_333fa42d-0a33-4e71-aa7d-352899b1ec81",
+    "id": "evt_20251111_006488d5-a1a1-42c4-a550-bf7e1ff054bb",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-11T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-11T11:00:00+00:00",
     "price": null,
@@ -1875,12 +1875,12 @@
     }
   },
   {
-    "id": "evt_20251111_166b759d-f331-4b0e-8f94-d5aac8c17de2",
+    "id": "evt_20251111_a2d10750-93bf-42ce-8679-be707f141196",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-11T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-11T11:00:00+00:00",
     "price": "20,000원",
@@ -1900,12 +1900,12 @@
     }
   },
   {
-    "id": "evt_20251111_0e41ace3-fdfa-4c15-a214-fd305c99536c",
+    "id": "evt_20251111_aead964f-e223-4182-873c-68c920904afc",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-11T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-11T13:30:00+00:00",
     "price": null,
@@ -1925,12 +1925,12 @@
     }
   },
   {
-    "id": "evt_20251112_9b96aae0-637a-4109-84d3-86083e1d22e7",
+    "id": "evt_20251112_638eebc1-6634-460e-9cd9-0505ba190372",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-12T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-12T11:00:00+00:00",
     "price": null,
@@ -1950,12 +1950,12 @@
     }
   },
   {
-    "id": "evt_20251112_5c4d70ad-186e-4896-8be9-087b1faee923",
+    "id": "evt_20251112_678cc155-bcdf-4cda-8a34-d982d228629e",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-12T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-12T11:00:00+00:00",
     "price": "20,000원",
@@ -1975,12 +1975,12 @@
     }
   },
   {
-    "id": "evt_20251112_c37aea8a-41fe-4ee6-9036-de92b500721c",
+    "id": "evt_20251112_aa8531a2-7b93-4502-8c37-4dac1720c936",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-12T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
-    "venue_id": "ven_391cd6db-241a-48fd-b9fa-5caca6a2a4fa",
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
     "venue_location_id": "main",
     "datetime": "2025-11-12T13:00:00+00:00",
     "price": "5,000원",
@@ -2000,12 +2000,12 @@
     }
   },
   {
-    "id": "evt_20251112_6e7300be-d26c-438b-9816-688a11d4c87d",
+    "id": "evt_20251112_b45a16bc-0b2f-49e6-8fc4-adfe3b4e5f76",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-12T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-12T13:30:00+00:00",
     "price": null,
@@ -2025,12 +2025,12 @@
     }
   },
   {
-    "id": "evt_20251113_e39d5bd9-ea5e-4613-9c07-9096886b9b28",
+    "id": "evt_20251113_45cc90bc-51d2-4f46-a620-bb53705a9474",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-13T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-13T11:00:00+00:00",
     "price": null,
@@ -2050,12 +2050,12 @@
     }
   },
   {
-    "id": "evt_20251113_40dae0ed-f3ce-495e-a3a2-1a0eab7aae2f",
+    "id": "evt_20251113_d6c60680-1e41-47f3-9832-c27e04585018",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-13T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-13T11:00:00+00:00",
     "price": "20,000원",
@@ -2075,12 +2075,12 @@
     }
   },
   {
-    "id": "evt_20251113_643d33fa-c7e0-48ce-8906-a137b374cb05",
+    "id": "evt_20251113_a4367530-84b4-4518-a64f-f886c8635ef8",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-13T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
-    "venue_id": "ven_391cd6db-241a-48fd-b9fa-5caca6a2a4fa",
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
     "venue_location_id": "main",
     "datetime": "2025-11-13T13:00:00+00:00",
     "price": "5,000원",
@@ -2100,12 +2100,12 @@
     }
   },
   {
-    "id": "evt_20251113_c0165290-7f15-439e-bc16-40bb511f5581",
+    "id": "evt_20251113_c3561016-4c22-49b4-9667-702bb90dc366",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-13T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-13T13:30:00+00:00",
     "price": null,
@@ -2125,12 +2125,12 @@
     }
   },
   {
-    "id": "evt_20251114_c0db567c-7457-416b-931c-3f250e29d5ca",
+    "id": "evt_20251114_7ae44cc4-8701-44a5-8aa1-0c8a099f386f",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-14T19:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-14T10:30:00+00:00",
     "price": null,
@@ -2150,12 +2150,12 @@
     }
   },
   {
-    "id": "evt_20251114_0c42f6cc-36d9-4359-a5c6-e98f3a695886",
+    "id": "evt_20251114_f1217609-1c4f-4cd7-9fe5-92107b36ae1e",
     "event_key": "src:https://www.instagram.com/p/DQWCKTPD92M/|dt:2025-11-14T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQWCKTPD92M/",
     "venue_handle": "laidback2019",
     "musician_ids": [],
-    "venue_id": "ven_e66e41b3-874f-42f7-8741-35343eaacda2",
+    "venue_id": "ven_01bd0cf2-58de-4958-8fa1-587c32402f42",
     "venue_location_id": "main",
     "datetime": "2025-11-14T11:00:00+00:00",
     "price": "10,000원",
@@ -2175,12 +2175,12 @@
     }
   },
   {
-    "id": "evt_20251114_65671233-058d-403a-9f29-cb1a284fcd25",
+    "id": "evt_20251114_268e75ae-799a-455c-96f8-29ce1111c67c",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-14T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-14T11:00:00+00:00",
     "price": "20,000원",
@@ -2200,12 +2200,12 @@
     }
   },
   {
-    "id": "evt_20251114_70644489-3870-402b-9a74-e2c572a278ea",
+    "id": "evt_20251114_7aa6fc9f-6920-45fe-97bb-aa216d2e88eb",
     "event_key": "src:https://www.instagram.com/p/DQTu4dNj1LM/|dt:2025-11-14T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
     "venue_handle": "asome_ground",
     "musician_ids": [],
-    "venue_id": "ven_9110c048-3a75-456c-b82c-892f42b06a48",
+    "venue_id": "ven_21093912-e7d2-41df-9bc8-2e35319d24cb",
     "venue_location_id": "main",
     "datetime": "2025-11-14T11:30:00+00:00",
     "price": null,
@@ -2225,12 +2225,12 @@
     }
   },
   {
-    "id": "evt_20251114_b4e04c9c-1ea0-4132-aa95-4f7c24f87181",
+    "id": "evt_20251114_f4283344-2deb-4ad8-b578-64bdc5d2a734",
     "event_key": "src:https://www.instagram.com/p/DQeC03NDwKp/|dt:2025-11-14T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
     "venue_handle": "blueming_jazz",
     "musician_ids": [],
-    "venue_id": "ven_03c97121-8be8-4d8f-8666-bc6ff15349ee",
+    "venue_id": "ven_5bfd6468-bcfa-4b44-b5c5-bb012c6b6493",
     "venue_location_id": "main",
     "datetime": "2025-11-14T11:30:00+00:00",
     "price": null,
@@ -2250,12 +2250,12 @@
     }
   },
   {
-    "id": "evt_20251114_e5cad599-bd40-4ad5-af9d-1921a2ccdfe0",
+    "id": "evt_20251114_c5acbfa0-14a9-4f51-a6d1-8f260b09b870",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-14T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
-    "venue_id": "ven_391cd6db-241a-48fd-b9fa-5caca6a2a4fa",
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
     "venue_location_id": "main",
     "datetime": "2025-11-14T12:00:00+00:00",
     "price": "10,000원",
@@ -2275,12 +2275,12 @@
     }
   },
   {
-    "id": "evt_20251114_d82e16cb-658f-4156-bbed-4146f75bf36d",
+    "id": "evt_20251114_29bbcb77-a21e-4795-8440-5a02e166aa8c",
     "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-14T19:40:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
-    "venue_id": "ven_9640f965-eabc-4983-b03a-7b44efc85841",
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
     "venue_location_id": "main",
     "datetime": "2025-11-14T12:00:00+00:00",
     "price": "11,000원",
@@ -2300,12 +2300,12 @@
     }
   },
   {
-    "id": "evt_20251114_f04fddd6-78ce-4b3a-9985-5b272aca6353",
+    "id": "evt_20251114_d56d6588-1af7-4f90-8f20-99cc7f3eadbb",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-14T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-14T13:30:00+00:00",
     "price": null,
@@ -2325,12 +2325,12 @@
     }
   },
   {
-    "id": "evt_20251114_98decc86-1106-4ebc-9111-739b496e2c3c",
+    "id": "evt_20251114_970ec1ca-f329-4d43-8568-5b2e174373d9",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-14T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-14T14:00:00+00:00",
     "price": null,
@@ -2350,12 +2350,12 @@
     }
   },
   {
-    "id": "evt_20251115_2519c8ab-f3ae-4155-a144-08a33ae3fba5",
+    "id": "evt_20251115_f39530d1-a05e-4e31-9f0e-b5ee0cb2ea8f",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-15T16:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-15T07:00:00+00:00",
     "price": null,
@@ -2375,12 +2375,12 @@
     }
   },
   {
-    "id": "evt_20251115_20da2a7b-0e3b-4bdd-b3db-a976d32ce866",
+    "id": "evt_20251115_5b2fc5bc-b602-4c1c-ac32-d537ca1f1d54",
     "event_key": "src:https://www.instagram.com/p/DQWCKTPD92M/|dt:2025-11-15T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQWCKTPD92M/",
     "venue_handle": "laidback2019",
     "musician_ids": [],
-    "venue_id": "ven_e66e41b3-874f-42f7-8741-35343eaacda2",
+    "venue_id": "ven_01bd0cf2-58de-4958-8fa1-587c32402f42",
     "venue_location_id": "main",
     "datetime": "2025-11-15T11:00:00+00:00",
     "price": "10,000원",
@@ -2400,12 +2400,12 @@
     }
   },
   {
-    "id": "evt_20251115_769c9e34-3595-4d23-863e-2d83e9654e64",
+    "id": "evt_20251115_088a1cf1-d561-4bdd-ba93-474945cf8457",
     "event_key": "src:https://www.instagram.com/p/DQRBj8RkgZc/|dt:2025-11-15T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRBj8RkgZc/",
     "venue_handle": "seobs_bar",
     "musician_ids": [],
-    "venue_id": "ven_e17e31bc-9bac-429b-8b2f-199ba0284eef",
+    "venue_id": "ven_9347e75e-6aef-4f8f-b3fe-835f5d68032f",
     "venue_location_id": "main",
     "datetime": "2025-11-15T11:00:00+00:00",
     "price": null,
@@ -2425,12 +2425,12 @@
     }
   },
   {
-    "id": "evt_20251115_39962993-1b85-44bf-bb98-00be2f7b0e70",
+    "id": "evt_20251115_9e30dabf-3b0e-4404-88fe-618aeb25104a",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-15T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-15T11:00:00+00:00",
     "price": "20,000원",
@@ -2450,12 +2450,12 @@
     }
   },
   {
-    "id": "evt_20251115_0c3faac1-797e-476d-a250-6945cd828724",
+    "id": "evt_20251115_7b88979d-6eb4-49aa-bdf9-adad37a70993",
     "event_key": "src:https://www.instagram.com/p/DQeC03NDwKp/|dt:2025-11-15T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
     "venue_handle": "blueming_jazz",
     "musician_ids": [],
-    "venue_id": "ven_03c97121-8be8-4d8f-8666-bc6ff15349ee",
+    "venue_id": "ven_5bfd6468-bcfa-4b44-b5c5-bb012c6b6493",
     "venue_location_id": "main",
     "datetime": "2025-11-15T11:30:00+00:00",
     "price": null,
@@ -2475,12 +2475,12 @@
     }
   },
   {
-    "id": "evt_20251115_284cc308-c799-42d9-a748-2a4214c5a6e8",
+    "id": "evt_20251115_c5068b5b-af4e-4c62-955b-0cb99a629852",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-15T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
-    "venue_id": "ven_391cd6db-241a-48fd-b9fa-5caca6a2a4fa",
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
     "venue_location_id": "main",
     "datetime": "2025-11-15T12:00:00+00:00",
     "price": "10,000원",
@@ -2500,12 +2500,12 @@
     }
   },
   {
-    "id": "evt_20251115_01f8b802-9a94-4988-bfaf-b0f8961b1b78",
+    "id": "evt_20251115_816e0057-3c6c-4e17-b791-b79c91794eb6",
     "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-15T19:40:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
-    "venue_id": "ven_9640f965-eabc-4983-b03a-7b44efc85841",
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
     "venue_location_id": "main",
     "datetime": "2025-11-15T12:00:00+00:00",
     "price": "11,000원",
@@ -2525,12 +2525,12 @@
     }
   },
   {
-    "id": "evt_20251115_95c389a9-e39d-4423-b31b-9f0a531bae36",
+    "id": "evt_20251115_eb1e4cd5-4c16-412b-99f9-11869861b0af",
     "event_key": "src:https://www.instagram.com/p/DQeK83jkicg/|dt:2025-11-15T18:20:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-15T13:30:00+00:00",
     "price": "30,000원",
@@ -2550,12 +2550,12 @@
     }
   },
   {
-    "id": "evt_20251115_4fff7f0c-2f6c-4515-ab65-5d8ab02cc6e3",
+    "id": "evt_20251115_5ac2b6c9-5672-4b6d-a322-9cbdd55ef1b7",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-15T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-15T14:00:00+00:00",
     "price": null,
@@ -2575,12 +2575,12 @@
     }
   },
   {
-    "id": "evt_20251116_8af3c70d-d9bb-4a29-a2d2-62c81ea5b574",
+    "id": "evt_20251116_0e2d7e70-e9fa-4cbe-a512-70a78cd5ab9c",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-16T16:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-16T07:00:00+00:00",
     "price": null,
@@ -2600,12 +2600,12 @@
     }
   },
   {
-    "id": "evt_20251116_82f3e186-8aee-4366-99c0-e264a40ce944",
+    "id": "evt_20251116_99a1c084-6b51-460e-8b7d-cd1be588d9d7",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-16T19:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-16T10:00:00+00:00",
     "price": "20,000원",
@@ -2625,12 +2625,12 @@
     }
   },
   {
-    "id": "evt_20251116_dae7cb19-9046-4cf3-9879-f5ff4fbbbe8f",
+    "id": "evt_20251116_dedccb18-0f97-4fd7-b445-33962010fd32",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-16T19:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-16T10:30:00+00:00",
     "price": null,
@@ -2650,12 +2650,12 @@
     }
   },
   {
-    "id": "evt_20251116_31614b41-ad89-4063-9b80-837e4ac30531",
+    "id": "evt_20251116_e2102d23-999c-4c34-a653-f5f6da21879b",
     "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-16T19:40:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
-    "venue_id": "ven_9640f965-eabc-4983-b03a-7b44efc85841",
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
     "venue_location_id": "main",
     "datetime": "2025-11-16T12:00:00+00:00",
     "price": "11,000원",
@@ -2675,12 +2675,12 @@
     }
   },
   {
-    "id": "evt_20251117_40350863-715c-4f0f-bdf9-272649740b1a",
+    "id": "evt_20251117_facbd60d-cf1c-4c8f-8185-87097c16b6a8",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-17T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-17T11:00:00+00:00",
     "price": null,
@@ -2700,12 +2700,12 @@
     }
   },
   {
-    "id": "evt_20251117_bdcb5daf-b88a-4f30-8659-2261d5826e5c",
+    "id": "evt_20251117_c38658e1-6203-4c76-b3bf-c6a7dfdcd9dd",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-17T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-17T11:00:00+00:00",
     "price": "20,000원",
@@ -2725,12 +2725,12 @@
     }
   },
   {
-    "id": "evt_20251117_db82505b-6787-4242-bb0a-8de19fd7a16c",
+    "id": "evt_20251117_2b26be01-12c4-4a80-adb6-9b1185ec1d1f",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-17T21:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-17T13:30:00+00:00",
     "price": null,
@@ -2750,12 +2750,12 @@
     }
   },
   {
-    "id": "evt_20251118_f8e6e19a-4554-4b35-9bd8-9238a1325eed",
+    "id": "evt_20251118_e4a68730-f393-400b-b0bd-7741f9b109f7",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-18T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-18T11:00:00+00:00",
     "price": null,
@@ -2775,12 +2775,12 @@
     }
   },
   {
-    "id": "evt_20251118_473fc2df-3bdc-4db5-a81f-8bab85fc6c26",
+    "id": "evt_20251118_a359c7c6-a394-45c3-ba64-b49eebb3d654",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-18T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-18T11:00:00+00:00",
     "price": "20,000원",
@@ -2800,12 +2800,12 @@
     }
   },
   {
-    "id": "evt_20251118_d5970476-f136-4f69-b3df-d5d608387163",
+    "id": "evt_20251118_c750aafc-4426-461c-90db-ccb5e62bc696",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-18T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-18T13:30:00+00:00",
     "price": null,
@@ -2825,12 +2825,12 @@
     }
   },
   {
-    "id": "evt_20251119_61428a59-e4c3-46d5-9535-30f405865d99",
+    "id": "evt_20251119_3457510a-f7ed-4b80-8f90-90ba008bb2b2",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-19T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-19T11:00:00+00:00",
     "price": null,
@@ -2850,12 +2850,12 @@
     }
   },
   {
-    "id": "evt_20251119_35787cf7-cc50-4b6d-a795-52b082412950",
+    "id": "evt_20251119_3766f16f-7a57-424c-bad6-38e113266ea4",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-19T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-19T11:00:00+00:00",
     "price": "20,000원",
@@ -2875,12 +2875,12 @@
     }
   },
   {
-    "id": "evt_20251119_02c59c7e-aafb-4a7d-9a04-94d88a1d663f",
+    "id": "evt_20251119_3d77324b-b4c3-4cfc-8db4-32913208bf4d",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-19T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
-    "venue_id": "ven_391cd6db-241a-48fd-b9fa-5caca6a2a4fa",
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
     "venue_location_id": "main",
     "datetime": "2025-11-19T13:00:00+00:00",
     "price": "5,000원",
@@ -2900,12 +2900,12 @@
     }
   },
   {
-    "id": "evt_20251119_d13ec259-ebf4-4d9a-a02e-e9355029e17b",
+    "id": "evt_20251119_f4b37af0-edc0-47eb-bce5-3ef0d4602dd7",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-19T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-19T13:30:00+00:00",
     "price": null,
@@ -2925,12 +2925,12 @@
     }
   },
   {
-    "id": "evt_20251120_bbf56ef8-e5d4-486d-88b3-cab54d969613",
+    "id": "evt_20251120_46706701-9311-472e-a007-137ccd81ad05",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-20T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-20T11:00:00+00:00",
     "price": null,
@@ -2950,12 +2950,12 @@
     }
   },
   {
-    "id": "evt_20251120_404d2e4d-5709-4a1c-adee-f6f218b1cab6",
+    "id": "evt_20251120_8270c4d1-1216-4b44-a6c3-f5a6f6ab07eb",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-20T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-20T11:00:00+00:00",
     "price": "20,000원",
@@ -2975,12 +2975,12 @@
     }
   },
   {
-    "id": "evt_20251120_2209bf05-cefc-4e00-9a5d-7cbdae226593",
+    "id": "evt_20251120_d4173e0b-0fa0-44bf-a11d-b5a4f810a14e",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-20T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
-    "venue_id": "ven_391cd6db-241a-48fd-b9fa-5caca6a2a4fa",
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
     "venue_location_id": "main",
     "datetime": "2025-11-20T13:00:00+00:00",
     "price": "5,000원",
@@ -3000,12 +3000,12 @@
     }
   },
   {
-    "id": "evt_20251120_067a065a-f59d-4c1e-adb7-bd5fb4c1e4c3",
+    "id": "evt_20251120_519137a3-6e88-4b1d-bb71-f54161973f68",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-20T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-20T13:30:00+00:00",
     "price": null,
@@ -3025,12 +3025,12 @@
     }
   },
   {
-    "id": "evt_20251121_36b7091c-9111-4980-830b-762da2cfbae3",
+    "id": "evt_20251121_18a4fea4-5983-4f52-9d7e-8a228cbd736d",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-21T19:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-21T10:30:00+00:00",
     "price": null,
@@ -3050,12 +3050,12 @@
     }
   },
   {
-    "id": "evt_20251121_30048966-8402-4502-a83b-b31af1ed1ea2",
+    "id": "evt_20251121_9868e39f-9260-482b-8cd5-686e51db7279",
     "event_key": "src:https://www.instagram.com/p/DQWCKTPD92M/|dt:2025-11-21T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQWCKTPD92M/",
     "venue_handle": "laidback2019",
     "musician_ids": [],
-    "venue_id": "ven_e66e41b3-874f-42f7-8741-35343eaacda2",
+    "venue_id": "ven_01bd0cf2-58de-4958-8fa1-587c32402f42",
     "venue_location_id": "main",
     "datetime": "2025-11-21T11:00:00+00:00",
     "price": "10,000원",
@@ -3075,12 +3075,12 @@
     }
   },
   {
-    "id": "evt_20251121_3e0b3f8f-50ec-4253-a3b0-925023201ef9",
+    "id": "evt_20251121_517e9e00-18e9-4208-aa3e-3cbf3d0f26cf",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-21T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-21T11:00:00+00:00",
     "price": "20,000원",
@@ -3100,12 +3100,12 @@
     }
   },
   {
-    "id": "evt_20251121_4aeece46-8cb8-498e-b77c-a008e40f2bb0",
+    "id": "evt_20251121_c4798abb-03d2-404a-93e7-97a5ff7e8984",
     "event_key": "src:https://www.instagram.com/p/DQTu4dNj1LM/|dt:2025-11-21T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
     "venue_handle": "asome_ground",
     "musician_ids": [],
-    "venue_id": "ven_9110c048-3a75-456c-b82c-892f42b06a48",
+    "venue_id": "ven_21093912-e7d2-41df-9bc8-2e35319d24cb",
     "venue_location_id": "main",
     "datetime": "2025-11-21T11:30:00+00:00",
     "price": null,
@@ -3125,12 +3125,12 @@
     }
   },
   {
-    "id": "evt_20251121_7a98d2d9-7684-430a-a7a1-97a9bbe2d4c2",
+    "id": "evt_20251121_fd85c041-381f-4d1f-b02b-d118c50324b2",
     "event_key": "src:https://www.instagram.com/p/DQeC03NDwKp/|dt:2025-11-21T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
     "venue_handle": "blueming_jazz",
     "musician_ids": [],
-    "venue_id": "ven_03c97121-8be8-4d8f-8666-bc6ff15349ee",
+    "venue_id": "ven_5bfd6468-bcfa-4b44-b5c5-bb012c6b6493",
     "venue_location_id": "main",
     "datetime": "2025-11-21T11:30:00+00:00",
     "price": null,
@@ -3150,12 +3150,12 @@
     }
   },
   {
-    "id": "evt_20251121_ddaed350-0d21-46d3-a722-96a5ea99b499",
+    "id": "evt_20251121_431d2ec6-11d2-461e-9d88-05b03dd12334",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-21T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
-    "venue_id": "ven_391cd6db-241a-48fd-b9fa-5caca6a2a4fa",
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
     "venue_location_id": "main",
     "datetime": "2025-11-21T12:00:00+00:00",
     "price": "10,000원",
@@ -3175,12 +3175,12 @@
     }
   },
   {
-    "id": "evt_20251121_f8a2a2c3-33bc-4549-9791-5cc4840bd703",
+    "id": "evt_20251121_624dd745-0e3b-408e-bf23-685eb12c76db",
     "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-21T19:40:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
-    "venue_id": "ven_9640f965-eabc-4983-b03a-7b44efc85841",
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
     "venue_location_id": "main",
     "datetime": "2025-11-21T12:00:00+00:00",
     "price": "11,000원",
@@ -3200,12 +3200,12 @@
     }
   },
   {
-    "id": "evt_20251121_47b0ebde-712e-4294-999c-71bf3e10962e",
+    "id": "evt_20251121_b158cd26-6096-4e80-b68a-460da42d4246",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-21T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-21T13:30:00+00:00",
     "price": null,
@@ -3225,12 +3225,12 @@
     }
   },
   {
-    "id": "evt_20251121_714b68cf-cab0-49f5-8a43-f71fdffce907",
+    "id": "evt_20251121_f7872d98-dd25-4fcc-91fe-143f51bcd903",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-21T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-21T14:00:00+00:00",
     "price": null,
@@ -3250,12 +3250,12 @@
     }
   },
   {
-    "id": "evt_20251122_d5abe8be-85f8-491b-92cf-5f1e31e3095a",
+    "id": "evt_20251122_b8f5d42b-0d1f-46d1-bd9a-12e04330a7fb",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-22T16:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-22T07:00:00+00:00",
     "price": null,
@@ -3275,12 +3275,12 @@
     }
   },
   {
-    "id": "evt_20251122_3861b67b-6699-4362-83b1-64ef4a0503df",
+    "id": "evt_20251122_84142419-4993-4ced-813b-e0940010616c",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-22T19:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-22T10:30:00+00:00",
     "price": null,
@@ -3300,12 +3300,12 @@
     }
   },
   {
-    "id": "evt_20251122_40fe2760-1534-42a9-9900-bcebf12ede83",
+    "id": "evt_20251122_e6f3a10b-8237-49c5-b62b-318bb0681648",
     "event_key": "src:https://www.instagram.com/p/DQWCKTPD92M/|dt:2025-11-22T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQWCKTPD92M/",
     "venue_handle": "laidback2019",
     "musician_ids": [],
-    "venue_id": "ven_e66e41b3-874f-42f7-8741-35343eaacda2",
+    "venue_id": "ven_01bd0cf2-58de-4958-8fa1-587c32402f42",
     "venue_location_id": "main",
     "datetime": "2025-11-22T11:00:00+00:00",
     "price": "10,000원",
@@ -3325,12 +3325,12 @@
     }
   },
   {
-    "id": "evt_20251122_8836b246-dab5-4e62-b184-6ef4454cf3e9",
+    "id": "evt_20251122_44b99417-b68b-4b66-960a-b17f1eee35fc",
     "event_key": "src:https://www.instagram.com/p/DQRBj8RkgZc/|dt:2025-11-22T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRBj8RkgZc/",
     "venue_handle": "seobs_bar",
     "musician_ids": [],
-    "venue_id": "ven_e17e31bc-9bac-429b-8b2f-199ba0284eef",
+    "venue_id": "ven_9347e75e-6aef-4f8f-b3fe-835f5d68032f",
     "venue_location_id": "main",
     "datetime": "2025-11-22T11:00:00+00:00",
     "price": null,
@@ -3350,12 +3350,12 @@
     }
   },
   {
-    "id": "evt_20251122_2a7cf74c-c9b6-48c5-9d0e-03a8baf89823",
+    "id": "evt_20251122_56485663-88ea-4d97-9420-4a7580c0717c",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-22T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-22T11:00:00+00:00",
     "price": "20,000원",
@@ -3375,12 +3375,12 @@
     }
   },
   {
-    "id": "evt_20251122_aa87a617-cd46-488c-b744-d9cb0836f8ff",
+    "id": "evt_20251122_9fcb7aad-e06b-4c55-a3d0-aba8c951fad2",
     "event_key": "src:https://www.instagram.com/p/DQeC03NDwKp/|dt:2025-11-22T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
     "venue_handle": "blueming_jazz",
     "musician_ids": [],
-    "venue_id": "ven_03c97121-8be8-4d8f-8666-bc6ff15349ee",
+    "venue_id": "ven_5bfd6468-bcfa-4b44-b5c5-bb012c6b6493",
     "venue_location_id": "main",
     "datetime": "2025-11-22T11:30:00+00:00",
     "price": null,
@@ -3400,12 +3400,12 @@
     }
   },
   {
-    "id": "evt_20251122_64d071ca-a845-49dc-9197-64ad56394d53",
+    "id": "evt_20251122_9f16259e-aa36-4cb3-b0c8-8f3bac43a786",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-22T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
-    "venue_id": "ven_391cd6db-241a-48fd-b9fa-5caca6a2a4fa",
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
     "venue_location_id": "main",
     "datetime": "2025-11-22T12:00:00+00:00",
     "price": "10,000원",
@@ -3425,12 +3425,12 @@
     }
   },
   {
-    "id": "evt_20251122_69d93cdc-eb0e-4dd0-a922-7a944f593f5f",
+    "id": "evt_20251122_1e6dcdb9-fcef-4ee9-b098-de242aefb2bd",
     "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-22T19:40:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
-    "venue_id": "ven_9640f965-eabc-4983-b03a-7b44efc85841",
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
     "venue_location_id": "main",
     "datetime": "2025-11-22T12:00:00+00:00",
     "price": "11,000원",
@@ -3450,12 +3450,12 @@
     }
   },
   {
-    "id": "evt_20251122_26757a06-5f62-4b83-9f22-273319a44c93",
+    "id": "evt_20251122_f560c00e-b644-45cf-bf3b-b0bb92f2c837",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-22T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-22T13:30:00+00:00",
     "price": null,
@@ -3475,12 +3475,12 @@
     }
   },
   {
-    "id": "evt_20251122_524a05f7-b85d-43a4-834c-181e1cb70e21",
+    "id": "evt_20251122_4d52e0f8-6b59-4ced-abfe-f41cfdc089c0",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-22T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-22T14:00:00+00:00",
     "price": null,
@@ -3500,12 +3500,12 @@
     }
   },
   {
-    "id": "evt_20251123_ed23e399-8fab-4222-82dc-a216a4e642f4",
+    "id": "evt_20251123_c9d7bfd7-d79f-4289-bb06-d80e9fdcde93",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-23T16:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-23T07:00:00+00:00",
     "price": null,
@@ -3525,12 +3525,12 @@
     }
   },
   {
-    "id": "evt_20251123_7cca1cbc-2c6e-436d-ba4c-3d56e30c779f",
+    "id": "evt_20251123_7d44ffbe-bed5-429f-8922-5c378674983e",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-23T19:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-23T10:00:00+00:00",
     "price": "20,000원",
@@ -3550,12 +3550,12 @@
     }
   },
   {
-    "id": "evt_20251123_99c5e085-e271-4f31-8ae9-b75009e1f905",
+    "id": "evt_20251123_bfe4c7c0-1a5f-4eea-9bac-4e2a8b144983",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-23T19:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-23T10:30:00+00:00",
     "price": null,
@@ -3575,12 +3575,12 @@
     }
   },
   {
-    "id": "evt_20251123_af9ff15e-cda4-4efe-aefe-2e0fb084e30b",
+    "id": "evt_20251123_2fdba9ba-4c68-4300-bca3-26046e7591e0",
     "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-23T19:40:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
-    "venue_id": "ven_9640f965-eabc-4983-b03a-7b44efc85841",
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
     "venue_location_id": "main",
     "datetime": "2025-11-23T12:00:00+00:00",
     "price": "11,000원",
@@ -3600,12 +3600,12 @@
     }
   },
   {
-    "id": "evt_20251124_97a22582-2c78-4bde-b071-21f981499dff",
+    "id": "evt_20251124_9e334324-fb7a-4c1f-91de-2c13df51decb",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-24T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-24T11:00:00+00:00",
     "price": null,
@@ -3625,12 +3625,12 @@
     }
   },
   {
-    "id": "evt_20251124_40f07c2f-aaa6-4015-9049-dfe0a86da5f6",
+    "id": "evt_20251124_28e939bc-bdfd-442e-8cdb-7dd64b557e5d",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-24T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-24T11:00:00+00:00",
     "price": "20,000원",
@@ -3650,12 +3650,12 @@
     }
   },
   {
-    "id": "evt_20251124_b6561383-3810-4f7b-b714-0b5d43a0e3c8",
+    "id": "evt_20251124_c84daf7e-563b-4c81-9f4e-1778982453cf",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-24T21:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-24T13:30:00+00:00",
     "price": null,
@@ -3675,12 +3675,12 @@
     }
   },
   {
-    "id": "evt_20251125_333c186c-4308-482e-a59f-7527a8d44505",
+    "id": "evt_20251125_4cf3e6dc-7ca2-48e3-a5b0-44d1d15e8683",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-25T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-25T11:00:00+00:00",
     "price": null,
@@ -3700,12 +3700,12 @@
     }
   },
   {
-    "id": "evt_20251125_9876da49-7a01-4a7d-8a4c-f93f6117a51a",
+    "id": "evt_20251125_dad97c1b-637f-4cf0-8421-61f50e7fd2a6",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-25T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-25T11:00:00+00:00",
     "price": "20,000원",
@@ -3725,12 +3725,12 @@
     }
   },
   {
-    "id": "evt_20251125_d5ef57b6-68f4-47f7-934f-dbcb25e3e88b",
+    "id": "evt_20251125_9bddcfef-8dad-4797-be39-fafe838b9010",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-25T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-25T13:30:00+00:00",
     "price": null,
@@ -3750,12 +3750,12 @@
     }
   },
   {
-    "id": "evt_20251126_6295bd61-0339-45e3-a260-9c07ff3f9cbb",
+    "id": "evt_20251126_d6d54091-2ce7-43da-9ed6-59db8a3f99cd",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-26T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-26T11:00:00+00:00",
     "price": null,
@@ -3775,12 +3775,12 @@
     }
   },
   {
-    "id": "evt_20251126_d856ed3d-e73f-47b9-bf1d-aeec15420412",
+    "id": "evt_20251126_218b6025-95bc-4a0d-ad88-81e271b2e73d",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-26T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-26T11:00:00+00:00",
     "price": "20,000원",
@@ -3800,12 +3800,12 @@
     }
   },
   {
-    "id": "evt_20251126_0a506dd8-8b84-4166-b35f-d860978ac65d",
+    "id": "evt_20251126_93ab7525-384b-4a10-a668-e1e07361fa3e",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-26T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
-    "venue_id": "ven_391cd6db-241a-48fd-b9fa-5caca6a2a4fa",
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
     "venue_location_id": "main",
     "datetime": "2025-11-26T13:00:00+00:00",
     "price": "5,000원",
@@ -3825,12 +3825,12 @@
     }
   },
   {
-    "id": "evt_20251126_11e2b6c4-d308-4bc9-9873-41c8e9d4066d",
+    "id": "evt_20251126_d82608a2-d749-4530-b420-d86869f19547",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-26T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-26T13:30:00+00:00",
     "price": null,
@@ -3850,12 +3850,12 @@
     }
   },
   {
-    "id": "evt_20251127_d500962d-92dd-4d2c-9bbc-63d3e61578aa",
+    "id": "evt_20251127_cb40bce7-c20e-4e91-8872-56d1b693bc1c",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-27T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-27T11:00:00+00:00",
     "price": null,
@@ -3875,12 +3875,12 @@
     }
   },
   {
-    "id": "evt_20251127_84c27f65-eb4c-4aaf-bf35-8bd6fb66c874",
+    "id": "evt_20251127_18f7e289-7d8d-4c13-922f-11bc33206292",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-27T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-27T11:00:00+00:00",
     "price": "20,000원",
@@ -3900,12 +3900,12 @@
     }
   },
   {
-    "id": "evt_20251127_67f2a759-d228-471d-9d33-35f96e860819",
+    "id": "evt_20251127_8edfaeac-2921-4d40-8e61-dfa13cad53d7",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-27T21:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
-    "venue_id": "ven_391cd6db-241a-48fd-b9fa-5caca6a2a4fa",
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
     "venue_location_id": "main",
     "datetime": "2025-11-27T13:00:00+00:00",
     "price": "5,000원",
@@ -3925,12 +3925,12 @@
     }
   },
   {
-    "id": "evt_20251127_c350e51d-225c-4a4b-a9de-cab2f5ab5d2e",
+    "id": "evt_20251127_cbcab4c6-e4dd-4fbc-af07-b3de1a82e8d8",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-27T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-27T13:30:00+00:00",
     "price": null,
@@ -3950,12 +3950,12 @@
     }
   },
   {
-    "id": "evt_20251128_52784de0-8088-44fd-bc39-5f7d26b2c3c7",
+    "id": "evt_20251128_6a080584-8cb1-403b-9c13-1d78b79eb588",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-28T19:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-28T10:30:00+00:00",
     "price": null,
@@ -3975,12 +3975,12 @@
     }
   },
   {
-    "id": "evt_20251128_81e40f19-57be-46b8-a019-c9166ee0bf01",
+    "id": "evt_20251128_e5464aed-3f76-4878-be00-01741d1e7937",
     "event_key": "src:https://www.instagram.com/p/DQWCKTPD92M/|dt:2025-11-28T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQWCKTPD92M/",
     "venue_handle": "laidback2019",
     "musician_ids": [],
-    "venue_id": "ven_e66e41b3-874f-42f7-8741-35343eaacda2",
+    "venue_id": "ven_01bd0cf2-58de-4958-8fa1-587c32402f42",
     "venue_location_id": "main",
     "datetime": "2025-11-28T11:00:00+00:00",
     "price": "10,000원",
@@ -4000,12 +4000,12 @@
     }
   },
   {
-    "id": "evt_20251128_5182a5e2-e842-417a-a2f6-944505cf8606",
+    "id": "evt_20251128_22e7735c-01aa-46ce-98d7-b80d4faf80ca",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-28T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-28T11:00:00+00:00",
     "price": "20,000원",
@@ -4025,12 +4025,12 @@
     }
   },
   {
-    "id": "evt_20251128_71f3b87f-2bb9-4684-aac5-2cbdb982d6cd",
+    "id": "evt_20251128_4f4adf1f-e81f-41fe-b922-72a7a2b70394",
     "event_key": "src:https://www.instagram.com/p/DQTu4dNj1LM/|dt:2025-11-28T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQTu4dNj1LM/",
     "venue_handle": "asome_ground",
     "musician_ids": [],
-    "venue_id": "ven_9110c048-3a75-456c-b82c-892f42b06a48",
+    "venue_id": "ven_21093912-e7d2-41df-9bc8-2e35319d24cb",
     "venue_location_id": "main",
     "datetime": "2025-11-28T11:30:00+00:00",
     "price": null,
@@ -4050,12 +4050,12 @@
     }
   },
   {
-    "id": "evt_20251128_8e245374-c8dd-4392-94c9-e5e61db1577b",
+    "id": "evt_20251128_1fb7a276-1600-4b31-92e4-39a7bcefe1be",
     "event_key": "src:https://www.instagram.com/p/DQeC03NDwKp/|dt:2025-11-28T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
     "venue_handle": "blueming_jazz",
     "musician_ids": [],
-    "venue_id": "ven_03c97121-8be8-4d8f-8666-bc6ff15349ee",
+    "venue_id": "ven_5bfd6468-bcfa-4b44-b5c5-bb012c6b6493",
     "venue_location_id": "main",
     "datetime": "2025-11-28T11:30:00+00:00",
     "price": null,
@@ -4075,12 +4075,12 @@
     }
   },
   {
-    "id": "evt_20251128_6e86669d-ed9d-4ed0-81d8-c6c7601935e2",
+    "id": "evt_20251128_aeadb341-4787-409c-a12e-f21f06f3abed",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-28T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
-    "venue_id": "ven_391cd6db-241a-48fd-b9fa-5caca6a2a4fa",
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
     "venue_location_id": "main",
     "datetime": "2025-11-28T12:00:00+00:00",
     "price": "10,000원",
@@ -4100,12 +4100,12 @@
     }
   },
   {
-    "id": "evt_20251128_7e26bdd0-f1ff-46c4-8400-3f54410415f6",
+    "id": "evt_20251128_0ce069ed-4aa6-4373-8daa-0312b7f6de5a",
     "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-28T19:40:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
-    "venue_id": "ven_9640f965-eabc-4983-b03a-7b44efc85841",
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
     "venue_location_id": "main",
     "datetime": "2025-11-28T12:00:00+00:00",
     "price": "11,000원",
@@ -4125,12 +4125,12 @@
     }
   },
   {
-    "id": "evt_20251128_d28e13a6-fb1c-41dd-874e-8d02fb3fb142",
+    "id": "evt_20251128_699abd25-4c9b-41a3-b259-f3848c9f625a",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-28T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-28T13:30:00+00:00",
     "price": null,
@@ -4150,12 +4150,12 @@
     }
   },
   {
-    "id": "evt_20251128_9f8cbd34-4c82-47d1-b2fb-3f206e92053e",
+    "id": "evt_20251128_bdcd3bcf-ff70-41a1-8fd0-43450842dd98",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-28T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-28T14:00:00+00:00",
     "price": null,
@@ -4175,12 +4175,12 @@
     }
   },
   {
-    "id": "evt_20251129_57aff5ab-cf81-4fdc-8ec1-09e07945c68d",
+    "id": "evt_20251129_bcf7846d-ce3c-4915-9d59-4ca9a3185ee3",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-29T16:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-29T07:00:00+00:00",
     "price": null,
@@ -4200,12 +4200,12 @@
     }
   },
   {
-    "id": "evt_20251129_a2a36000-1783-4154-80aa-efed81ec8ff6",
+    "id": "evt_20251129_e7b9220e-5e98-4153-b0a4-36ee068a88ca",
     "event_key": "src:https://www.instagram.com/p/DQA4kdwidu5/|dt:2025-11-29T19:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQA4kdwidu5/",
     "venue_handle": "banjul_stage",
     "musician_ids": [],
-    "venue_id": "ven_0901771c-9510-4c90-aecb-74163fd01705",
+    "venue_id": "ven_acaa6719-765d-4530-a30a-d5e6b268f8b1",
     "venue_location_id": "main",
     "datetime": "2025-11-29T10:30:00+00:00",
     "price": "30,000원",
@@ -4225,12 +4225,12 @@
     }
   },
   {
-    "id": "evt_20251129_ad21529c-f075-4e21-852e-ad5e2e5fd83a",
+    "id": "evt_20251129_14262186-c537-43c4-88d6-dd2623ffe2b2",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-29T19:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-29T10:30:00+00:00",
     "price": null,
@@ -4250,12 +4250,12 @@
     }
   },
   {
-    "id": "evt_20251129_75e0a051-2e25-43b8-965b-a27ba820a37f",
+    "id": "evt_20251129_81a5a6d5-abaf-453c-9a77-5b287b0c892d",
     "event_key": "src:https://www.instagram.com/p/DQWCKTPD92M/|dt:2025-11-29T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQWCKTPD92M/",
     "venue_handle": "laidback2019",
     "musician_ids": [],
-    "venue_id": "ven_e66e41b3-874f-42f7-8741-35343eaacda2",
+    "venue_id": "ven_01bd0cf2-58de-4958-8fa1-587c32402f42",
     "venue_location_id": "main",
     "datetime": "2025-11-29T11:00:00+00:00",
     "price": "10,000원",
@@ -4275,12 +4275,12 @@
     }
   },
   {
-    "id": "evt_20251129_ab82ac55-290f-4fc5-8d07-91f6c8e6d5ec",
+    "id": "evt_20251129_97143796-c943-465e-be0e-ae05c518c2ef",
     "event_key": "src:https://www.instagram.com/p/DQRBj8RkgZc/|dt:2025-11-29T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRBj8RkgZc/",
     "venue_handle": "seobs_bar",
     "musician_ids": [],
-    "venue_id": "ven_e17e31bc-9bac-429b-8b2f-199ba0284eef",
+    "venue_id": "ven_9347e75e-6aef-4f8f-b3fe-835f5d68032f",
     "venue_location_id": "main",
     "datetime": "2025-11-29T11:00:00+00:00",
     "price": null,
@@ -4300,12 +4300,12 @@
     }
   },
   {
-    "id": "evt_20251129_fa5f114d-5090-4522-89b4-0d779839ae31",
+    "id": "evt_20251129_f25d2eee-07fd-4b28-ada1-9c7308357759",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-29T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-29T11:00:00+00:00",
     "price": "20,000원",
@@ -4325,12 +4325,12 @@
     }
   },
   {
-    "id": "evt_20251129_93ffedac-b105-4f99-bca1-ab1959bb1786",
+    "id": "evt_20251129_27737be7-c9e2-4413-9c8a-b9c81a3b19a4",
     "event_key": "src:https://www.instagram.com/p/DQeC03NDwKp/|dt:2025-11-29T20:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQeC03NDwKp/",
     "venue_handle": "blueming_jazz",
     "musician_ids": [],
-    "venue_id": "ven_03c97121-8be8-4d8f-8666-bc6ff15349ee",
+    "venue_id": "ven_5bfd6468-bcfa-4b44-b5c5-bb012c6b6493",
     "venue_location_id": "main",
     "datetime": "2025-11-29T11:30:00+00:00",
     "price": null,
@@ -4350,12 +4350,12 @@
     }
   },
   {
-    "id": "evt_20251129_3c7ae545-d881-4178-a4b4-7396eb2300d4",
+    "id": "evt_20251129_21b256ec-16dd-4ec3-a115-c76ba882520f",
     "event_key": "src:https://www.instagram.com/p/DQUDmUqAXBM/|dt:2025-11-29T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQUDmUqAXBM/",
     "venue_handle": "bar_tican",
     "musician_ids": [],
-    "venue_id": "ven_391cd6db-241a-48fd-b9fa-5caca6a2a4fa",
+    "venue_id": "ven_137f2071-8ab1-4253-b2f1-5281fd7a2e91",
     "venue_location_id": "main",
     "datetime": "2025-11-29T12:00:00+00:00",
     "price": "10,000원",
@@ -4375,12 +4375,12 @@
     }
   },
   {
-    "id": "evt_20251129_cbc908fc-a54d-4143-9919-d10a923091ca",
+    "id": "evt_20251129_705aa836-30a3-447f-86c4-4d04b6736426",
     "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-29T19:40:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
-    "venue_id": "ven_9640f965-eabc-4983-b03a-7b44efc85841",
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
     "venue_location_id": "main",
     "datetime": "2025-11-29T12:00:00+00:00",
     "price": "11,000원",
@@ -4400,12 +4400,12 @@
     }
   },
   {
-    "id": "evt_20251129_294dfe18-56fa-4d3a-ba18-62655e6e9812",
+    "id": "evt_20251129_840627e4-c840-44e7-a180-9fb60348a067",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-29T22:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-29T13:30:00+00:00",
     "price": null,
@@ -4425,12 +4425,12 @@
     }
   },
   {
-    "id": "evt_20251129_95943e06-cfd9-40c7-8d27-60d879b647bb",
+    "id": "evt_20251129_092cf34a-2423-4d78-9b6e-9bde217c73b0",
     "event_key": "src:https://www.instagram.com/p/DQa-y73gXaM/|dt:2025-11-29T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQa-y73gXaM/",
     "venue_handle": "seoul_garage_bar",
     "musician_ids": [],
-    "venue_id": "ven_61a22d33-ae6c-4100-9276-dbfdc2c0e75b",
+    "venue_id": "ven_e5146bef-0c02-4f62-82f0-8b4167d47eb9",
     "venue_location_id": "main",
     "datetime": "2025-11-29T14:00:00+00:00",
     "price": null,
@@ -4450,12 +4450,12 @@
     }
   },
   {
-    "id": "evt_20251130_40291cbb-102f-4db6-bd68-a385dc931997",
+    "id": "evt_20251130_79cd2ac2-73b6-4745-9e60-c2c90d30246f",
     "event_key": "src:https://www.instagram.com/p/DQA5DytCf4C/|dt:2025-11-30T15:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQA5DytCf4C/",
     "venue_handle": "banjul_stage",
     "musician_ids": [],
-    "venue_id": "ven_0901771c-9510-4c90-aecb-74163fd01705",
+    "venue_id": "ven_acaa6719-765d-4530-a30a-d5e6b268f8b1",
     "venue_location_id": "main",
     "datetime": "2025-11-30T06:00:00+00:00",
     "price": "참가비 100,000원 / 청강 30,000원",
@@ -4475,12 +4475,12 @@
     }
   },
   {
-    "id": "evt_20251130_f1da9985-572e-4cad-9db0-1871b77bccf2",
+    "id": "evt_20251130_80c86077-ffae-420f-b18a-3462715b73c5",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-30T16:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-30T07:00:00+00:00",
     "price": null,
@@ -4500,12 +4500,12 @@
     }
   },
   {
-    "id": "evt_20251130_e29fe7c6-9e93-4f40-afa0-9d21bd7631ce",
+    "id": "evt_20251130_3345e501-29db-4b09-b103-80c9a10c0fc2",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-11-30T19:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-11-30T10:00:00+00:00",
     "price": "20,000원",
@@ -4525,12 +4525,12 @@
     }
   },
   {
-    "id": "evt_20251130_40482117-ef20-4c9f-b166-fdeca53d3895",
+    "id": "evt_20251130_362e65cd-c3b9-4c09-9658-618066e0b343",
     "event_key": "src:https://www.instagram.com/p/DQRIsiokhKp/|dt:2025-11-30T19:30:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRIsiokhKp/",
     "venue_handle": "flatnine_jazzbar",
     "musician_ids": [],
-    "venue_id": "ven_859ae55e-78ca-45f4-bb07-b7b19c51ab62",
+    "venue_id": "ven_75faa580-e8fb-4fb1-bc29-7a8c4bfa25ff",
     "venue_location_id": "main",
     "datetime": "2025-11-30T10:30:00+00:00",
     "price": null,
@@ -4550,12 +4550,12 @@
     }
   },
   {
-    "id": "evt_20251130_41bf6223-4367-4285-b7ca-57ef06828b23",
+    "id": "evt_20251130_5175e065-4df5-45dd-97ce-dcb542dcef74",
     "event_key": "src:https://www.instagram.com/p/DQRau4okgEH/|dt:2025-11-30T19:40:00+09:00",
     "source_url": "https://www.instagram.com/p/DQRau4okgEH/",
     "venue_handle": "rustic_jazz",
     "musician_ids": [],
-    "venue_id": "ven_9640f965-eabc-4983-b03a-7b44efc85841",
+    "venue_id": "ven_43af031a-673d-4933-b1cc-63020264354b",
     "venue_location_id": "main",
     "datetime": "2025-11-30T12:00:00+00:00",
     "price": "11,000원",
@@ -4575,12 +4575,12 @@
     }
   },
   {
-    "id": "evt_20251201_43289f99-738b-450d-92b3-4b4bf7fe3e9c",
+    "id": "evt_20251201_797d9eea-8627-4b5b-9139-55fafdd6e909",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-01T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-01T11:00:00+00:00",
     "price": "20,000원",
@@ -4600,12 +4600,12 @@
     }
   },
   {
-    "id": "evt_20251202_1b5c41bb-3e5c-490f-b87d-08691b95c658",
+    "id": "evt_20251202_60a753c1-5a7c-4bc6-8e54-de3b3b69afb4",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-02T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-02T11:00:00+00:00",
     "price": "20,000원",
@@ -4625,12 +4625,12 @@
     }
   },
   {
-    "id": "evt_20251203_44195e84-0549-4a05-855c-9977fb7bcfd9",
+    "id": "evt_20251203_9ce71dec-79c3-4d27-a309-539c70e058f1",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-03T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-03T11:00:00+00:00",
     "price": "20,000원",
@@ -4650,12 +4650,12 @@
     }
   },
   {
-    "id": "evt_20251204_89ce9fca-2a98-40aa-8333-9de5b30cfb72",
+    "id": "evt_20251204_2cc9fa39-1d12-439e-bafd-35898ca8e694",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-04T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-04T11:00:00+00:00",
     "price": "20,000원",
@@ -4675,12 +4675,12 @@
     }
   },
   {
-    "id": "evt_20251205_3afb12be-02a3-4a69-97bf-cbf95adba5a7",
+    "id": "evt_20251205_a331afe4-8e20-4631-a58b-bc0bfd6639ae",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-05T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-05T11:00:00+00:00",
     "price": "20,000원",
@@ -4700,12 +4700,12 @@
     }
   },
   {
-    "id": "evt_20251206_75451baf-fd8a-40fb-825d-f9f45560f5ee",
+    "id": "evt_20251206_4603306a-a544-4ded-a1a0-1448290606dc",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-06T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-06T11:00:00+00:00",
     "price": "20,000원",
@@ -4725,12 +4725,12 @@
     }
   },
   {
-    "id": "evt_20251207_9ae30501-8604-456f-9040-5f6510032c63",
+    "id": "evt_20251207_fd57e6ed-ca64-48d1-9a74-045efa280309",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-07T19:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-07T10:00:00+00:00",
     "price": "20,000원",
@@ -4750,12 +4750,12 @@
     }
   },
   {
-    "id": "evt_20251208_934fdfa9-27d0-4809-a04c-51c56ef69604",
+    "id": "evt_20251208_308f4e9b-66bc-49a1-bc6a-b348c4bc87f8",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-08T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-08T11:00:00+00:00",
     "price": "20,000원",
@@ -4775,12 +4775,12 @@
     }
   },
   {
-    "id": "evt_20251209_cd6279da-dda8-486a-8cae-5df82a463631",
+    "id": "evt_20251209_278a83c3-16e6-4ec3-8d58-e529358ea674",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-09T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-09T11:00:00+00:00",
     "price": "20,000원",
@@ -4800,12 +4800,12 @@
     }
   },
   {
-    "id": "evt_20251210_b6e34556-491b-4f3d-b64e-ad0870cbd136",
+    "id": "evt_20251210_042adb1f-2c45-46f4-955a-ba4116db1f2e",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-10T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-10T11:00:00+00:00",
     "price": "20,000원",
@@ -4825,12 +4825,12 @@
     }
   },
   {
-    "id": "evt_20251211_3bdeef0f-45a7-4bea-8dc8-a6be9425749d",
+    "id": "evt_20251211_b41a3c84-4e76-4a9d-b2f1-8e822ec6ffda",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-11T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-11T11:00:00+00:00",
     "price": "20,000원",
@@ -4850,12 +4850,12 @@
     }
   },
   {
-    "id": "evt_20251212_80d22bd5-624c-4646-931c-785baf6ca94c",
+    "id": "evt_20251212_8e1dd76e-8829-473e-91d3-e0e633d0524a",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-12T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-12T11:00:00+00:00",
     "price": "20,000원",
@@ -4875,12 +4875,12 @@
     }
   },
   {
-    "id": "evt_20251213_4ab6ee62-7a07-45d5-be27-39c5c804f100",
+    "id": "evt_20251213_8fa45dab-ebd3-4bba-b3e5-5a85215f3c61",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-13T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-13T11:00:00+00:00",
     "price": "20,000원",
@@ -4900,12 +4900,12 @@
     }
   },
   {
-    "id": "evt_20251214_ba8d3d87-40f2-4a74-b7c8-1c0c1459a9b8",
+    "id": "evt_20251214_b3a5a5b0-f069-4b07-9b9a-5e50f6dde0fe",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-14T19:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-14T10:00:00+00:00",
     "price": "20,000원",
@@ -4925,12 +4925,12 @@
     }
   },
   {
-    "id": "evt_20251215_9514b412-5350-4a38-a63a-bdb1ae65b417",
+    "id": "evt_20251215_d7e377c5-7dad-4eda-9429-8a70c7e6ffd2",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-15T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-15T11:00:00+00:00",
     "price": "20,000원",
@@ -4950,12 +4950,12 @@
     }
   },
   {
-    "id": "evt_20251216_9f5f48eb-a2f0-4cdc-8fd4-6c2c731c48b9",
+    "id": "evt_20251216_e5ea5a2a-87cc-4415-b15e-56f351e49338",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-16T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-16T11:00:00+00:00",
     "price": "20,000원",
@@ -4975,12 +4975,12 @@
     }
   },
   {
-    "id": "evt_20251217_f7ec94cf-6e38-4b72-a045-926c0a81815d",
+    "id": "evt_20251217_f003b6b1-8206-4430-90c9-164daeea431d",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-17T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-17T11:00:00+00:00",
     "price": "20,000원",
@@ -5000,12 +5000,12 @@
     }
   },
   {
-    "id": "evt_20251218_fac59307-8e54-4619-8773-e5b270ebc92a",
+    "id": "evt_20251218_cfb8ddab-9059-400e-827d-2f2184eb2b64",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-18T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-18T11:00:00+00:00",
     "price": "20,000원",
@@ -5025,12 +5025,12 @@
     }
   },
   {
-    "id": "evt_20251219_738b178b-e329-4362-89ec-17b719fc5790",
+    "id": "evt_20251219_de4f91ef-713f-47d3-8062-95c15f7f2cae",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-19T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-19T11:00:00+00:00",
     "price": "20,000원",
@@ -5050,12 +5050,12 @@
     }
   },
   {
-    "id": "evt_20251220_bf32abf0-2f08-48d1-ba4e-5bf59ea27a0c",
+    "id": "evt_20251220_4ccb3ff7-4198-4675-8555-3e7ababbfaa4",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-20T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-20T11:00:00+00:00",
     "price": "20,000원",
@@ -5075,12 +5075,12 @@
     }
   },
   {
-    "id": "evt_20251221_8d45973d-371b-4354-91aa-d59d61c40671",
+    "id": "evt_20251221_49f6e947-c82e-426f-a5ff-6bed89f7dfb9",
     "event_key": "src:https://www.instagram.com/p/DP982KMEuFq/|dt:2025-12-21T19:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DP982KMEuFq/",
     "venue_handle": "sounddog_jazz",
     "musician_ids": [],
-    "venue_id": "ven_8288e045-1df9-4edf-a279-6382d97a2e9e",
+    "venue_id": "ven_bc618dea-f790-42b6-b2fa-9b2d6f207fa2",
     "venue_location_id": "main",
     "datetime": "2025-12-21T10:00:00+00:00",
     "price": "20,000원",
@@ -5100,12 +5100,12 @@
     }
   },
   {
-    "id": "evt_20251222_0f95e23b-847f-41b3-9f94-397ef5088e45",
+    "id": "evt_20251222_6320abc5-6c4f-4692-9915-3a84c2e53901",
     "event_key": "src:https://www.instagram.com/p/DQF-3t2kngf/|dt:2025-12-22T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQF-3t2kngf/",
     "venue_handle": "seobs_bar",
     "musician_ids": [],
-    "venue_id": "ven_e17e31bc-9bac-429b-8b2f-199ba0284eef",
+    "venue_id": "ven_9347e75e-6aef-4f8f-b3fe-835f5d68032f",
     "venue_location_id": "main",
     "datetime": "2025-12-22T12:00:00+00:00",
     "price": "24,000원",
@@ -5125,12 +5125,12 @@
     }
   },
   {
-    "id": "evt_20251223_4f2f6240-f64d-48db-9e22-a474b4de9d0e",
+    "id": "evt_20251223_f839244d-4c48-4799-b30b-4db45816dc37",
     "event_key": "src:https://www.instagram.com/p/DQF-3t2kngf/|dt:2025-12-23T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQF-3t2kngf/",
     "venue_handle": "seobs_bar",
     "musician_ids": [],
-    "venue_id": "ven_e17e31bc-9bac-429b-8b2f-199ba0284eef",
+    "venue_id": "ven_9347e75e-6aef-4f8f-b3fe-835f5d68032f",
     "venue_location_id": "main",
     "datetime": "2025-12-23T12:00:00+00:00",
     "price": "24,000원",
@@ -5150,12 +5150,12 @@
     }
   },
   {
-    "id": "evt_20251224_f231e8ba-4fd7-4b00-8f83-27d1c360d91e",
+    "id": "evt_20251224_438c712d-521a-4b7a-b645-51693fb74af2",
     "event_key": "src:https://www.instagram.com/p/DQF-3t2kngf/|dt:2025-12-24T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQF-3t2kngf/",
     "venue_handle": "seobs_bar",
     "musician_ids": [],
-    "venue_id": "ven_e17e31bc-9bac-429b-8b2f-199ba0284eef",
+    "venue_id": "ven_9347e75e-6aef-4f8f-b3fe-835f5d68032f",
     "venue_location_id": "main",
     "datetime": "2025-12-24T12:00:00+00:00",
     "price": "24,000원",
@@ -5175,12 +5175,12 @@
     }
   },
   {
-    "id": "evt_20251225_04d58e49-f7ad-439e-ba06-697e986d62e5",
+    "id": "evt_20251225_f132a283-67bc-43d4-9211-8ef7c47fa60a",
     "event_key": "src:https://www.instagram.com/p/DQF-3t2kngf/|dt:2025-12-25T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQF-3t2kngf/",
     "venue_handle": "seobs_bar",
     "musician_ids": [],
-    "venue_id": "ven_e17e31bc-9bac-429b-8b2f-199ba0284eef",
+    "venue_id": "ven_9347e75e-6aef-4f8f-b3fe-835f5d68032f",
     "venue_location_id": "main",
     "datetime": "2025-12-25T12:00:00+00:00",
     "price": "24,000원",
