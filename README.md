@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-02T02:30:22Z
-- **Source Commit**: [`ac7ee15a75d43030300d432c153323b8ed56623a`](https://github.com/keunwoochoi/seoulunderground.live/commit/ac7ee15a75d43030300d432c153323b8ed56623a)
-- **Branch**: `fix-missing-events`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19006089504)
+- **Build Time**: 2025-11-02T04:36:37Z
+- **Source Commit**: [`f4f048edc20899055132d47aa3b20ec3b7a7dac0`](https://github.com/keunwoochoi/seoulunderground.live/commit/f4f048edc20899055132d47aa3b20ec3b7a7dac0)
+- **Branch**: `auto-ig-marketing`
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19007389122)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: fix import export error
+- **Message**: half-done, but adding analytics.
 
 ## Deployment URLs
 
