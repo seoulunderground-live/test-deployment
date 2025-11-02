@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-02T04:36:37Z
-- **Source Commit**: [`f4f048edc20899055132d47aa3b20ec3b7a7dac0`](https://github.com/keunwoochoi/seoulunderground.live/commit/f4f048edc20899055132d47aa3b20ec3b7a7dac0)
-- **Branch**: `auto-ig-marketing`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19007389122)
+- **Build Time**: 2025-11-02T18:11:42Z
+- **Source Commit**: [`f92da3e19c781e9e86ef6bac91e33380783caa7c`](https://github.com/keunwoochoi/seoulunderground.live/commit/f92da3e19c781e9e86ef6bac91e33380783caa7c)
+- **Branch**: `k/fix-auto-deployment`
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19016184083)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: half-done, but adding analytics.
+- **Message**: fixing deployment issue
 
 ## Deployment URLs
 
