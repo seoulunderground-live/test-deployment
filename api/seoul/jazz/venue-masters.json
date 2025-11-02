@@ -87,7 +87,7 @@
       "food_policy": null,
       "age_limit": null
     },
-    "naver_subway_nearby": "2을지로입구역 1-1번 출구에서 137m\n미터"
+    "naver_subway_nearby": "2호선 을지로입구역 1-1번 출구에서 137m"
   },
   {
     "ig_handle": "allthatjazz_itaewon",
@@ -233,7 +233,7 @@
       "food_policy": null,
       "age_limit": null
     },
-    "naver_subway_nearby": "6이태원역 3번 출구에서 334m\n미터"
+    "naver_subway_nearby": "6호선 이태원역 3번 출구에서 334m"
   },
   {
     "ig_handle": "asome_ground",
@@ -1286,7 +1286,7 @@
       "food_policy": null,
       "age_limit": null
     },
-    "naver_subway_nearby": "34충무로역 6번 출구에서 210m\n미터"
+    "naver_subway_nearby": "3, 4호선 충무로역 6번 출구에서 210m"
   },
   {
     "ig_handle": "cafe_gig",
@@ -2558,7 +2558,7 @@
       "food_policy": null,
       "age_limit": null
     },
-    "naver_subway_nearby": "23을지로3가역 9번 출구에서 302m\n미터"
+    "naver_subway_nearby": "2, 3호선 을지로3가역 9번 출구에서 302m"
   },
   {
     "ig_handle": "flatnine_jazzbar",
@@ -2787,7 +2787,7 @@
       "food_policy": null,
       "age_limit": null
     },
-    "naver_subway_nearby": "2뚝섬역 8번 출구에서 259m\n미터"
+    "naver_subway_nearby": "2호선 뚝섬역 8번 출구에서 259m"
   },
   {
     "ig_handle": "houseofblue.seoul",
@@ -3276,7 +3276,7 @@
         "ko": "미성년자 단독 입장 불가"
       }
     },
-    "naver_subway_nearby": "6상수역 1번 출구에서 281m\n미터"
+    "naver_subway_nearby": "6호선 상수역 1번 출구에서 281m"
   },
   {
     "ig_handle": "jazzclub_janus",
@@ -3631,7 +3631,7 @@
       "food_policy": null,
       "age_limit": null
     },
-    "naver_subway_nearby": "6녹사평역 1번 출구에서 477m\n미터"
+    "naver_subway_nearby": "6호선 녹사평역 1번 출구에서 477m"
   },
   {
     "ig_handle": "jazzlounge_official",
