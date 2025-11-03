@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-03T05:35:23Z
-- **Source Commit**: [`9d4e3bb05ef9adcbf98a45d2b1f12eaf1ba86321`](https://github.com/keunwoochoi/seoulunderground.live/commit/9d4e3bb05ef9adcbf98a45d2b1f12eaf1ba86321)
-- **Branch**: `cookie`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19024981517)
+- **Build Time**: 2025-11-03T10:02:35Z
+- **Source Commit**: [`221709cd134456b6de6d2362ac112968b96021ed`](https://github.com/keunwoochoi/seoulunderground.live/commit/221709cd134456b6de6d2362ac112968b96021ed)
+- **Branch**: `fix-automation`
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19030729806)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: add omitted file
+- **Message**: add missing file
 
 ## Deployment URLs
 
