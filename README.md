@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-03T10:05:53Z
-- **Source Commit**: [`27a3d3c5a5ee2ec484a65e5c1927511ae5a509f6`](https://github.com/keunwoochoi/seoulunderground.live/commit/27a3d3c5a5ee2ec484a65e5c1927511ae5a509f6)
-- **Branch**: `fix-automation`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19030816906)
+- **Build Time**: 2025-11-03T10:10:57Z
+- **Source Commit**: [`df69a56bbf65a4fb68f259a4a2664fce2c966d38`](https://github.com/keunwoochoi/seoulunderground.live/commit/df69a56bbf65a4fb68f259a4a2664fce2c966d38)
+- **Branch**: `k/fixfixquick`
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19030953152)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: reflect gemini comment
+- **Message**: separate out
 
 ## Deployment URLs
 
