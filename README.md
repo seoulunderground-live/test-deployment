@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-03T22:34:51Z
-- **Source Commit**: [`2d5a8ba689bd9fdb2eccd13c46379b6e19fbd99c`](https://github.com/keunwoochoi/seoulunderground.live/commit/2d5a8ba689bd9fdb2eccd13c46379b6e19fbd99c)
-- **Branch**: `k/fixfixquick`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19051456875)
+- **Build Time**: 2025-11-05T23:37:57Z
+- **Source Commit**: [`3ccf092aabd0cde531ae48c2328ddae9503a279c`](https://github.com/keunwoochoi/seoulunderground.live/commit/3ccf092aabd0cde531ae48c2328ddae9503a279c)
+- **Branch**: `screenshot-mode`
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19119744694)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: ..
+- **Message**: fix fix fix screenmshot
 
 ## Deployment URLs
 
