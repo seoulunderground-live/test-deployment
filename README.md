@@ -5,10 +5,10 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-06T05:39:36Z
-- **Source Commit**: [`a14ed51b6167cc7b9ec18bcff6ac911ba80cb3d0`](https://github.com/keunwoochoi/seoulunderground.live/commit/a14ed51b6167cc7b9ec18bcff6ac911ba80cb3d0)
+- **Build Time**: 2025-11-06T05:42:02Z
+- **Source Commit**: [`9a56ac4ba315afb3e52f597436a6884816b67b48`](https://github.com/keunwoochoi/seoulunderground.live/commit/9a56ac4ba315afb3e52f597436a6884816b67b48)
 - **Branch**: `add-ig-handle`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19126023327)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19126043113)
 
 ## Commit Details
 
