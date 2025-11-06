@@ -130,6 +130,32 @@
     }
   },
   {
+    "id": "evt_20251107_f1b6ed93-9eed-4709-8097-8e9e31dec26e",
+    "event_key": "src:https://www.instagram.com/p/DQlmmuykcKA/|dt:2025-11-07T19:40:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQlmmuykcKA/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7b17a3c2-cdc9-4cec-a052-b6b32642083d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-07T10:40:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "JAZZ LIBRE",
+    "description": "Performance by JAZZ LIBRE @jazzlibre_official.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "JAZZ LIBRE",
+      "description": "Performance by JAZZ LIBRE @jazzlibre_official."
+    },
+    "_search_ko": {
+      "title": "JAZZ LIBRE",
+      "description": "JAZZ LIBRE @jazzlibre_official 공연."
+    }
+  },
+  {
     "id": "evt_20251107_bb37a10f-c0df-4e35-912f-efe3155cbb1e",
     "event_key": "src:https://www.instagram.com/p/DQOOz-TD-bO/|dt:2025-11-07T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQOOz-TD-bO/",
@@ -272,17 +298,17 @@
     "price": null,
     "llm_confidence": 1.0,
     "title": "Park Changhun Trio",
-    "description": "Park Changhun Trio performs with saxophone, bass, and drums. An entrance fee applies.",
+    "description": "Park Changhun Trio: Park Changhun (saxophone) @changhunpark, bass, drums.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Park Changhun Trio",
-      "description": "Park Changhun Trio performs with saxophone, bass, and drums. An entrance fee applies."
+      "description": "Park Changhun Trio: Park Changhun (saxophone) @changhunpark, bass, drums."
     },
     "_search_ko": {
       "title": "박창훈 트리오",
-      "description": "박창훈 트리오 공연. 색소폰, 베이스, 드럼 구성. 입장료 별도."
+      "description": "박창훈 트리오: 박창훈 (색소폰) @changhunpark, 베이스, 드럼."
     }
   },
   {
@@ -584,17 +610,17 @@
     "price": "KRW 9,000",
     "llm_confidence": 1.0,
     "title": "Kim Daekyeong Trio + Mardi",
-    "description": "Live performance by Kim Daekyeong Trio and Mardi. Kim Daekyeong (piano), Yang Hyonsu (drums), Kim Sijun (bass), Son Youngseo (vocal).",
+    "description": "Live performance by Kim Daekyeong Trio and Mardi. Kim Daekyeong (piano) @daekyeong__, Yang Hyun-su (drums) @altruisticdrum, Kim Si-jun (bass) @jun_nmnl, Son Young-seo (vocal) @un_mardi.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kim Daekyeong Trio + Mardi",
-      "description": "Live performance by Kim Daekyeong Trio and Mardi. Kim Daekyeong (piano), Yang Hyonsu (drums), Kim Sijun (bass), Son Youngseo (vocal)."
+      "description": "Live performance by Kim Daekyeong Trio and Mardi. Kim Daekyeong (piano) @daekyeong__, Yang Hyun-su (drums) @altruisticdrum, Kim Si-jun (bass) @jun_nmnl, Son Young-seo (vocal) @un_mardi."
     },
     "_search_ko": {
-      "title": "김대경 트리오 + 마르디",
-      "description": "김대경 트리오와 마르디의 라이브 공연. 김대경 (피아노), 양현수 (드럼), 김시준 (베이스), 손영서 (보컬)."
+      "title": "김대경 트리오 + Mardi",
+      "description": "김대경 트리오와 Mardi의 라이브 공연. 김대경 (피아노) @daekyeong__, 양현수 (드럼) @altruisticdrum, 김시준 (베이스) @jun_nmnl, 손영서 (보컬) @un_mardi."
     }
   },
   {
@@ -609,18 +635,18 @@
     "datetime": "2025-11-07T11:30:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
-    "title": "V.PARK MOONLIT SWING",
-    "description": "V.PARK MOONLIT SWING: V.PARK (trumpet), Byun Jae-kyung (piano), Choi Yoon-seo (vocal, bass).",
+    "title": "V. Park Moonlit Swing",
+    "description": "Live jazz performance by V. Park Moonlit Swing. Roster: V. Park (trumpet), Byun Jae-kyung (piano), Choi Yoon-seo (vocal & bass). Price: KRW 10,000.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "V.PARK MOONLIT SWING",
-      "description": "V.PARK MOONLIT SWING: V.PARK (trumpet), Byun Jae-kyung (piano), Choi Yoon-seo (vocal, bass)."
+      "title": "V. Park Moonlit Swing",
+      "description": "Live jazz performance by V. Park Moonlit Swing. Roster: V. Park (trumpet), Byun Jae-kyung (piano), Choi Yoon-seo (vocal & bass). Price: KRW 10,000."
     },
     "_search_ko": {
-      "title": "V.PARK MOONLIT SWING",
-      "description": "V.PARK MOONLIT SWING: V.PARK (트럼펫), 변재경 (피아노), 최윤서 (보컬, 베이스)."
+      "title": "V. Park 문릿 스윙",
+      "description": "V. Park 문릿 스윙의 라이브 재즈 공연. 라인업: V. Park (트럼펫), 변재경 (피아노), 최윤서 (보컬 & 베이스). 가격: 10,000원."
     }
   },
   {
@@ -1222,6 +1248,32 @@
     }
   },
   {
+    "id": "evt_20251108_d5b6b3ad-0c6e-4323-adc5-6bf017626eec",
+    "event_key": "src:https://www.instagram.com/p/DQlmmuykcKA/|dt:2025-11-08T19:40:00+09:00",
+    "source_url": "https://www.instagram.com/p/DQlmmuykcKA/",
+    "venue_handle": "rustic_jazz",
+    "musician_ids": [],
+    "musician_ig_handles": [],
+    "venue_id": "ven_7b17a3c2-cdc9-4cec-a052-b6b32642083d",
+    "venue_location_id": "main",
+    "datetime": "2025-11-08T10:40:00+00:00",
+    "price": null,
+    "llm_confidence": 1.0,
+    "title": "Nado Yoon Quartet",
+    "description": "Performance by Nado Yoon Quartet @_dona_donut.",
+    "ticket_link": null,
+    "show_time": null,
+    "age_limit": null,
+    "_search_en": {
+      "title": "Nado Yoon Quartet",
+      "description": "Performance by Nado Yoon Quartet @_dona_donut."
+    },
+    "_search_ko": {
+      "title": "나도윤 퀄텟",
+      "description": "나도윤 퀄텟 @_dona_donut 공연."
+    }
+  },
+  {
     "id": "evt_20251108_63396f9b-7a7b-49a1-97b2-90125f2410e4",
     "event_key": "src:https://www.instagram.com/p/DQOOz-TD-bO/|dt:2025-11-08T20:00:00+09:00",
     "source_url": "https://www.instagram.com/p/DQOOz-TD-bO/",
@@ -1312,17 +1364,17 @@
     "price": null,
     "llm_confidence": 1.0,
     "title": "Kim Han Trio",
-    "description": "Kim Han Trio performs with vocal, piano, and percussion. An entrance fee applies.",
+    "description": "Kim Han Trio: Kim Han (vocal) @hanxazz, piano, percussion.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kim Han Trio",
-      "description": "Kim Han Trio performs with vocal, piano, and percussion. An entrance fee applies."
+      "description": "Kim Han Trio: Kim Han (vocal) @hanxazz, piano, percussion."
     },
     "_search_ko": {
       "title": "김한 트리오",
-      "description": "김한 트리오 공연. 보컬, 피아노, 퍼커션 구성. 입장료 별도."
+      "description": "김한 트리오: 김한 (보컬) @hanxazz, 피아노, 퍼커션."
     }
   },
   {
@@ -1588,7 +1640,7 @@
   {
     "id": "evt_20251108_84941a1f-b84b-4510-b8ca-b8ee4b828c3b",
     "event_key": "src:https://www.instagram.com/p/DQje7RSDwNq/|dt:2025-11-08T20:30:00+09:00",
-    "source_url": "https://www.instagram.com/p/DQje7RSDwNq/",
+    "source_url": "https://www.instagram.com/p/DQrDunpD6Dl/",
     "venue_handle": "blueming_jazz",
     "musician_ids": [],
     "musician_ig_handles": [],
@@ -1598,17 +1650,17 @@
     "price": "KRW 9,000",
     "llm_confidence": 1.0,
     "title": "Rokeys Quintet",
-    "description": "Rokeys Quintet performance, featuring bass, piano, vocal, drums, and guitar. Price KRW 9,000.",
+    "description": "Rokeys Quintet live performance. Kim So-yeon (bass) @soyeon.wav, Lee Ha-eun (piano) @haning__i, Kang Ye-young (vocal) @yeah_0_01, Choi In-woo (drums) @inoo_97, Park Chan-woo (guitar) @chanwoo_996. Admission KRW 9,000.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Rokeys Quintet",
-      "description": "Rokeys Quintet performance, featuring bass, piano, vocal, drums, and guitar. Price KRW 9,000."
+      "description": "Rokeys Quintet live performance. Kim So-yeon (bass) @soyeon.wav, Lee Ha-eun (piano) @haning__i, Kang Ye-young (vocal) @yeah_0_01, Choi In-woo (drums) @inoo_97, Park Chan-woo (guitar) @chanwoo_996. Admission KRW 9,000."
     },
     "_search_ko": {
-      "title": "로키즈 퀸텟",
-      "description": "로키즈 퀸텟 공연. 베이스, 피아노, 보컬, 드럼, 기타. 공연비 9,000원."
+      "title": "Rokeys 퀸텟",
+      "description": "Rokeys 퀸텟 라이브 무대. 김소연 (베이스) @soyeon.wav, 이하은 (피아노) @haning__i, 강예영 (보컬) @yeah_0_01, 최인우 (드럼) @inoo_97, 박찬우 (기타) @chanwoo_996. 공연비 9,000원."
     }
   },
   {
@@ -1650,17 +1702,17 @@
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
     "title": "Yoo Ji-ho Jazz Quartet",
-    "description": "Yoo Ji-ho Jazz Quartet: Yoo Ji-ho (guitar), Go Yo-han (piano), Lim Chi-yeol (bass), Song Jin-hwan (drums).",
+    "description": "Live jazz performance by Yoo Ji-ho Jazz Quartet. Roster: Yoo Ji-ho (guitar), Go Yo-han (piano), Lim Chi-yeol (bass), Song Jin-hwan (drums). Price: KRW 10,000.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Yoo Ji-ho Jazz Quartet",
-      "description": "Yoo Ji-ho Jazz Quartet: Yoo Ji-ho (guitar), Go Yo-han (piano), Lim Chi-yeol (bass), Song Jin-hwan (drums)."
+      "description": "Live jazz performance by Yoo Ji-ho Jazz Quartet. Roster: Yoo Ji-ho (guitar), Go Yo-han (piano), Lim Chi-yeol (bass), Song Jin-hwan (drums). Price: KRW 10,000."
     },
     "_search_ko": {
       "title": "유지호 재즈 퀄텟",
-      "description": "유지호 재즈 퀄텟: 유지호 (기타), 고요한 (피아노), 임치열 (베이스), 송진환 (드럼)."
+      "description": "유지호 재즈 퀄텟의 라이브 재즈 공연. 라인업: 유지호 (기타), 고요한 (피아노), 임치열 (베이스), 송진환 (드럼). 가격: 10,000원."
     }
   },
   {
@@ -2196,17 +2248,17 @@
     "price": null,
     "llm_confidence": 1.0,
     "title": "Leo Kim Group",
-    "description": "A live performance by Leo Kim Group.",
+    "description": "Performance by Leo Kim Group @kimleohyun.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Leo Kim Group",
-      "description": "A live performance by Leo Kim Group."
+      "description": "Performance by Leo Kim Group @kimleohyun."
     },
     "_search_ko": {
       "title": "Leo Kim Group",
-      "description": "Leo Kim Group 라이브 공연."
+      "description": "Leo Kim Group @kimleohyun 공연."
     }
   },
   {
@@ -2222,17 +2274,17 @@
     "price": null,
     "llm_confidence": 1.0,
     "title": "Mardi Trio",
-    "description": "Mardi Trio performs with vocal, piano, and bass. An entrance fee applies.",
+    "description": "Mardi Trio: Mardi (vocal) @un_mardi, piano, bass.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Mardi Trio",
-      "description": "Mardi Trio performs with vocal, piano, and bass. An entrance fee applies."
+      "description": "Mardi Trio: Mardi (vocal) @un_mardi, piano, bass."
     },
     "_search_ko": {
       "title": "마르디 트리오",
-      "description": "마르디 트리오 공연. 보컬, 피아노, 베이스 구성. 입장료 별도."
+      "description": "마르디 트리오: 마르디 (보컬) @un_mardi, 피아노, 베이스."
     }
   },
   {
@@ -2325,18 +2377,18 @@
     "datetime": "2025-11-09T11:30:00+00:00",
     "price": "KRW 10,000",
     "llm_confidence": 1.0,
-    "title": "MOTIN Ensemble",
-    "description": "MOTIN Ensemble: Sun Da-bin (bass), Kim Ye-jin (vocal), Jo Ji-eun (piano).",
+    "title": "Motin Ensemble",
+    "description": "Live jazz performance by Motin Ensemble. Roster: Seon Da-bin (bass), Kim Ye-jin (vocal), Jo Ji-eun (piano). Price: KRW 10,000.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "MOTIN Ensemble",
-      "description": "MOTIN Ensemble: Sun Da-bin (bass), Kim Ye-jin (vocal), Jo Ji-eun (piano)."
+      "title": "Motin Ensemble",
+      "description": "Live jazz performance by Motin Ensemble. Roster: Seon Da-bin (bass), Kim Ye-jin (vocal), Jo Ji-eun (piano). Price: KRW 10,000."
     },
     "_search_ko": {
-      "title": "MOTIN 앙상블",
-      "description": "MOTIN 앙상블: 선다빈 (베이스), 김예진 (보컬), 조지은 (피아노)."
+      "title": "모틴 앙상블",
+      "description": "모틴 앙상블의 라이브 재즈 공연. 라인업: 선다빈 (베이스), 김예진 (보컬), 조지은 (피아노). 가격: 10,000원."
     }
   },
   {
@@ -3236,17 +3288,17 @@
     "price": "KRW 11,000",
     "llm_confidence": 1.0,
     "title": "Park Sang-ah Quartet",
-    "description": "Park Sang-ah Quartet performance, Part 1.",
+    "description": "Park Sang-ah Quartet performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Park Sang-ah Quartet",
-      "description": "Park Sang-ah Quartet performance, Part 1."
+      "description": "Park Sang-ah Quartet performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass)."
     },
     "_search_ko": {
       "title": "박상아 퀄텟",
-      "description": "박상아 퀄텟 공연 1부."
+      "description": "박상아 퀄텟 공연. 매주 금 토 일 1부 7:40-8:30 pm, 2부 9:00-9:50 pm. 입장료 각 부 11,000원 (Day pass 시 2부 50% 할인)."
     }
   },
   {
@@ -3521,18 +3573,18 @@
     "datetime": "2025-11-14T11:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "YOON Quartet",
-    "description": "YOON performance. Quartet ensemble.",
+    "title": "Yoon Quartet",
+    "description": "Performance by Yoon Quartet.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "YOON Quartet",
-      "description": "YOON performance. Quartet ensemble."
+      "title": "Yoon Quartet",
+      "description": "Performance by Yoon Quartet."
     },
     "_search_ko": {
-      "title": "YOON 퀄텟",
-      "description": "YOON의 퀄텟 공연."
+      "title": "윤 퀄텟",
+      "description": "윤 퀄텟의 공연."
     }
   },
   {
@@ -3834,17 +3886,17 @@
     "price": "KRW 11,000",
     "llm_confidence": 1.0,
     "title": "Lima Jazz Band",
-    "description": "Lima Jazz Band performance, Part 1.",
+    "description": "Lima Jazz Band performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Lima Jazz Band",
-      "description": "Lima Jazz Band performance, Part 1."
+      "description": "Lima Jazz Band performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass)."
     },
     "_search_ko": {
-      "title": "리마재즈 밴드",
-      "description": "리마재즈 밴드 공연 1부."
+      "title": "리마 재즈밴드",
+      "description": "리마 재즈밴드 공연. 매주 금 토 일 1부 7:40-8:30 pm, 2부 9:00-9:50 pm. 입장료 각 부 11,000원 (Day pass 시 2부 50% 할인)."
     }
   },
   {
@@ -4067,18 +4119,18 @@
     "datetime": "2025-11-15T11:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "YOON Wan Quartet",
-    "description": "YOON Wan performance. Quartet ensemble.",
+    "title": "Yoon Wan Quartet",
+    "description": "Performance by Yoon Wan Quartet.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "YOON Wan Quartet",
-      "description": "YOON Wan performance. Quartet ensemble."
+      "title": "Yoon Wan Quartet",
+      "description": "Performance by Yoon Wan Quartet."
     },
     "_search_ko": {
-      "title": "YOON Wan 퀄텟",
-      "description": "YOON Wan의 퀄텟 공연."
+      "title": "윤완 퀄텟",
+      "description": "윤완 퀄텟의 공연."
     }
   },
   {
@@ -4406,17 +4458,17 @@
     "price": "KRW 11,000",
     "llm_confidence": 1.0,
     "title": "Minjhoy Trio",
-    "description": "Minjhoy Trio performance, Part 1.",
+    "description": "Minjhoy Trio performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Minjhoy Trio",
-      "description": "Minjhoy Trio performance, Part 1."
+      "description": "Minjhoy Trio performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass)."
     },
     "_search_ko": {
-      "title": "Minjhoy 트리오",
-      "description": "Minjhoy 트리오 공연 1부."
+      "title": "민지호이 트리오",
+      "description": "민지호이 트리오 공연. 매주 금 토 일 1부 7:40-8:30 pm, 2부 9:00-9:50 pm. 입장료 각 부 11,000원 (Day pass 시 2부 50% 할인)."
     }
   },
   {
@@ -5264,17 +5316,17 @@
     "price": "KRW 11,000",
     "llm_confidence": 1.0,
     "title": "Swing Nam Project",
-    "description": "Swing Nam Project performance, Part 1.",
+    "description": "Swing Nam Project performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Swing Nam Project",
-      "description": "Swing Nam Project performance, Part 1."
+      "description": "Swing Nam Project performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass)."
     },
     "_search_ko": {
-      "title": "스윙 남 프로젝트",
-      "description": "스윙 남 프로젝트 공연 1부."
+      "title": "스윙남 프로젝트",
+      "description": "스윙남 프로젝트 공연. 매주 금 토 일 1부 7:40-8:30 pm, 2부 9:00-9:50 pm. 입장료 각 부 11,000원 (Day pass 시 2부 50% 할인)."
     }
   },
   {
@@ -5550,17 +5602,17 @@
     "price": null,
     "llm_confidence": 1.0,
     "title": "Ticotico Band Quartet",
-    "description": "Ticotico Band performance. Quartet ensemble.",
+    "description": "Performance by Ticotico Band Quartet.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Ticotico Band Quartet",
-      "description": "Ticotico Band performance. Quartet ensemble."
+      "description": "Performance by Ticotico Band Quartet."
     },
     "_search_ko": {
-      "title": "Ticotico Band 퀄텟",
-      "description": "Ticotico Band의 퀄텟 공연."
+      "title": "티코티코 밴드 퀄텟",
+      "description": "티코티코 밴드 퀄텟의 공연."
     }
   },
   {
@@ -5888,17 +5940,17 @@
     "price": "KRW 11,000",
     "llm_confidence": 1.0,
     "title": "Juan Mejía Quartet",
-    "description": "Juan Mejía Quartet performance, Part 1.",
+    "description": "Juan Mejía Quartet performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Juan Mejía Quartet",
-      "description": "Juan Mejía Quartet performance, Part 1."
+      "description": "Juan Mejía Quartet performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass)."
     },
     "_search_ko": {
-      "title": "Juan Mejía 퀄텟",
-      "description": "Juan Mejía 퀄텟 공연 1부."
+      "title": "후안 메히아 퀄텟",
+      "description": "후안 메히아 퀄텟 공연. 매주 금 토 일 1부 7:40-8:30 pm, 2부 9:00-9:50 pm. 입장료 각 부 11,000원 (Day pass 시 2부 50% 할인)."
     }
   },
   {
@@ -6148,17 +6200,17 @@
     "price": null,
     "llm_confidence": 1.0,
     "title": "Knockin' Jazz Quintet",
-    "description": "Knockin' Jazz performance. Quintet ensemble.",
+    "description": "Performance by Knockin' Jazz Quintet.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Knockin' Jazz Quintet",
-      "description": "Knockin' Jazz performance. Quintet ensemble."
+      "description": "Performance by Knockin' Jazz Quintet."
     },
     "_search_ko": {
-      "title": "Knockin' Jazz 퀸텟",
-      "description": "Knockin' Jazz의 퀸텟 공연."
+      "title": "노킹 재즈 퀸텟",
+      "description": "노킹 재즈 퀸텟의 공연."
     }
   },
   {
@@ -6486,17 +6538,17 @@
     "price": "KRW 11,000",
     "llm_confidence": 1.0,
     "title": "Kwon Young-min Trio",
-    "description": "Kwon Young-min Trio performance, Part 1.",
+    "description": "Kwon Young-min Trio performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Kwon Young-min Trio",
-      "description": "Kwon Young-min Trio performance, Part 1."
+      "description": "Kwon Young-min Trio performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass)."
     },
     "_search_ko": {
       "title": "권영민 트리오",
-      "description": "권영민 트리오 공연 1부."
+      "description": "권영민 트리오 공연. 매주 금 토 일 1부 7:40-8:30 pm, 2부 9:00-9:50 pm. 입장료 각 부 11,000원 (Day pass 시 2부 50% 할인)."
     }
   },
   {
@@ -7370,17 +7422,17 @@
     "price": "KRW 11,000",
     "llm_confidence": 1.0,
     "title": "Ormide Armstrong Quartet",
-    "description": "Ormide Armstrong Quartet performance, Part 1.",
+    "description": "Ormide Armstrong Quartet performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Ormide Armstrong Quartet",
-      "description": "Ormide Armstrong Quartet performance, Part 1."
+      "description": "Ormide Armstrong Quartet performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass)."
     },
     "_search_ko": {
-      "title": "Ormide Armstrong 퀄텟",
-      "description": "Ormide Armstrong 퀄텟 공연 1부."
+      "title": "오마이드 암스트롱 퀄텟",
+      "description": "오마이드 암스트롱 퀄텟 공연. 매주 금 토 일 1부 7:40-8:30 pm, 2부 9:00-9:50 pm. 입장료 각 부 11,000원 (Day pass 시 2부 50% 할인)."
     }
   },
   {
@@ -7655,18 +7707,18 @@
     "datetime": "2025-11-28T11:30:00+00:00",
     "price": null,
     "llm_confidence": 1.0,
-    "title": "Lukku KIM Jazz Band Quartet",
-    "description": "Lukku KIM Jazz Band performance. Quartet ensemble.",
+    "title": "Lukku Kim Jazz Band Quartet",
+    "description": "Performance by Lukku Kim Jazz Band Quartet.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
-      "title": "Lukku KIM Jazz Band Quartet",
-      "description": "Lukku KIM Jazz Band performance. Quartet ensemble."
+      "title": "Lukku Kim Jazz Band Quartet",
+      "description": "Performance by Lukku Kim Jazz Band Quartet."
     },
     "_search_ko": {
-      "title": "Lukku KIM Jazz Band 퀄텟",
-      "description": "Lukku KIM Jazz Band의 퀄텟 공연."
+      "title": "루꾸 김 재즈 밴드 퀄텟",
+      "description": "루꾸 김 재즈 밴드 퀄텟의 공연."
     }
   },
   {
@@ -8020,17 +8072,17 @@
     "price": "KRW 11,000",
     "llm_confidence": 1.0,
     "title": "Martin Jacobsen Quartet",
-    "description": "Martin Jacobsen Quartet performance, Part 1.",
+    "description": "Martin Jacobsen Quartet performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Martin Jacobsen Quartet",
-      "description": "Martin Jacobsen Quartet performance, Part 1."
+      "description": "Martin Jacobsen Quartet performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass)."
     },
     "_search_ko": {
-      "title": "Martin Jacobsen 퀄텟",
-      "description": "Martin Jacobsen 퀄텟 공연 1부."
+      "title": "마틴 야콥센 퀄텟",
+      "description": "마틴 야콥센 퀄텟 공연. 매주 금 토 일 1부 7:40-8:30 pm, 2부 9:00-9:50 pm. 입장료 각 부 11,000원 (Day pass 시 2부 50% 할인)."
     }
   },
   {
@@ -8306,17 +8358,17 @@
     "price": null,
     "llm_confidence": 1.0,
     "title": "Daeun Quartet",
-    "description": "Daeun performance. Quartet ensemble.",
+    "description": "Performance by Daeun Quartet.",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Daeun Quartet",
-      "description": "Daeun performance. Quartet ensemble."
+      "description": "Performance by Daeun Quartet."
     },
     "_search_ko": {
-      "title": "Daeun 퀄텟",
-      "description": "Daeun의 퀄텟 공연."
+      "title": "다은 퀄텟",
+      "description": "다은 퀄텟의 공연."
     }
   },
   {
@@ -8644,17 +8696,17 @@
     "price": "KRW 11,000",
     "llm_confidence": 1.0,
     "title": "Jeon Jae-gon Quintet",
-    "description": "Jeon Jae-gon Quintet performance, Part 1.",
+    "description": "Jeon Jae-gon Quintet performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass).",
     "ticket_link": null,
     "show_time": null,
     "age_limit": null,
     "_search_en": {
       "title": "Jeon Jae-gon Quintet",
-      "description": "Jeon Jae-gon Quintet performance, Part 1."
+      "description": "Jeon Jae-gon Quintet performance. Every Fri, Sat, Sun. Part 1: 7:40-8:30 pm, Part 2: 9:00-9:50 pm. Admission KRW 11,000 per part (50% off for Part 2 with Day pass)."
     },
     "_search_ko": {
       "title": "전제곤 퀸텟",
-      "description": "전제곤 퀸텟 공연 1부."
+      "description": "전제곤 퀸텟 공연. 매주 금 토 일 1부 7:40-8:30 pm, 2부 9:00-9:50 pm. 입장료 각 부 11,000원 (Day pass 시 2부 50% 할인)."
     }
   },
   {

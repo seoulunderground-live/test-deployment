@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-06T23:43:39Z
-- **Source Commit**: [`efe4ca51745bff8607bffe559f5c63bb3fdd04cd`](https://github.com/keunwoochoi/seoulunderground.live/commit/efe4ca51745bff8607bffe559f5c63bb3fdd04cd)
+- **Build Time**: 2025-11-06T23:52:57Z
+- **Source Commit**: [`edfdd866bd998373b1838011cd2d436a966dfc8a`](https://github.com/keunwoochoi/seoulunderground.live/commit/edfdd866bd998373b1838011cd2d436a966dfc8a)
 - **Branch**: `detect-musician-ig-handles`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19153315588)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19153473838)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: done on cursor now
+- **Message**: reflect gemini comment
 
 ## Deployment URLs
 
