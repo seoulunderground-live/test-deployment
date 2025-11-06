@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-06T22:46:11Z
-- **Source Commit**: [`2cb26c3e55adb1aab4cc1e9558fe98823ea5be3e`](https://github.com/keunwoochoi/seoulunderground.live/commit/2cb26c3e55adb1aab4cc1e9558fe98823ea5be3e)
-- **Branch**: `en-story`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19152161369)
+- **Build Time**: 2025-11-06T23:43:39Z
+- **Source Commit**: [`efe4ca51745bff8607bffe559f5c63bb3fdd04cd`](https://github.com/keunwoochoi/seoulunderground.live/commit/efe4ca51745bff8607bffe559f5c63bb3fdd04cd)
+- **Branch**: `detect-musician-ig-handles`
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19153315588)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: omitted file
+- **Message**: done on cursor now
 
 ## Deployment URLs
 
