@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-06T05:34:23Z
-- **Source Commit**: [`4241ac21ba0247de8869bc74446432feccd311eb`](https://github.com/keunwoochoi/seoulunderground.live/commit/4241ac21ba0247de8869bc74446432feccd311eb)
+- **Build Time**: 2025-11-06T05:39:36Z
+- **Source Commit**: [`a14ed51b6167cc7b9ec18bcff6ac911ba80cb3d0`](https://github.com/keunwoochoi/seoulunderground.live/commit/a14ed51b6167cc7b9ec18bcff6ac911ba80cb3d0)
 - **Branch**: `add-ig-handle`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19125932799)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19126023327)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: add ig here and there
+- **Message**: reflect gemini comment
 
 ## Deployment URLs
 
