@@ -5,7 +5,7 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-07T00:04:58Z
+- **Build Time**: 2025-11-07T00:10:09Z
 - **Source Commit**: [`edfdd866bd998373b1838011cd2d436a966dfc8a`](https://github.com/keunwoochoi/seoulunderground.live/commit/edfdd866bd998373b1838011cd2d436a966dfc8a)
 - **Branch**: `detect-musician-ig-handles`
 - **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19153473838)
