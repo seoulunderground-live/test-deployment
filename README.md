@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-07T04:03:43Z
-- **Source Commit**: [`9af9cac500e0fd10414cfd68e02889a93402e276`](https://github.com/keunwoochoi/seoulunderground.live/commit/9af9cac500e0fd10414cfd68e02889a93402e276)
+- **Build Time**: 2025-11-07T04:07:36Z
+- **Source Commit**: [`d28f0b9f51d53928dc550dacdaa25b4da0cfc142`](https://github.com/keunwoochoi/seoulunderground.live/commit/d28f0b9f51d53928dc550dacdaa25b4da0cfc142)
 - **Branch**: `fix-ig-linking-bug`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19157795007)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19157864148)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: fix ig linking issue
+- **Message**: reflect gemini comment
 
 ## Deployment URLs
 
