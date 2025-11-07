@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-07T00:10:09Z
-- **Source Commit**: [`edfdd866bd998373b1838011cd2d436a966dfc8a`](https://github.com/keunwoochoi/seoulunderground.live/commit/edfdd866bd998373b1838011cd2d436a966dfc8a)
-- **Branch**: `detect-musician-ig-handles`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19153473838)
+- **Build Time**: 2025-11-07T04:03:43Z
+- **Source Commit**: [`9af9cac500e0fd10414cfd68e02889a93402e276`](https://github.com/keunwoochoi/seoulunderground.live/commit/9af9cac500e0fd10414cfd68e02889a93402e276)
+- **Branch**: `fix-ig-linking-bug`
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19157795007)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: reflect gemini comment
+- **Message**: fix ig linking issue
 
 ## Deployment URLs
 
