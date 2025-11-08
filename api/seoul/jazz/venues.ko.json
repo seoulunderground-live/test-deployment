@@ -1,6 +1,6 @@
 [
   {
-    "id": "ven_3dc35dc9-12b1-41c8-9280-f9aaaed384e8",
+    "id": "ven_941f8faa-5425-4692-b733-ef859e5ada4a",
     "ig_handle": "allthatjazz_itaewon",
     "name_irl": "올댓재즈 이태원",
     "location_text": null,
@@ -61,7 +61,7 @@
     }
   },
   {
-    "id": "ven_69f85314-db24-4b19-8d37-ffd0099bbaca",
+    "id": "ven_c78b087a-be2f-4415-8090-49972837ce02",
     "ig_handle": "asome_ground",
     "name_irl": "어썸그라운드",
     "location_text": null,
@@ -121,7 +121,7 @@
     }
   },
   {
-    "id": "ven_c5b2674e-de55-4b82-aafe-9179373bf7c8",
+    "id": "ven_25ad137b-f2e9-493b-b21f-1901db089f00",
     "ig_handle": "bluecat.fezh",
     "name_irl": "블루캣",
     "location_text": null,
@@ -202,7 +202,7 @@
     }
   },
   {
-    "id": "ven_6c8c9b1d-dbf9-47b7-a489-313217395d12",
+    "id": "ven_5d563cf8-0162-472d-b8c3-ba9e083bd4af",
     "ig_handle": "blueming_jazz",
     "name_irl": "블루밍 재즈 & 몰트",
     "location_text": null,
@@ -289,7 +289,7 @@
     }
   },
   {
-    "id": "ven_d6afc775-5636-46de-833f-06d00c69d6e6",
+    "id": "ven_99fb083e-a2a3-4867-95e7-657786af772c",
     "ig_handle": "banjul_stage",
     "name_irl": "반쥴 스테이지",
     "location_text": null,
@@ -348,7 +348,7 @@
     }
   },
   {
-    "id": "ven_dae8fbbf-207b-4ea0-bc24-570481f4b738",
+    "id": "ven_dcffebfb-02db-4f23-866b-3031e04524c3",
     "ig_handle": "bluechicago_jazzbar",
     "name_irl": "블루시카고 재즈바 DAEGU",
     "location_text": null,
@@ -436,7 +436,7 @@
     }
   },
   {
-    "id": "ven_9ec4f569-53e9-46bd-96b0-49bc7d001c65",
+    "id": "ven_fe1a44fe-9c22-48bd-b6bd-a7f941d3886a",
     "ig_handle": "boogiewoogieseoul",
     "name_irl": "부기우기 Boogie Woogie 녹사평 재즈바",
     "location_text": null,
@@ -513,7 +513,7 @@
     }
   },
   {
-    "id": "ven_ec47ba48-8158-48bb-9205-edb49558db42",
+    "id": "ven_7cc2ab64-1120-40ed-ba97-a1a77eafd8d2",
     "ig_handle": "bottler_euljiro",
     "name_irl": "보틀러 을지로",
     "location_text": null,
@@ -576,7 +576,7 @@
     }
   },
   {
-    "id": "ven_52f72217-6463-4b25-9a66-948fc366ad94",
+    "id": "ven_66e48645-47fd-487b-9f1c-6203fd0f1eae",
     "ig_handle": "jazzclub_evans",
     "name_irl": "클럽 에반스",
     "location_text": null,
@@ -676,7 +676,93 @@
     }
   },
   {
-    "id": "ven_d753acca-d417-409b-9ad7-abb2762f6a29",
+    "id": "ven_54adc8fd-a462-4bfd-904a-81bed68adae0",
+    "ig_handle": "africa_since1988",
+    "name_irl": "Cafe 아프리카",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "010-2949-5786",
+    "email": null,
+    "google_map_url": null,
+    "booking_url": null,
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Cafe 아프리카",
+          "address_text": null,
+          "address_components": null,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": "Drinks & Snacks available (Beer, Wine, Highball, Whisky, Coffee, Tea). For performer booking inquiries, contact @gyuestagram.",
+          "i18n": {
+            "name": {
+              "en": "Cafe Africa",
+              "ko": "Cafe 아프리카"
+            },
+            "address_text": null,
+            "notes": {
+              "en": "Drinks & Snacks available (Beer, Wine, Highball, Whisky, Coffee, Tea). For performer booking inquiries, contact @gyuestagram.",
+              "ko": "음료 및 스낵 이용 가능 (맥주, 와인, 하이볼, 위스키, 커피, 차). 공연자 섭외 문의는 @gyuestagram으로 연락 바랍니다."
+            }
+          }
+        }
+      ],
+      "opening_hours": {
+        "mon": "17:00 onwards",
+        "tue": "17:00 onwards",
+        "wed": "17:00 onwards",
+        "thu": "17:00 onwards",
+        "fri": "17:00 onwards",
+        "sat": "17:00 onwards",
+        "sun": "Closed"
+      },
+      "typical_show_times": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": [
+          "20:00"
+        ],
+        "sat": [
+          "20:00"
+        ],
+        "sun": null
+      }
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Cafe Africa",
+        "ko": "Cafe 아프리카"
+      },
+      "address_text": null,
+      "notes": {
+        "en": "Drinks & Snacks available (Beer, Wine, Highball, Whisky, Coffee, Tea). For performer booking inquiries, contact @gyuestagram.",
+        "ko": "음료 및 스낵 이용 가능 (맥주, 와인, 하이볼, 위스키, 커피, 차). 공연자 섭외 문의는 @gyuestagram으로 연락 바랍니다."
+      },
+      "genres": {
+        "en": [
+          "Jazz"
+        ],
+        "ko": [
+          "재즈"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_ad9be702-b8ce-4dda-a5f5-7b9f62906b9e",
     "ig_handle": "cafeblackfactory",
     "name_irl": "카페블랙팩토리",
     "location_text": null,
@@ -745,7 +831,7 @@
     }
   },
   {
-    "id": "ven_eeff3a91-2c3f-4dcb-b2e0-4bd5a0c69687",
+    "id": "ven_4e0b0bc9-344b-44e1-8558-306872f4c9a1",
     "ig_handle": "chunnyun.jazz",
     "name_irl": "천년동안도",
     "location_text": null,
@@ -824,7 +910,7 @@
     }
   },
   {
-    "id": "ven_6b516405-d9b8-4f4b-a9a2-ac5c33ce4823",
+    "id": "ven_65e5e348-792d-447a-aa90-4ef8606c689b",
     "ig_handle": "chunnyun.jonggak",
     "name_irl": "천년동안도 종각",
     "location_text": null,
@@ -881,7 +967,7 @@
     }
   },
   {
-    "id": "ven_6e91f5c1-b497-4739-9fd5-440cd6443bcd",
+    "id": "ven_8b0c8a06-2c9a-4424-9c88-1f39125a3308",
     "ig_handle": "club_piers",
     "name_irl": "클럽 피어스",
     "location_text": null,
@@ -935,7 +1021,7 @@
     }
   },
   {
-    "id": "ven_4999c757-4c99-496b-b66e-c8ee285cb3c6",
+    "id": "ven_a326b3ff-f00d-4504-a4c7-840b1f75e058",
     "ig_handle": "bar_tican",
     "name_irl": "칵테일 바 바티칸",
     "location_text": null,
@@ -1002,7 +1088,7 @@
     }
   },
   {
-    "id": "ven_1fd6ee1e-dadd-45de-acf2-437714972e71",
+    "id": "ven_99f5ddf7-456f-4a8f-aa30-d7662858ab53",
     "ig_handle": "concino_concrete",
     "name_irl": "콩치노 콘크리트",
     "location_text": null,
@@ -1071,7 +1157,7 @@
     }
   },
   {
-    "id": "ven_551b100e-7b51-46be-abff-1ab08bf847f5",
+    "id": "ven_cffa8128-d328-4072-96e1-9ec113cdbe77",
     "ig_handle": "dido_jazz_lounge",
     "name_irl": "디도 재즈 라운지",
     "location_text": null,
@@ -1172,7 +1258,7 @@
     }
   },
   {
-    "id": "ven_601ce95e-8fac-4e19-ae60-6d450ec63d48",
+    "id": "ven_3f43fd8f-93f9-4add-a605-2af18f0c3fbe",
     "ig_handle": "entry55_official",
     "name_irl": "엔트리55",
     "location_text": null,
@@ -1272,16 +1358,115 @@
     }
   },
   {
-    "id": "ven_064e830a-9945-45de-ab85-e2aa1bef1189",
+    "id": "ven_c004f53a-82af-4d9d-9987-dcbe76e9a2aa",
     "ig_handle": "flatnine_jazzbar",
     "name_irl": "플랫나인",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": "050-71389-9630",
+    "phone": "050-7138-9630",
     "email": null,
-    "google_map_url": "https://maps.google.com/?cid=3512824848346026630",
+    "google_map_url": null,
     "booking_url": "https://catchtable.co.kr/flatnine_jazzbar",
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": "2호선 신분당강남역 10번 출구에서 342m",
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "FLATNINE | 플랫나인",
+          "address_text": "서울 서초구 강남대로65길 10 5층",
+          "address_components": null,
+          "location_lat": 37.5004929768454,
+          "location_lon": 127.024952031721,
+          "subway_nearby": "2호선 신분당강남역 10번 출구에서 342m",
+          "booking_link": "https://catchtable.co.kr/flatnine_jazzbar",
+          "notes": "Seoul Jazz bar",
+          "i18n": {
+            "name": {
+              "en": "FLATNINE",
+              "ko": "플랫나인"
+            },
+            "address_text": {
+              "en": "5th Floor, 10, Gangnam-daero 65-gil, Seocho District, Seoul, South Korea",
+              "ko": "서울 서초구 강남대로65길 10 5층"
+            },
+            "notes": {
+              "en": "Seoul Jazz bar",
+              "ko": "서울 재즈 바"
+            }
+          }
+        }
+      ],
+      "typical_show_times": {
+        "mon": [
+          "6:00"
+        ],
+        "tue": [
+          "6:00"
+        ],
+        "wed": [
+          "6:00"
+        ],
+        "thu": [
+          "6:00"
+        ],
+        "fri": [
+          "7:30",
+          "10:30"
+        ],
+        "sat": [
+          "4:00",
+          "7:30",
+          "10:30"
+        ],
+        "sun": [
+          "4:00",
+          "7:30"
+        ]
+      }
+    },
+    "i18n_data": {
+      "name": {
+        "en": "FLATNINE",
+        "ko": "플랫나인"
+      },
+      "address_text": null,
+      "notes": {
+        "en": "Seoul Jazz bar",
+        "ko": "서울 재즈 바"
+      },
+      "genres": {
+        "en": [
+          "Jazz bar"
+        ],
+        "ko": [
+          "재즈 바"
+        ]
+      },
+      "subway_nearby": {
+        "en": "342m from Gangnam Station (Line 2, Shinbundang Line) Exit 10",
+        "ko": "2호선 신분당강남역 10번 출구에서 342m"
+      },
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_e4f6bca2-a231-4915-9708-11a76013687c",
+    "ig_handle": "gv_scene",
+    "name_irl": "GV 커피 바",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": null,
+    "email": null,
+    "google_map_url": null,
+    "booking_url": "https://m.place.naver.com/restaurant/1473208599/home?entry=plt",
     "homepage_url": null,
     "websites": [],
     "subway_nearby": null,
@@ -1292,66 +1477,49 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "FLATNINE",
-          "address_text": "South Korea, Seoul, Seocho District, Gangnam-daero 65-gil, 10 5층",
+          "name": "GV COFFEE BAR",
+          "address_text": null,
           "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": null,
-          "booking_link": "https://catchtable.co.kr/flatnine_jazzbar",
+          "booking_link": "https://m.place.naver.com/restaurant/1473208599/home?entry=plt",
           "notes": null,
           "i18n": {
             "name": {
-              "en": "FLATNINE",
-              "ko": "플랫나인"
+              "en": "GV COFFEE BAR",
+              "ko": "GV 커피 바"
             },
-            "address_text": {
-              "en": "5th Floor, 10, Gangnam-daero 65-gil, Seocho District, Seoul, South Korea",
-              "ko": "서울 서초구 강남대로65길 10 5층"
-            },
+            "address_text": null,
             "notes": null
           }
         }
       ],
-      "typical_show_times": {
-        "mon": [
-          "18:00"
-        ],
-        "tue": [
-          "18:00"
-        ],
-        "wed": [
-          "18:00"
-        ],
-        "thu": [
-          "18:00"
-        ],
-        "fri": [
-          "19:30",
-          "22:30"
-        ],
-        "sat": [
-          "16:00",
-          "19:30",
-          "22:30"
-        ],
-        "sun": [
-          "16:00",
-          "19:30"
-        ]
+      "opening_hours": {
+        "mon": "12:00-22:00",
+        "tue": "12:00-22:00",
+        "wed": "12:00-22:00",
+        "thu": "12:00-22:00",
+        "fri": "12:00-22:00",
+        "sat": "12:00-22:00",
+        "sun": "12:00-22:00"
       }
     },
     "i18n_data": {
       "name": {
-        "en": "FLATNINE",
-        "ko": "플랫나인"
+        "en": "GV COFFEE BAR",
+        "ko": "GV 커피 바"
       },
       "address_text": null,
       "notes": null,
+      "genres": null,
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
   },
   {
-    "id": "ven_63dce7be-a261-481a-81a4-2b3d733e405d",
+    "id": "ven_731cdeb0-d10d-4dfb-bf04-a8cbc083a9da",
     "ig_handle": "ghetto_alive",
     "name_irl": "게토얼라이브",
     "location_text": null,
@@ -1405,7 +1573,7 @@
     }
   },
   {
-    "id": "ven_cd11a2e2-c290-4432-a9a0-331961b34c05",
+    "id": "ven_78df4812-5e2c-4406-b508-7f8db802f34b",
     "ig_handle": "cafe_gig",
     "name_irl": "긱",
     "location_text": null,
@@ -1466,7 +1634,7 @@
     }
   },
   {
-    "id": "ven_12e2ad35-ca2c-4557-920e-f2aa8837b685",
+    "id": "ven_0ae376e8-7da8-432a-be79-cac2d09e37ea",
     "ig_handle": "___key001",
     "name_irl": "기원",
     "location_text": null,
@@ -1521,7 +1689,85 @@
     }
   },
   {
-    "id": "ven_f6d6d406-08fa-4078-a204-02d0826b4f63",
+    "id": "ven_a47ce787-26e3-4dfe-84fa-dab8994cee0e",
+    "ig_handle": "gwangalli_namme",
+    "name_irl": "광안리남매",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "070-4312-6566",
+    "email": null,
+    "google_map_url": null,
+    "booking_url": "http://naver.me/FFFvSb6M6",
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "광안리남매",
+          "address_text": "부산 수영구 남천동로108번길 54 2층",
+          "address_components": null,
+          "location_lat": 35.1467159304824,
+          "location_lon": 129.114074496346,
+          "subway_nearby": null,
+          "booking_link": "http://naver.me/FFFvSb6M6",
+          "notes": "사라토가 주차장 주차시 1시간 무료(1인 1식사 주문시)",
+          "i18n": {
+            "name": {
+              "en": "Gwangalli Namme",
+              "ko": "광안리남매"
+            },
+            "address_text": {
+              "en": "2nd Floor, 54, Namcheondong-ro 108beon-gil, Suyeong-gu, Busan, South Korea",
+              "ko": "부산 수영구 남천동로108번길 54 2층"
+            },
+            "notes": {
+              "en": "1 hour free parking at Saratoga parking lot (when ordering 1 meal per person)",
+              "ko": "사라토가 주차장 주차시 1시간 무료(1인 1식사 주문시)"
+            }
+          }
+        }
+      ],
+      "opening_hours": {
+        "mon": "16:00 ~ 00:00",
+        "tue": "16:00 ~ 00:00",
+        "wed": "16:00 ~ 00:00",
+        "thu": "16:00 ~ 00:00",
+        "fri": "16:00 ~ 01:00",
+        "sat": "16:00 ~ 01:00",
+        "sun": "16:00 ~ 00:00"
+      }
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Gwangalli Namme",
+        "ko": "광안리남매"
+      },
+      "address_text": null,
+      "notes": {
+        "en": "1 hour free parking at Saratoga parking lot (when ordering 1 meal per person)",
+        "ko": "사라토가 주차장 주차시 1시간 무료(1인 1식사 주문시)"
+      },
+      "genres": {
+        "en": [
+          "Jazz"
+        ],
+        "ko": [
+          "재즈"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_802b7c6e-3cda-4b84-a36c-ac2fb43eaece",
     "ig_handle": "houseofblue.seoul",
     "name_irl": "하우스 오브 블루 재즈바",
     "location_text": null,
@@ -1581,7 +1827,7 @@
     }
   },
   {
-    "id": "ven_4e6938f0-5432-49f6-bb08-2e8dd6bd65cf",
+    "id": "ven_4cb4231b-8aae-492d-ab47-6ef9f5b164db",
     "ig_handle": "houseofbrown.seoul",
     "name_irl": "하우스 오브 브라운 재즈바",
     "location_text": null,
@@ -1660,7 +1906,7 @@
     }
   },
   {
-    "id": "ven_e69add05-06be-4040-bc21-8da3a56e53d0",
+    "id": "ven_2bd640b3-41ea-406e-9a9f-fff4fc3148fa",
     "ig_handle": "mammy__blue",
     "name_irl": "화양동 재즈클럽 마미블루",
     "location_text": null,
@@ -1743,7 +1989,7 @@
     }
   },
   {
-    "id": "ven_b3713a07-e99a-4aec-bf23-fa04329006c9",
+    "id": "ven_67d042ba-9a88-4e37-86fe-69fd09d646e6",
     "ig_handle": "idenhouseinsta",
     "name_irl": "아이덴하우스",
     "location_text": null,
@@ -1818,7 +2064,7 @@
     }
   },
   {
-    "id": "ven_3d32d369-f2a2-4614-bb71-b35ca79181bb",
+    "id": "ven_78c6ed1d-f1da-4651-891b-a02d8c38c7ef",
     "ig_handle": "jazperformance",
     "name_irl": "JAZ",
     "location_text": null,
@@ -1875,7 +2121,7 @@
     }
   },
   {
-    "id": "ven_a55ff897-17b5-437b-a6da-c19092827dfc",
+    "id": "ven_6f1c73c9-8b93-482e-b1bb-e6bdfa88c311",
     "ig_handle": "jazzclubbottomline",
     "name_irl": "재즈 클럽 버텀라인",
     "location_text": null,
@@ -1958,7 +2204,7 @@
     }
   },
   {
-    "id": "ven_5023e144-7b70-49b2-9b70-965ce8d38461",
+    "id": "ven_85832ad1-3409-4fc0-b318-6e6fab9ca395",
     "ig_handle": "jazzclub_janus",
     "name_irl": "재즈클럽야누스",
     "location_text": null,
@@ -2053,7 +2299,7 @@
     }
   },
   {
-    "id": "ven_ac34ae22-62c6-4c08-8428-5c767ef4580e",
+    "id": "ven_f3ebd399-61fc-4d3c-8296-d9748eb130c9",
     "ig_handle": "jazzgarage_official",
     "name_irl": "재즈 가라지",
     "location_text": null,
@@ -2112,7 +2358,7 @@
     }
   },
   {
-    "id": "ven_9b26d160-44e6-4203-8ecf-a466b03e48f0",
+    "id": "ven_0b44c052-3018-4b22-a615-17aa11ed10f1",
     "ig_handle": "jazzlounge_official",
     "name_irl": "재즈라운지 건대와인바",
     "location_text": null,
@@ -2181,7 +2427,7 @@
     }
   },
   {
-    "id": "ven_17c65778-9398-41c9-b5d4-bb015948cad8",
+    "id": "ven_42d3b99f-b97f-414f-a945-71486ebbda83",
     "ig_handle": "jazzxover",
     "name_irl": "재즈엑스오버",
     "location_text": null,
@@ -2189,9 +2435,9 @@
     "location_lon": null,
     "phone": "02-6397-0171",
     "email": null,
-    "google_map_url": "https://maps.google.com/?cid=4259537056996752822",
+    "google_map_url": null,
     "booking_url": "https://catchtable.co.kr/jazzxover",
-    "homepage_url": null,
+    "homepage_url": "https://galaxyroute.kr",
     "websites": [
       "https://www.youtube.com/@jazzxover",
       "https://galaxyroute.kr"
@@ -2205,55 +2451,129 @@
         {
           "location_id": "main",
           "name": "재즈엑스오버",
-          "address_text": "277-138 Seongsu-dong 2(i)-ga, Seongdong-gu, Seoul, South Korea",
+          "address_text": "서울 성동구 연무장길 135 1층",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
           "subway_nearby": null,
           "booking_link": "https://catchtable.co.kr/jazzxover",
-          "notes": "Located in Seongsu-dong. Features overwhelming sound and Mediterranean tapas.",
+          "notes": null,
           "i18n": {
             "name": {
-              "en": "JazzXover",
+              "en": "Jazz X Over",
               "ko": "재즈엑스오버"
             },
             "address_text": {
-              "en": "277-138 Seongsu-dong 2(i)-ga, Seongdong-gu, Seoul, South Korea",
-              "ko": "서울 성동구 성수동2가 277-138"
+              "en": "1st Floor, 135, Yeonmujang-gil, Seongdong-gu, Seoul, South Korea",
+              "ko": "서울 성동구 연무장길 135 1층"
             },
-            "notes": {
-              "en": "Located in Seongsu-dong. Features overwhelming sound and Mediterranean tapas.",
-              "ko": "성수동에 위치. 압도적인 사운드와 지중해식 타파스 제공."
-            }
+            "notes": null
           }
         }
       ],
       "opening_hours": {
-        "mon": "18:00-LATE",
-        "tue": "18:00-LATE",
-        "wed": "18:00-LATE",
-        "thu": "18:00-LATE",
-        "fri": "18:00-LATE",
-        "sat": "18:00-LATE",
-        "sun": "18:00-LATE"
+        "mon": "6PM-LATE",
+        "tue": "6PM-LATE",
+        "wed": "6PM-LATE",
+        "thu": "6PM-LATE",
+        "fri": "6PM-LATE",
+        "sat": "6PM-LATE",
+        "sun": "6PM-LATE"
       }
     },
     "i18n_data": {
       "name": {
-        "en": "JazzXover",
+        "en": "Jazz X Over",
         "ko": "재즈엑스오버"
       },
       "address_text": null,
       "notes": {
-        "en": "Performance fee starts from ₩15,000. Live performances every night. Inquire via DM for pop-up events and venue rental.",
-        "ko": "공연비 ₩15,000부터. 매일 밤 라이브 공연. 팝업 행사 및 대관 문의는 DM."
+        "en": "Performance fee ₩15K~, popup, venue rental inquiries via DM",
+        "ko": "공연료 ₩15K~, 팝업, 대관 문의는 DM"
+      },
+      "genres": {
+        "en": [
+          "Jazz"
+        ],
+        "ko": [
+          "재즈"
+        ]
+      },
+      "subway_nearby": {
+        "en": "335m from Seongsu Station Exit 2 on Line 2",
+        "ko": "2호선 성수역 2번 출구에서 335m"
       },
       "food_policy": null,
       "age_limit": null
     }
   },
   {
-    "id": "ven_4d8f857a-1f3b-4a4b-a661-c03544490e10",
+    "id": "ven_ec0b4ddc-587b-46c0-aeb1-2beaaf6fed9d",
+    "ig_handle": "jinjujazz",
+    "name_irl": "진주국제재즈페스티벌",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "055-743-6990",
+    "email": null,
+    "google_map_url": null,
+    "booking_url": null,
+    "homepage_url": "https://linktr.ee/jinjujazz2025",
+    "websites": [
+      "https://linktr.ee/jinjujazz2025"
+    ],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "진주국제재즈페스티벌",
+          "address_text": null,
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Jinju International Jazz Festival",
+              "ko": "진주국제재즈페스티벌"
+            },
+            "address_text": null,
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Jinju International Jazz Festival",
+        "ko": "진주국제재즈페스티벌"
+      },
+      "address_text": null,
+      "notes": {
+        "en": "2025 JINJU INTERNATIONAL JAZZ FESTIVAL dates: 2025.12.02. - 2025.12.06.\nTicket open: 2025.10.17. Fri. 09:00\nBooking via NOL Ticket (Interpark Ticket) or phone.",
+        "ko": "2025 진주국제재즈페스티벌 일정: 2025.12.02. - 2025.12.06.\n티켓 오픈: 2025.10.17. 금. 09:00\n예매는 놀티켓(인터파크 티켓) 또는 전화로 가능합니다."
+      },
+      "genres": {
+        "en": [
+          "Jazz"
+        ],
+        "ko": [
+          "재즈"
+        ]
+      },
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_0a40cc24-67d7-4018-b335-a3bd97730fbc",
     "ig_handle": "kindseoul.kr",
     "name_irl": "카인드서울",
     "location_text": null,
@@ -2316,7 +2636,7 @@
     }
   },
   {
-    "id": "ven_53be97ff-7bd3-45c7-87af-edf3be6ac758",
+    "id": "ven_af7b9ebf-5a88-4afe-a7db-82975821215d",
     "ig_handle": "laidback2019",
     "name_irl": "레이백 재즈클럽 재즈바",
     "location_text": null,
@@ -2400,7 +2720,7 @@
     }
   },
   {
-    "id": "ven_7761bb98-9384-41d4-976e-e6678b80f5f4",
+    "id": "ven_a6e35f05-213e-4388-b08e-5ca73e20c967",
     "ig_handle": "eulji_libro",
     "name_irl": "리브로",
     "location_text": null,
@@ -2480,7 +2800,7 @@
     }
   },
   {
-    "id": "ven_ead29f3e-942c-49a3-9f1d-3bf099b7a738",
+    "id": "ven_4094703b-11e8-48e4-93dd-51bed1f934ad",
     "ig_handle": "yoori.kim_mullaejazzin",
     "name_irl": "라이브홀 문래재즈IN",
     "location_text": null,
@@ -2535,7 +2855,7 @@
     }
   },
   {
-    "id": "ven_af3a2bc2-ee57-485f-8f3d-1b4659388fec",
+    "id": "ven_433327bc-9850-4887-9003-e95cd081a656",
     "ig_handle": "michiko.seoul_official",
     "name_irl": "미치코 서울",
     "location_text": null,
@@ -2613,7 +2933,7 @@
     }
   },
   {
-    "id": "ven_7393e168-6fcb-44bd-bab8-bcda54b2644a",
+    "id": "ven_c669ba66-da26-49db-afa5-d33b3b2335b1",
     "ig_handle": "cafe_minor_swing",
     "name_irl": "마이너스윙",
     "location_text": null,
@@ -2696,7 +3016,7 @@
     }
   },
   {
-    "id": "ven_b551ad23-4fca-4352-a5ca-83f208693ac7",
+    "id": "ven_8cae45c2-b3a8-419e-a9f2-b3f71ddd8b01",
     "ig_handle": "myjazzgarden",
     "name_irl": "마이재즈가든",
     "location_text": null,
@@ -2778,7 +3098,7 @@
     }
   },
   {
-    "id": "ven_7cf7d11d-008e-4b34-97d4-1b5e7548e53b",
+    "id": "ven_be9848c7-0ec0-4155-bbd4-3808050a9120",
     "ig_handle": "newall_jazz",
     "name_irl": "뉴올 재즈 라운지",
     "location_text": null,
@@ -2832,7 +3152,7 @@
     }
   },
   {
-    "id": "ven_0a7939f9-fbb7-47a3-b39a-bab4cc21df25",
+    "id": "ven_44769ff4-3e5a-4f33-b4c9-db6708fe51df",
     "ig_handle": "oleojazzpub",
     "name_irl": "올레오재즈펍",
     "location_text": null,
@@ -2912,7 +3232,7 @@
     }
   },
   {
-    "id": "ven_155d1f5b-b240-4192-ada0-82d14310c894",
+    "id": "ven_bf1007a5-2185-4466-bdb2-34126ecef586",
     "ig_handle": "positive_zero_lounge",
     "name_irl": "포지티브 제로 라운지",
     "location_text": null,
@@ -2966,7 +3286,7 @@
     }
   },
   {
-    "id": "ven_be0d5819-a206-4ede-a6ad-2aa5b675343e",
+    "id": "ven_7cd02c8b-cda6-40e4-8700-2d9e4e1d5921",
     "ig_handle": "pungjane2021",
     "name_irl": "풍자네 부엌",
     "location_text": null,
@@ -3034,7 +3354,7 @@
     }
   },
   {
-    "id": "ven_d105a535-b983-435e-9560-96db0eac7eda",
+    "id": "ven_fc57e3d9-8a46-47d8-a78d-67a58931ba3b",
     "ig_handle": "rustic_jazz",
     "name_irl": "러스틱재즈",
     "location_text": null,
@@ -3116,7 +3436,7 @@
     }
   },
   {
-    "id": "ven_95765fe7-b6cf-49b7-a86e-2c7cbbacb340",
+    "id": "ven_5f2fa576-4569-4d85-99f5-3711b77482a4",
     "ig_handle": "seobs_bar",
     "name_irl": "섭스",
     "location_text": null,
@@ -3203,7 +3523,7 @@
     }
   },
   {
-    "id": "ven_3ba3ccbf-a0e9-47e8-a7e5-34175b57f349",
+    "id": "ven_0472f7c0-65d5-457f-90c2-6e4398e561cb",
     "ig_handle": "samsungri_",
     "name_irl": "삼성리",
     "location_text": null,
@@ -3279,7 +3599,7 @@
     }
   },
   {
-    "id": "ven_882f6e3e-567f-48c5-80b5-69abe132fef9",
+    "id": "ven_d90d6d89-dd5c-4781-a592-c771a2474bba",
     "ig_handle": "seoul_garage_bar",
     "name_irl": "서울게러지바",
     "location_text": null,
@@ -3345,7 +3665,7 @@
     }
   },
   {
-    "id": "ven_1640ee5d-4bb7-4f50-94f5-4a4701b0a378",
+    "id": "ven_04f5bd2d-2f5d-4bf8-9f2d-9c5dac102f7e",
     "ig_handle": "sounddog_jazz",
     "name_irl": "사운드독",
     "location_text": null,
@@ -3437,7 +3757,7 @@
     }
   },
   {
-    "id": "ven_baa32a76-fb55-4959-be31-5dd89c4c5aad",
+    "id": "ven_b405ded3-cdcd-48ce-9874-3af0e8e75c14",
     "ig_handle": "teddy.valley",
     "name_irl": "부평재즈바 테디벨리",
     "location_text": null,
@@ -3502,7 +3822,7 @@
     }
   },
   {
-    "id": "ven_5257f65c-e214-4142-916e-965ed24f5dbd",
+    "id": "ven_86e540ae-6958-49c6-bb40-0eb6e8b45251",
     "ig_handle": "theironfairiesseoul",
     "name_irl": "아이언페어리즈 서울",
     "location_text": null,
@@ -3559,7 +3879,7 @@
     }
   },
   {
-    "id": "ven_2457774f-1fd9-4a55-82a2-51fcbaa5b7dd",
+    "id": "ven_32d2027c-cd0f-4b97-8eb5-6e9b880709ae",
     "ig_handle": "wonderlous.itw",
     "name_irl": "이태원 원더러스",
     "location_text": null,
@@ -3625,17 +3945,17 @@
     }
   },
   {
-    "id": "ven_6a340bfc-40fd-4897-a424-95c00817f091",
-    "ig_handle": "yellow__taxi",
-    "name_irl": "옐로우 택시",
+    "id": "ven_afd847cc-2187-4e2d-9552-608a6d3b7f03",
+    "ig_handle": "yellow___taxi",
+    "name_irl": "옐로우택시",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
     "phone": "042-487-4499",
     "email": null,
-    "google_map_url": "https://maps.google.com/?cid=3444863229868124751",
+    "google_map_url": null,
     "booking_url": null,
-    "homepage_url": null,
+    "homepage_url": "https://www.facebook.com/Premium.Jazz.Bar?mibextid=2JQ9oc",
     "websites": [],
     "subway_nearby": null,
     "food_policy": null,
@@ -3645,22 +3965,28 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Yellow Taxi",
-          "address_text": "615-2 Bongmyeong-dong, Yuseong District, Daejeon, South Korea",
-          "address_components": null,
-          "location_lat": null,
-          "location_lon": null,
+          "name": "옐로우택시",
+          "address_text": "대전시 유성구 봉명동 615-2",
+          "address_components": {
+            "street": "봉명동 615-2",
+            "district": "유성구",
+            "city": "대전시",
+            "postal_code": null,
+            "country": null
+          },
+          "location_lat": 36.3581605127364,
+          "location_lon": 127.344429501357,
           "subway_nearby": null,
           "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
               "en": "Yellow Taxi",
-              "ko": "옐로우 택시"
+              "ko": "옐로우택시"
             },
             "address_text": {
-              "en": "615-2 Bongmyeong-dong, Yuseong District, Daejeon, South Korea",
-              "ko": "대전 유성구 봉명동 615-2"
+              "en": "615-2, Bongmyeong-dong, Yuseong-gu, Daejeon, South Korea",
+              "ko": "대전시 유성구 봉명동 615-2"
             },
             "notes": null
           }
@@ -3670,16 +3996,25 @@
     "i18n_data": {
       "name": {
         "en": "Yellow Taxi",
-        "ko": "옐로우 택시"
+        "ko": "옐로우택시"
       },
       "address_text": null,
       "notes": null,
+      "genres": {
+        "en": [
+          "Jazz"
+        ],
+        "ko": [
+          "재즈"
+        ]
+      },
+      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
   },
   {
-    "id": "ven_f75767e8-bb05-42bb-81d2-26926ac1332b",
+    "id": "ven_53210426-2126-40b1-80a8-b5260383ccf7",
     "ig_handle": "yeonnam5701",
     "name_irl": "연남5701",
     "location_text": null,
@@ -3768,7 +4103,7 @@
     }
   },
   {
-    "id": "ven_bf1e2929-421c-4a1b-9c05-a333cfb3b7b7",
+    "id": "ven_f03f3905-3c7a-4544-a56f-29dfd25dc64d",
     "ig_handle": "oldblue_jazz",
     "name_irl": "올드블루",
     "location_text": null,

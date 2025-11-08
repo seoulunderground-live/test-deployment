@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-07T04:13:58Z
-- **Source Commit**: [`9c4afeff56f232e6c4b2e2a19a8631c4eedf24ea`](https://github.com/keunwoochoi/seoulunderground.live/commit/9c4afeff56f232e6c4b2e2a19a8631c4eedf24ea)
-- **Branch**: `fix-ig-linking-bug`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19157975372)
+- **Build Time**: 2025-11-08T04:45:16Z
+- **Source Commit**: [`081243728178cd8f85f6489b83535dd6728d7a23`](https://github.com/keunwoochoi/seoulunderground.live/commit/081243728178cd8f85f6489b83535dd6728d7a23)
+- **Branch**: `electronics`
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19188157650)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: reflect gemini comment2
+- **Message**: fix story gen - ig handl json file issue
 
 ## Deployment URLs
 
