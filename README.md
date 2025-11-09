@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-09T01:30:28Z
-- **Source Commit**: [`73f72846484ed0437b5b20b491b7ec1dad29ed06`](https://github.com/keunwoochoi/seoulunderground.live/commit/73f72846484ed0437b5b20b491b7ec1dad29ed06)
-- **Branch**: `web-electronic`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19201416685)
+- **Build Time**: 2025-11-09T18:20:37Z
+- **Source Commit**: [`3e974a713fababc321fb9f4b943dc3d6e5a403a1`](https://github.com/keunwoochoi/seoulunderground.live/commit/3e974a713fababc321fb9f4b943dc3d6e5a403a1)
+- **Branch**: `fix-slack-noti`
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19212560641)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: update gitignore
+- **Message**: done
 
 ## Deployment URLs
 
