@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-11T09:12:50Z
-- **Source Commit**: [`4b353f1e20e69f49dfc6cbd13d0b93f718a21257`](https://github.com/keunwoochoi/seoulunderground.live/commit/4b353f1e20e69f49dfc6cbd13d0b93f718a21257)
-- **Branch**: `update-schedules`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19260729200)
+- **Build Time**: 2025-11-11T21:19:00Z
+- **Source Commit**: [`ac7b6cc8d93c6d4053d643a1932e6f00b5d28952`](https://github.com/keunwoochoi/seoulunderground.live/commit/ac7b6cc8d93c6d4053d643a1932e6f00b5d28952)
+- **Branch**: `auto-story`
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19278817427)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: change scope for test deployment
+- **Message**: rules
 
 ## Deployment URLs
 
