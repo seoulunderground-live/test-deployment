@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-11T21:19:00Z
-- **Source Commit**: [`ac7b6cc8d93c6d4053d643a1932e6f00b5d28952`](https://github.com/keunwoochoi/seoulunderground.live/commit/ac7b6cc8d93c6d4053d643a1932e6f00b5d28952)
-- **Branch**: `auto-story`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19278817427)
+- **Build Time**: 2025-11-15T01:00:58Z
+- **Source Commit**: [`f4e6a5ddf8b3ea10d3aad8321f31b6e19250ec39`](https://github.com/keunwoochoi/seoulunderground.live/commit/f4e6a5ddf8b3ea10d3aad8321f31b6e19250ec39)
+- **Branch**: `improve-stuff`
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19381864680)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: rules
+- **Message**: many small important fixes
 
 ## Deployment URLs
 
