@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-15T21:56:39Z
-- **Source Commit**: [`602c04f5938b9312b8c407913515677bfb5dfa77`](https://github.com/keunwoochoi/seoulunderground.live/commit/602c04f5938b9312b8c407913515677bfb5dfa77)
+- **Build Time**: 2025-11-15T22:11:11Z
+- **Source Commit**: [`b171484639a2ffc8bc7824d5da777468416a3da5`](https://github.com/keunwoochoi/seoulunderground.live/commit/b171484639a2ffc8bc7824d5da777468416a3da5)
 - **Branch**: `k/fix-dependency`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19396100809)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19396272066)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: add show schedule text on venue card
+- **Message**: reflect gemini comment
 
 ## Deployment URLs
 
