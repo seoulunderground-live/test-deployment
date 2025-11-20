@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-15T22:11:11Z
-- **Source Commit**: [`b171484639a2ffc8bc7824d5da777468416a3da5`](https://github.com/keunwoochoi/seoulunderground.live/commit/b171484639a2ffc8bc7824d5da777468416a3da5)
-- **Branch**: `k/fix-dependency`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19396272066)
+- **Build Time**: 2025-11-20T20:53:58Z
+- **Source Commit**: [`a36c6383e4ddbec865b41f15920d3d6d08a6400c`](https://github.com/keunwoochoi/seoulunderground.live/commit/a36c6383e4ddbec865b41f15920d3d6d08a6400c)
+- **Branch**: `improve-by-g3`
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19551017743)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: reflect gemini comment
+- **Message**: hh
 
 ## Deployment URLs
 
