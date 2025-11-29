@@ -1,6 +1,6 @@
 [
   {
-    "id": "ven_a3f66bdd-98e7-4d42-becf-db4c6e65569b",
+    "id": "ven_13b8557e-c88d-426f-b4ba-40820759cfe1",
     "ig_handle": "argaseoul",
     "name_irl": "ARGA Seoul",
     "location_text": null,
@@ -10,7 +10,7 @@
     "email": null,
     "google_map_url": "https://maps.google.com/?cid=17441298849254633058",
     "booking_url": null,
-    "homepage_url": "https://ra.co/clubs/225363",
+    "homepage_url": "https://event.dumbs.app/deeplink?path=performance%3Fid%3D714",
     "websites": [],
     "subway_nearby": null,
     "food_policy": null,
@@ -31,7 +31,7 @@
           "i18n": {
             "name": {
               "en": "ARGA Seoul",
-              "ko": "아르가 서울"
+              "ko": "ARGA Seoul"
             },
             "address_text": {
               "en": "4th Floor, 173-7, Itaewon-ro, Yongsan District, Seoul, South Korea",
@@ -45,7 +45,7 @@
     "i18n_data": {
       "name": {
         "en": "ARGA Seoul",
-        "ko": "아르가 서울"
+        "ko": "ARGA Seoul"
       },
       "address_text": null,
       "notes": null,
@@ -56,7 +56,7 @@
         ],
         "ko": [
           "나이트클럽",
-          "라이브 음악"
+          "라이브 공연"
         ]
       },
       "subway_nearby": null,
@@ -65,9 +65,9 @@
     }
   },
   {
-    "id": "ven_4105a21b-0770-4722-9903-c0eff87338f1",
+    "id": "ven_b9b5d81f-7716-4da5-9e37-5d5263fff8df",
     "ig_handle": "cakeshopseoul",
-    "name_irl": "Cakeshop",
+    "name_irl": "Cakeshop Seoul",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -76,7 +76,9 @@
     "google_map_url": "https://maps.google.com/?cid=16222913485454296208",
     "booking_url": null,
     "homepage_url": "https://music.apple.com/ca/curator/cakeshop/1668225448",
-    "websites": [],
+    "websites": [
+      "https://music.apple.com/ca/curator/cakeshop/1668225448"
+    ],
     "subway_nearby": null,
     "food_policy": null,
     "age_limit": null,
@@ -85,79 +87,8 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Cakeshop",
-          "address_text": "134 Itaewon-ro, Itaewon 1(il)-dong, Yongsan District, Seoul, South Korea",
-          "address_components": null,
-          "location_lat": null,
-          "location_lon": null,
-          "subway_nearby": null,
-          "booking_link": null,
-          "notes": "Instagram DM for inquiries",
-          "i18n": {
-            "name": {
-              "en": "Cakeshop",
-              "ko": "케이크샵"
-            },
-            "address_text": {
-              "en": "134 Itaewon-ro, Itaewon 1(il)-dong, Yongsan District, Seoul, South Korea",
-              "ko": "서울 용산구 이태원로 134 이태원제1동"
-            },
-            "notes": {
-              "en": "Instagram DM for inquiries",
-              "ko": "인스타그램 DM으로 문의"
-            }
-          }
-        }
-      ]
-    },
-    "i18n_data": {
-      "name": {
-        "en": "Cakeshop",
-        "ko": "케이크샵"
-      },
-      "address_text": null,
-      "notes": {
-        "en": "Instagram DM for inquiries",
-        "ko": "인스타그램 DM으로 문의"
-      },
-      "genres": {
-        "en": [
-          "Electronic",
-          "Club"
-        ],
-        "ko": [
-          "일렉트로닉",
-          "클럽"
-        ]
-      },
-      "subway_nearby": null,
-      "food_policy": null,
-      "age_limit": null
-    }
-  },
-  {
-    "id": "ven_18dc999e-960d-4c83-ad89-a93469399679",
-    "ig_handle": "vurt_seoul",
-    "name_irl": "Club Vurt",
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": "https://maps.google.com/?cid=10335247956606384431",
-    "booking_url": null,
-    "homepage_url": "https://docs.google.com/forms/d/14lyteri2VuW6JMA_SNo9ojpxiYv2kbZAqBP2fcba5yQ/edit",
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": {
-      "locations": [
-        {
-          "location_id": "main",
-          "name": "club vurt",
-          "address_text": "Dongmak-ro, 합정동 Mapo-gu, Seoul, South Korea",
+          "name": "Cakeshop Seoul",
+          "address_text": "134 Itaewon-ro, Yongsan District, Seoul, South Korea",
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
@@ -166,12 +97,12 @@
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Club Vurt",
-              "ko": "클럽 버트"
+              "en": "Cakeshop Seoul",
+              "ko": "케이크샵 서울"
             },
             "address_text": {
-              "en": "Dongmak-ro, Hapjeong-dong, Mapo-gu, Seoul, South Korea",
-              "ko": "서울 마포구 합정동 독막로"
+              "en": "134 Itaewon-ro, Yongsan District, Seoul, South Korea",
+              "ko": "서울 용산구 이태원로 134"
             },
             "notes": null
           }
@@ -180,28 +111,128 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Club Vurt",
-        "ko": "클럽 버트"
+        "en": "Cakeshop Seoul",
+        "ko": "케이크샵 서울"
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Night Club",
-          "Live Music"
-        ],
-        "ko": [
-          "나이트클럽",
-          "라이브 음악"
-        ]
-      },
+      "genres": null,
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
   },
   {
-    "id": "ven_5c9770cd-73b3-4f88-bba5-08fa75cb6de1",
+    "id": "ven_d2f3ae5e-1cdd-44c6-8250-00639a288c00",
+    "ig_handle": "volnostseoul",
+    "name_irl": "Club Volnost Seoul",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": "010-5004-4944",
+    "email": null,
+    "google_map_url": "https://maps.google.com/?cid=528081830924855418",
+    "booking_url": null,
+    "homepage_url": null,
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Club Volnost Seoul",
+          "address_text": "142 Itaewon-ro, Yongsan District, Seoul, South Korea",
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Club Volnost Seoul",
+              "ko": "볼노스트 서울"
+            },
+            "address_text": {
+              "en": "142 Itaewon-ro, Yongsan District, Seoul, South Korea",
+              "ko": "서울 용산구 이태원로 142"
+            },
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Club Volnost Seoul",
+        "ko": "볼노스트 서울"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_cf7d2994-9a5e-48c6-ae9f-3121894322cf",
+    "ig_handle": "electrik.seoul",
+    "name_irl": "Electrik Seoul",
+    "location_text": null,
+    "location_lat": null,
+    "location_lon": null,
+    "phone": null,
+    "email": null,
+    "google_map_url": null,
+    "booking_url": null,
+    "homepage_url": "https://linktr.ee/electrikseoul",
+    "websites": [],
+    "subway_nearby": null,
+    "food_policy": null,
+    "age_limit": null,
+    "dress_code": null,
+    "venue_data": {
+      "locations": [
+        {
+          "location_id": "main",
+          "name": "Electrik Seoul",
+          "address_text": null,
+          "address_components": null,
+          "location_lat": null,
+          "location_lon": null,
+          "subway_nearby": null,
+          "booking_link": null,
+          "notes": null,
+          "i18n": {
+            "name": {
+              "en": "Electrik Seoul",
+              "ko": "일렉트릭 서울"
+            },
+            "address_text": null,
+            "notes": null
+          }
+        }
+      ]
+    },
+    "i18n_data": {
+      "name": {
+        "en": "Electrik Seoul",
+        "ko": "일렉트릭 서울"
+      },
+      "address_text": null,
+      "notes": null,
+      "genres": null,
+      "subway_nearby": null,
+      "food_policy": null,
+      "age_limit": null
+    }
+  },
+  {
+    "id": "ven_28806744-e656-4d94-8b55-351cbf5129f9",
     "ig_handle": "faustseoul",
     "name_irl": "Faust Seoul",
     "location_text": null,
@@ -209,7 +240,7 @@
     "location_lon": null,
     "phone": "070-2747-2727",
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=12732422498009977626",
     "booking_url": null,
     "homepage_url": "https://on.soundcloud.com/FseSLUSzF771FG5J6",
     "websites": [],
@@ -221,7 +252,7 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Faust",
+          "name": "Faust Seoul",
           "address_text": "서울 용산구 보광로60길 7 3층",
           "address_components": null,
           "location_lat": 37.5340684979333,
@@ -231,8 +262,8 @@
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Faust",
-              "ko": "파우스트"
+              "en": "Faust Seoul",
+              "ko": "파우스트 서울"
             },
             "address_text": {
               "en": "3rd Floor, 7, Bogwang-ro 60-gil, Yongsan District, Seoul, South Korea",
@@ -257,7 +288,7 @@
     }
   },
   {
-    "id": "ven_26b63560-8bc5-4d05-8512-9eba01a92e32",
+    "id": "ven_e64f480f-a73b-4971-a098-9b66eb2f1c51",
     "ig_handle": "modeci",
     "name_irl": "MODECi",
     "location_text": null,
@@ -278,7 +309,7 @@
         {
           "location_id": "main",
           "name": "MODECi",
-          "address_text": "서울특별시 마포구 상수동 86-22",
+          "address_text": "서울 마포구 상수동 86-22",
           "address_components": null,
           "location_lat": 37.5502416057998,
           "location_lon": 126.923286593236,
@@ -291,8 +322,8 @@
               "ko": "모데시"
             },
             "address_text": {
-              "en": "86-22, Sangsu-dong, Mapo-gu, Seoul, South Korea",
-              "ko": "서울특별시 마포구 상수동 86-22"
+              "en": "86-22 Sangsu-dong, Mapo-gu, Seoul, South Korea",
+              "ko": "서울 마포구 상수동 86-22"
             },
             "notes": null
           }
@@ -306,21 +337,14 @@
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Night Club"
-        ],
-        "ko": [
-          "나이트 클럽"
-        ]
-      },
+      "genres": null,
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
   },
   {
-    "id": "ven_77004ae3-4850-4057-89fd-a749b7cd1fd5",
+    "id": "ven_dc041112-27d4-4652-9663-9b3cfe2be9df",
     "ig_handle": "offtherecorditaewon",
     "name_irl": "OFF THE RECORD",
     "location_text": null,
@@ -376,7 +400,7 @@
         ],
         "ko": [
           "바",
-          "라이브 공연"
+          "라이브 음악"
         ]
       },
       "subway_nearby": null,
@@ -385,15 +409,15 @@
     }
   },
   {
-    "id": "ven_cdecb2e0-90a8-4155-b1c2-5deb402fe5fc",
+    "id": "ven_bb23f793-20b1-45f4-881c-498e1f83eb46",
     "ig_handle": "pistilseoul",
-    "name_irl": "Pistil Seoul",
+    "name_irl": "Pistil",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": null,
+    "phone": "02-797-6139",
     "email": null,
-    "google_map_url": null,
+    "google_map_url": "https://maps.google.com/?cid=10504334388587349733",
     "booking_url": null,
     "homepage_url": null,
     "websites": [],
@@ -405,21 +429,21 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Pistil Seoul",
+          "name": "Pistil",
           "address_text": "서울 용산구 보광로59길 9",
           "address_components": null,
           "location_lat": 37.5338671584549,
           "location_lon": 126.993451413927,
-          "subway_nearby": null,
+          "subway_nearby": "6호선 이태원역 4번 출구에서 111m",
           "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Pistil Seoul",
-              "ko": "피스틸 서울"
+              "en": "Pistil",
+              "ko": "피스틸"
             },
             "address_text": {
-              "en": "9 Bogwang-ro 59-gil, Yongsan District, Seoul, South Korea",
+              "en": "9, Bogwang-ro 59-gil, Yongsan District, Seoul, South Korea",
               "ko": "서울 용산구 보광로59길 9"
             },
             "notes": null
@@ -429,8 +453,8 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Pistil Seoul",
-        "ko": "피스틸 서울"
+        "en": "Pistil",
+        "ko": "피스틸"
       },
       "address_text": null,
       "notes": null,
@@ -444,7 +468,7 @@
     }
   },
   {
-    "id": "ven_b27be2c9-82c8-43af-8053-ebab3f86617d",
+    "id": "ven_dfd2c3d2-ab62-4fef-ad20-e20ba5cef61c",
     "ig_handle": "ring.seoul",
     "name_irl": "Ring Seoul",
     "location_text": null,
@@ -465,7 +489,7 @@
         {
           "location_id": "main",
           "name": "Ring Seoul",
-          "address_text": "서울 용산구 이태원동 이태원로 165-6 2층",
+          "address_text": "서울 용산구 이태원로 165-6 2층",
           "address_components": null,
           "location_lat": 37.5347510761074,
           "location_lon": 126.992536017243,
@@ -478,8 +502,8 @@
               "ko": "링 서울"
             },
             "address_text": {
-              "en": "2F, 165-6, Itaewon-ro, Itaewon-dong, Yongsan-gu, Seoul, South Korea",
-              "ko": "서울 용산구 이태원동 이태원로 165-6 2층"
+              "en": "2nd Floor, 165-6, Itaewon-ro, Itaewon-dong, Yongsan District, Seoul, South Korea",
+              "ko": "서울 용산구 이태원로 165-6 2층"
             },
             "notes": null
           }
@@ -500,9 +524,9 @@
     }
   },
   {
-    "id": "ven_cd82048e-e2a7-4585-9236-cf5ffe2ca172",
+    "id": "ven_64de979d-94eb-4f66-933f-84b8107572b6",
     "ig_handle": "shelterseoul_",
-    "name_irl": "Shelter",
+    "name_irl": "Shelter Seoul",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
@@ -520,7 +544,7 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Shelter",
+          "name": "Shelter Seoul",
           "address_text": "서울 용산구 이태원동 119-8 5층",
           "address_components": null,
           "location_lat": 37.5348538239035,
@@ -530,8 +554,8 @@
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Shelter",
-              "ko": "쉘터"
+              "en": "Shelter Seoul",
+              "ko": "쉘터 서울"
             },
             "address_text": {
               "en": "5th Floor, 119-8, Itaewon-dong, Yongsan District, Seoul, South Korea",
@@ -544,14 +568,14 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Shelter",
-        "ko": "쉘터"
+        "en": "Shelter Seoul",
+        "ko": "쉘터 서울"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "90m from Itaewon Station Exit 1 (Line 6)",
+        "en": "90m from Itaewon Station Exit 1, Line 6",
         "ko": "6호선 이태원역 1번 출구에서 90m"
       },
       "food_policy": null,
@@ -559,7 +583,7 @@
     }
   },
   {
-    "id": "ven_e76ae6aa-43f9-48f3-9def-3ac71ddc9af1",
+    "id": "ven_3a616c2e-0f21-4fc0-9091-4bffc498a6d3",
     "ig_handle": "soapseoul",
     "name_irl": "Soap Seoul",
     "location_text": null,
@@ -584,13 +608,13 @@
           "address_components": null,
           "location_lat": null,
           "location_lon": null,
-          "subway_nearby": null,
+          "subway_nearby": "경의중앙신촌역 1번 출구에서 284m",
           "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
               "en": "Soap Seoul",
-              "ko": "Soap Seoul"
+              "ko": "소프 서울"
             },
             "address_text": {
               "en": "132-3 Itaewon-dong, Yongsan District, Seoul, South Korea",
@@ -604,27 +628,21 @@
     "i18n_data": {
       "name": {
         "en": "Soap Seoul",
-        "ko": "Soap Seoul"
+        "ko": "소프 서울"
       },
       "address_text": null,
       "notes": null,
-      "genres": {
-        "en": [
-          "Night Club",
-          "Live Music"
-        ],
-        "ko": [
-          "나이트클럽",
-          "라이브 음악"
-        ]
+      "genres": null,
+      "subway_nearby": {
+        "en": "284m from Sinchon Station (Gyeongui-Jungang Line) Exit 1",
+        "ko": "경의중앙신촌역 1번 출구에서 284m"
       },
-      "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
   },
   {
-    "id": "ven_62d7ef69-3feb-40c7-85b0-d9b7ab90dba4",
+    "id": "ven_a741b2a1-cf74-41ff-b51d-6fe88bba459a",
     "ig_handle": "theedgeseoul",
     "name_irl": "The Edge",
     "location_text": null,
@@ -636,7 +654,7 @@
     "booking_url": null,
     "homepage_url": null,
     "websites": [],
-    "subway_nearby": null,
+    "subway_nearby": "2, 3호선 을지로3가역 10번 출구에서 119m",
     "food_policy": null,
     "age_limit": null,
     "dress_code": null,
@@ -651,20 +669,17 @@
           "location_lon": 126.991077289945,
           "subway_nearby": "2, 3호선 을지로3가역 10번 출구에서 119m",
           "booking_link": null,
-          "notes": "예약 가능.",
+          "notes": null,
           "i18n": {
             "name": {
               "en": "The Edge",
-              "ko": "더 엣지"
+              "ko": "디 엣지"
             },
             "address_text": {
               "en": "3rd Floor, Samjin Building, 8, Eulji-ro 12-gil, Jung District, Seoul, South Korea",
               "ko": "서울 중구 을지로12길 8 삼진빌딩 3층"
             },
-            "notes": {
-              "en": "Reservations available.",
-              "ko": "예약 가능."
-            }
+            "notes": null
           }
         }
       ]
@@ -672,23 +687,13 @@
     "i18n_data": {
       "name": {
         "en": "The Edge",
-        "ko": "더 엣지"
+        "ko": "디 엣지"
       },
       "address_text": null,
-      "notes": {
-        "en": "Reservations available.",
-        "ko": "예약 가능."
-      },
-      "genres": {
-        "en": [
-          "Bar"
-        ],
-        "ko": [
-          "바"
-        ]
-      },
+      "notes": null,
+      "genres": null,
       "subway_nearby": {
-        "en": "119m walk from Euljiro 3-ga Station Exit 10 (Line 2, 3)",
+        "en": "119m from Euljiro 3-ga Station Exit 10 (Line 2, 3)",
         "ko": "2, 3호선 을지로3가역 10번 출구에서 119m"
       },
       "food_policy": null,
@@ -696,17 +701,17 @@
     }
   },
   {
-    "id": "ven_16222a54-b440-468d-9764-841d67ba683f",
-    "ig_handle": "volnostseoul",
-    "name_irl": "Volnost Seoul",
+    "id": "ven_cce9383f-0ad1-4fe7-89f0-58a9eff0edb3",
+    "ig_handle": "vurt_seoul",
+    "name_irl": "club vurt",
     "location_text": null,
     "location_lat": null,
     "location_lon": null,
-    "phone": "010-5004-4944",
+    "phone": null,
     "email": null,
-    "google_map_url": "https://maps.google.com/?cid=528081830924855418",
+    "google_map_url": "https://maps.google.com/?cid=10335247956606384431",
     "booking_url": null,
-    "homepage_url": null,
+    "homepage_url": "https://docs.google.com/forms/d/14lyteri2VuW6JMA_SNo9ojpxiYv2kbZAqBP2fcba5yQ/edit",
     "websites": [],
     "subway_nearby": null,
     "food_policy": null,
@@ -716,22 +721,22 @@
       "locations": [
         {
           "location_id": "main",
-          "name": "Volnost Seoul",
-          "address_text": "서울 용산구 이태원로 142",
+          "name": "club vurt",
+          "address_text": "Dongmak-ro, 합정동 Mapo-gu, Seoul, South Korea",
           "address_components": null,
-          "location_lat": 37.5340467207817,
-          "location_lon": 126.989587632675,
+          "location_lat": null,
+          "location_lon": null,
           "subway_nearby": null,
           "booking_link": null,
           "notes": null,
           "i18n": {
             "name": {
-              "en": "Volnost Seoul",
-              "ko": "볼노스트 서울"
+              "en": "club vurt",
+              "ko": "클럽 버트"
             },
             "address_text": {
-              "en": "142 Itaewon-ro, Yongsan District, Seoul, South Korea",
-              "ko": "서울 용산구 이태원로 142"
+              "en": "Dongmak-ro, Hapjeong-dong, Mapo-gu, Seoul, South Korea",
+              "ko": "서울 마포구 합정동 독막로"
             },
             "notes": null
           }
@@ -740,35 +745,24 @@
     },
     "i18n_data": {
       "name": {
-        "en": "Volnost Seoul",
-        "ko": "볼노스트 서울"
+        "en": "club vurt",
+        "ko": "클럽 버트"
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
+      "genres": {
+        "en": [
+          "Night Club",
+          "Live Music"
+        ],
+        "ko": [
+          "나이트 클럽",
+          "라이브 음악"
+        ]
+      },
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
-  },
-  {
-    "id": "ven_a80453b7-bcaf-444b-b49a-c4739a7f372e",
-    "ig_handle": "electrik.seoul",
-    "name_irl": null,
-    "location_text": null,
-    "location_lat": null,
-    "location_lon": null,
-    "phone": null,
-    "email": null,
-    "google_map_url": null,
-    "booking_url": null,
-    "homepage_url": "https://linktr.ee/electrikseoul",
-    "websites": [],
-    "subway_nearby": null,
-    "food_policy": null,
-    "age_limit": null,
-    "dress_code": null,
-    "venue_data": null,
-    "i18n_data": null
   }
 ]
