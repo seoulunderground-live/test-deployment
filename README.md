@@ -5,10 +5,10 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-29T00:25:36Z
-- **Source Commit**: [`1c70ff76ddbd67af6def5f070ac1065b3ae0b3be`](https://github.com/keunwoochoi/seoulunderground.live/commit/1c70ff76ddbd67af6def5f070ac1065b3ae0b3be)
+- **Build Time**: 2025-11-29T01:01:33Z
+- **Source Commit**: [`5b6984db7317e996fdf2ef22b0f369caea5e9f79`](https://github.com/keunwoochoi/seoulunderground.live/commit/5b6984db7317e996fdf2ef22b0f369caea5e9f79)
 - **Branch**: `k/add-llc`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19776337692)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19776747713)
 
 ## Commit Details
 
