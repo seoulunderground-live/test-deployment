@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-29T00:19:27Z
-- **Source Commit**: [`e1432ed5607a9185faa0a47b16b142f15e993189`](https://github.com/keunwoochoi/seoulunderground.live/commit/e1432ed5607a9185faa0a47b16b142f15e993189)
+- **Build Time**: 2025-11-29T00:25:36Z
+- **Source Commit**: [`1c70ff76ddbd67af6def5f070ac1065b3ae0b3be`](https://github.com/keunwoochoi/seoulunderground.live/commit/1c70ff76ddbd67af6def5f070ac1065b3ae0b3be)
 - **Branch**: `k/add-llc`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19776265420)
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19776337692)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: add llc info
+- **Message**: reflect gemini comment
 
 ## Deployment URLs
 
