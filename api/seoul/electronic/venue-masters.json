@@ -1,24 +1,24 @@
 [
   {
-    "raw": "To solve this problem, we need to perform two main steps:\n\n1.  **Find the starting term of the sum (`n-k`):** This is defined as the first non-negative multiple of 7 that is less than or equal to `n`.\n2.  **Calculate the sum:** Once we have the starting term, we sum all integers from that term up to `n`. This is an arithmetic series.\n\nLet's break down each step:\n\n### Step 1: Find the `start_value`\n\nThe `start_value` is `n-k`.\nIf `n` is a multiple of 7, then `n-k` is `n`.\nIf `n` is not a multiple of 7, we need to subtract its remainder when divided by 7.\n\nThis can be concisely calculated as:\n`start_value = n - (n % 7)`\n\nExamples:\n*   If `n = 10`: `10 % 7 = 3`. `start_value = 10 - 3 = 7`. (Correct, 7 is the largest multiple of 7 <= 10).\n*   If `n = 7`: `7 % 7 = 0`. `start_value = 7 - 0 = 7`. (Correct).\n*   If `n = 6`: `6 % 7 = 6`. `start_value = 6 - 6 = 0`. (Correct, 0 is the largest multiple of 7 <= 6).\n\n### Step 2: Calculate the sum of the arithmetic series\n\nWe need to sum the integers from `start_value` to `n`.\nThis is an arithmetic progression with:\n*   First term (`a`): `start_value`\n*   Last term (`l`): `n`\n*   Number of terms (`count`): `n - start_value + 1`\n\nThe sum `S` of an arithmetic series is given by the formula:\n`S = (count / 2) * (first_term + last_term)`\n\nSubstituting our values:\n`S = ((n - start_value + 1) / 2) * (start_value + n)`\n\n### Example Walkthrough (`n = 10`)\n\n1.  **Find `start_value`:**\n    `n = 10`\n    `start_value = 10 - (10 % 7) = 10 - 3 = 7`\n    So, the sum will be `10 + 9 + 8 + 7`.\n\n2.  **Calculate the sum:**\n    *   `first_term = 7`\n    *   `last_term = 10`\n    *   `count = 10 - 7 + 1 = 4`\n    *   `S = (4 / 2) * (7 + 10) = 2 * 17 = 34`\n\nThis matches the example output.\n\n### Python Implementation\n\n```python\ndef calculate_special_sum(n: int) -> int:\n    \"\"\"\n    Calculates the 'special sum' for a given positive integer n.\n\n    The special sum is n + (n-1) + (n-2) + ... + (n-k),\n    where (n-k) is the first non-negative multiple of 7 less than or equal to n.\n\n    Args:\n        n: A positive integer.\n\n    Returns:\n        The calculated special sum.\n    \"\"\"\n    if n < 0:\n        raise ValueError(\"Input n must be a positive integer.\")\n\n    # Step 1: Find the first non-negative multiple of 7 less than or equal to n\n    # This is equivalent to n - (n % 7)\n    start_value = n - (n % 7)\n\n    # Step 2: Calculate the sum of the arithmetic series\n    # The series runs from start_value up to n (inclusive).\n    # First term (a) = start_value\n    # Last term (l) = n\n    # Number of terms (count) = (last_term - first_term + 1)\n    \n    count = n - start_value + 1\n\n    # Sum of an arithmetic series S = (count / 2) * (first_term + last_term)\n    # Using integer division `//` is safe here because the sum of an integer\n    # series will always be an integer, and the product `count * (start_value + n)`\n    # will always be an even number if `count` or `(start_value + n)` is even.\n    # If both `count` and `(start_value + n)` are odd, it means `count` is odd and\n    # `start_value + n` is odd. This implies `start_value` and `n` have different parity.\n    # However, for an arithmetic series `start_value, start_value+1, ..., n`,\n    # the sum `S = count * (start_value + n) / 2` will always be an integer.\n    # So `(count * (start_value + n)) // 2` is correct.\n    special_sum = (count * (start_value + n)) // 2\n\n    return special_sum\n\n# Test cases\nprint(f\"n = 10, Special Sum: {calculate_special_sum(10)}\") # Expected: 34 (10+9+8+7)\nprint(f\"n = 7, Special Sum: {calculate_special_sum(7)}\")   # Expected: 7\nprint(f\"n = 6, Special Sum: {calculate_special_sum(6)}\")   # Expected: 21 (6+5+4+3+2+1+0)\nprint(f\"n = 1, Special Sum: {calculate_special_sum(1)}\")   # Expected: 1 (1+0)\nprint(f\"n = 14, Special Sum: {calculate_special_sum(14)}\") # Expected: 105 (14+13+...+0)\nprint(f\"n = 0, Special Sum: {calculate_special_sum(0)}\")   # Expected: 0 (if 0 is allowed, 0 is mult of 7)\n```",
+    "raw": "To calculate the \"special sum\" of an integer `N`, we need to follow the given rules:\n\n1.  If `N` is a single-digit number (0-9), its special sum is `N` itself.\n2.  If `N` is a multi-digit number, its special sum is the special sum of the sum of its digits. This process repeats until a single-digit number is reached.\n\nThis problem is a classic example of finding the \"digital root\" of a number.\n\nLet's break down the process with examples:\n\n*   **N = 9**: It's a single-digit number. Special sum = 9.\n*   **N = 10**:\n    *   `10` is multi-digit. Sum of digits: `1 + 0 = 1`.\n    *   Now, we find the special sum of `1`.\n    *   `1` is a single-digit number. Special sum = 1.\n    *   Therefore, the special sum of `10` is `1`.\n*   **N = 19**:\n    *   `19` is multi-digit. Sum of digits: `1 + 9 = 10`.\n    *   Now, we find the special sum of `10`.\n    *   `10` is multi-digit. Sum of digits: `1 + 0 = 1`.\n    *   Now, we find the special sum of `1`.\n    *   `1` is a single-digit number. Special sum = 1.\n    *   Therefore, the special sum of `19` is `1`.\n*   **N = 99**:\n    *   `99` is multi-digit. Sum of digits: `9 + 9 = 18`.\n    *   Now, we find the special sum of `18`.\n    *   `18` is multi-digit. Sum of digits: `1 + 8 = 9`.\n    *   Now, we find the special sum of `9`.\n    *   `9` is a single-digit number. Special sum = 9.\n    *   Therefore, the special sum of `99` is `9`.\n\n### Algorithm\n\nThe algorithm involves a loop that continues as long as the current number is multi-digit (i.e., greater than or equal to 10). Inside this loop, we calculate the sum of the digits of the current number and update the number with this sum.\n\n1.  **Handle edge cases**: If `N` is negative, it's typically an invalid input for this type of problem, so we can raise an error or define its behavior. If `N` is 0, its special sum is 0.\n2.  **Loop**: While `N` is greater than or equal to 10:\n    a.  Calculate the `digit_sum` of `N`. A simple way to do this in Python is to convert `N` to a string, iterate through its characters, convert each character back to an integer, and sum them up.\n    b.  Update `N` to be `digit_sum`.\n3.  **Return**: Once the loop finishes, `N` will be a single-digit number, which is our special sum.\n\n### Python Implementation\n\n```python\ndef special_sum(N: int) -> int:\n    \"\"\"\n    Calculates the special sum of a non-negative integer N.\n\n    The special sum is defined as:\n    - If N is a single-digit number, the special sum is N.\n    - If N is a multi-digit number, the special sum is the\n      special sum of the sum of its digits.\n    This process continues until a single-digit number is reached.\n\n    Args:\n        N: A non-negative integer.\n\n    Returns:\n        The single-digit special sum.\n\n    Raises:\n        TypeError: If N is not an integer.\n        ValueError: If N is a negative integer.\n    \"\"\"\n    if not isinstance(N, int):\n        raise TypeError(\"Input must be an integer.\")\n    if N < 0:\n        raise ValueError(\"Input must be a non-negative integer.\")\n\n    # The loop continues as long as N is a multi-digit number (>= 10)\n    while N >= 10:\n        # Calculate the sum of digits for the current number\n        digit_sum = 0\n        \n        # Convert the number to a string to easily iterate over its digits\n        # Example: N = 123 -> \"123\" -> '1', '2', '3'\n        for digit_char in str(N):\n            digit_sum += int(digit_char)\n        \n        # Update N with the new sum of its digits for the next iteration\n        N = digit_sum\n    \n    # At this point, N is a single-digit number (0-9)\n    return N\n\n# --- Test Cases ---\nprint(f\"Special sum of 0: {special_sum(0)}\")      # Expected: 0\nprint(f\"Special sum of 5: {special_sum(5)}\")      # Expected: 5\nprint(f\"Special sum of 9: {special_sum(9)}\")      # Expected: 9\nprint(f\"Special sum of 10: {special_sum(10)}\")    # Expected: 1 (1+0 -> 1)\nprint(f\"Special sum of 19: {special_sum(19)}\")    # Expected: 1 (1+9 -> 10 -> 1+0 -> 1)\nprint(f\"Special sum of 99: {special_sum(99)}\")    # Expected: 9 (9+9 -> 18 -> 1+8 -> 9)\nprint(f\"Special sum of 123: {special_sum(123)}\")  # Expected: 6 (1+2+3 -> 6)\nprint(f\"Special sum of 9876: {special_sum(9876)}\")# Expected: 3 (9+8+7+6 -> 30 -> 3+0 -> 3)\n\n# --- Error Handling Tests ---\ntry:\n    special_sum(-1)\nexcept ValueError as e:\n    print(f\"Error for -1: {e}\")\n\ntry:\n    special_sum(\"abc\")\nexcept TypeError as e:\n    print(f\"Error for 'abc': {e}\")\n```\n\n### Mathematical Shortcut (Digital Root Formula)\n\nFor positive integers, the special sum (or digital root) can be calculated using a mathematical property:\n\n*   If `N = 0`, the special sum is `0`.\n*   If `N > 0` and `N % 9 == 0`, the special sum is `9`.\n*   If `N > 0` and `N % 9 != 0`, the special sum is `N % 9`.\n\nThis can be concisely written as `1 + (N - 1) % 9` for `N > 0`.\n\n```python\ndef special_sum_formula(N: int) -> int:\n    \"\"\"\n    Calculates the special sum using the digital root formula.\n    This is generally more efficient for very large numbers.\n    \"\"\"\n    if not isinstance(N, int):\n        raise TypeError(\"Input must be an integer.\")\n    if N < 0:\n        raise ValueError(\"Input must be a non-negative integer.\")\n    if N == 0:\n        return 0\n    return 1 + (N - 1) % 9\n\n# --- Test Cases for formula ---\nprint(\"\\n--- Using Formula Method ---\")\nprint(f\"Special sum of 0: {special_sum_formula(0)}\")\nprint(f\"Special sum of 5: {special_sum_formula(5)}\")\nprint(f\"Special sum of 9: {special_sum_formula(9)}\")\nprint(f\"Special sum of 10: {special_sum_formula(10)}\")\nprint(f\"Special sum of 19: {special_sum_formula(19)}\")\nprint(f\"Special sum of 99: {special_sum_formula(99)}\")\nprint(f\"Special sum of 123: {special_sum_formula(123)}\")\nprint(f\"Special sum of 9876: {special_sum_formula(9876)}\")\n```\n\nBoth methods yield the same results. The iterative method directly follows the problem's definition, while the formula method is a highly optimized mathematical shortcut. For most interview contexts, the iterative method is what's usually expected if the problem is phrased as an iterative sum of digits.",
     "ig_handle": "argaseoul",
-    "last_analyzed_at": "2025-11-24T10:20:33.896157+09:00",
+    "last_analyzed_at": "2025-12-08T14:39:53.805725+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/argaseoul/profile/2025-11-21/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/argaseoul/profile/2025-11-18/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/argaseoul/profile/2025-11-17/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/argaseoul/profile/2025-11-09/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/argaseoul/profile/2025-11-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/argaseoul/profile/2025-12-03/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/argaseoul/profile/2025-11-29/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/argaseoul/profile/2025-11-28/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/argaseoul/profile/2025-11-27/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/argaseoul/profile/2025-11-25/profile.json",
       "maps:https://maps.google.com/?cid=17441298849254633058",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/argaseoul",
-      "homepage": "https://event.dumbs.app/deeplink?path=performance%3Fid%3D714",
+      "homepage": null,
       "booking": null,
       "google_map": "https://maps.google.com/?cid=17441298849254633058"
     },
@@ -32,15 +32,15 @@
         "name": "ARGA Seoul",
         "address_text": "서울 용산구 이태원로 173-7 4층",
         "address_components": null,
-        "location_lat": 37.5348758160203,
-        "location_lon": 126.993222665213,
+        "location_lat": 37.53488,
+        "location_lon": 126.99323,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
             "en": "ARGA Seoul",
-            "ko": "ARGA Seoul"
+            "ko": "ARGA 서울"
           },
           "address_text": {
             "en": "4th Floor, 173-7, Itaewon-ro, Yongsan District, Seoul, South Korea",
@@ -53,7 +53,7 @@
     "i18n": {
       "name": {
         "en": "ARGA Seoul",
-        "ko": "ARGA Seoul"
+        "ko": "ARGA 서울"
       },
       "address_text": null,
       "notes": null,
@@ -64,7 +64,7 @@
         ],
         "ko": [
           "나이트클럽",
-          "라이브 공연"
+          "라이브 음악"
         ]
       },
       "subway_nearby": null,
@@ -73,14 +73,15 @@
     }
   },
   {
-    "raw": "To find the longest string in a list of strings in Python, the most Pythonic and efficient way is to use the built-in `max()` function with a `key` argument. The `key` argument specifies a function of one argument that is used to extract a comparison key from each element in the iterable. In this case, we want to compare strings by their length, so `len` is the appropriate key.\n\nHere's the Python function:\n\n```python\ndef find_longest_string(string_list: list[str]) -> str | None:\n    \"\"\"\n    Finds the longest string in a given list of strings.\n\n    If there are multiple strings with the same maximum length,\n    the function returns the first one encountered (based on max() behavior).\n\n    Args:\n        string_list: A list of strings.\n\n    Returns:\n        The longest string from the list.\n        Returns None if the input list is empty or None.\n    \"\"\"\n    if not string_list:  # Handles empty list and None input\n        return None\n    \n    # max() with key=len finds the item with the maximum length\n    return max(string_list, key=len)\n\n# --- Examples ---\n\n# Example 1: Basic usage\nlist1 = [\"apple\", \"banana\", \"kiwi\", \"grapefruit\", \"orange\"]\nlongest1 = find_longest_string(list1)\nprint(f\"List: {list1}\\nLongest string: '{longest1}'\\n\")\n\n# Example 2: List with ties for longest length (returns the first one encountered)\nlist2 = [\"cat\", \"dog\", \"elephant\", \"tiger\", \"zebra\"]\nlongest2 = find_longest_string(list2)\nprint(f\"List: {list2}\\nLongest string: '{longest2}'\\n\") # Expected: 'elephant'\n\n# Example 3: List containing empty strings\nlist3 = [\"\", \"a\", \"bb\", \"\", \"ccc\"]\nlongest3 = find_longest_string(list3)\nprint(f\"List: {list3}\\nLongest string: '{longest3}'\\n\") # Expected: 'ccc'\n\n# Example 4: List with all empty strings\nlist4 = [\"\", \"\", \"\"]\nlongest4 = find_longest_string(list4)\nprint(f\"List: {list4}\\nLongest string: '{longest4}'\\n\") # Expected: ''\n\n# Example 5: List with a single string\nlist5 = [\"hello\"]\nlongest5 = find_longest_string(list5)\nprint(f\"List: {list5}\\nLongest string: '{longest5}'\\n\") # Expected: 'hello'\n\n# Example 6: Empty list\nlist6 = []\nlongest6 = find_longest_string(list6)\nprint(f\"List: {list6}\\nLongest string: {longest6}\\n\") # Expected: None\n\n# Example 7: None input (though type hint suggests list[str])\nlist7 = None\nlongest7 = find_longest_string(list7)\nprint(f\"List: {list7}\\nLongest string: {longest7}\\n\") # Expected: None\n```\n\n### Explanation:\n\n1.  **`def find_longest_string(string_list: list[str]) -> str | None:`**\n    *   Defines a function named `find_longest_string` that accepts one argument, `string_list`.\n    *   `list[str]` is a type hint indicating that `string_list` is expected to be a list of strings.\n    *   `-> str | None` is a type hint indicating that the function is expected to return either a string or `None`.\n\n2.  **`if not string_list:`**\n    *   This is an important edge case check. If `string_list` is empty (`[]`) or `None`, it evaluates to `True`.\n    *   In such cases, there's no string to return, so the function returns `None`.\n\n3.  **`return max(string_list, key=len)`**\n    *   This is the core of the solution.\n    *   `max()` is a built-in Python function that returns the largest item in an iterable.\n    *   `key=len` tells `max()` to use the length of each string as the criterion for comparison, rather than the strings themselves (which would compare them lexicographically).\n    *   For example, if `string_list` is `[\"apple\", \"banana\", \"kiwi\"]`:\n        *   `len(\"apple\")` is 5\n        *   `len(\"banana\")` is 6\n        *   `len(\"kiwi\")` is 4\n    *   `max()` will compare these lengths and return the string corresponding to the maximum length, which is \"banana\".\n    *   If multiple strings have the same maximum length (e.g., \"apple\" and \"grape\"), `max()` will return the first one it encounters in the list.",
+    "raw": "{}",
     "ig_handle": "cakeshopseoul",
-    "last_analyzed_at": "2025-11-24T10:17:49.827956+09:00",
+    "last_analyzed_at": "2025-12-08T14:33:26.886852+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/cakeshopseoul/profile/2025-11-29/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/cakeshopseoul/profile/2025-11-18/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/cakeshopseoul/profile/2025-11-17/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/cakeshopseoul/profile/2025-11-09/profile.json",
@@ -98,9 +99,6 @@
       "phone": null,
       "email": null
     },
-    "websites": [
-      "https://music.apple.com/ca/curator/cakeshop/1668225448"
-    ],
     "locations": [
       {
         "location_id": "main",
@@ -139,14 +137,16 @@
     }
   },
   {
-    "raw": "**LLM stands for Large Language Model.**\n\nIn essence, an LLM is a type of artificial intelligence (AI) program that is specifically designed to **understand, generate, and process human language** in a highly sophisticated way.\n\nLet's break down what each part of the name signifies:\n\n1.  **Large:**\n    *   **Vast Amount of Data:** LLMs are trained on enormous datasets of text and code. This data is typically scraped from the internet and includes billions, even trillions, of words from books, articles, websites, conversations, code repositories, and more.\n    *   **Numerous Parameters:** These models contain billions, sometimes trillions, of \"parameters.\" Parameters are the weights and biases in the neural network that allow the model to learn and store complex patterns, relationships, grammar rules, and factual information from the vast training data. More parameters generally mean a more complex and capable model.\n\n2.  **Language:**\n    *   Their primary function is to work with human language (natural language). They learn grammar, syntax, semantics (the meaning of words and phrases), context, and even some forms of reasoning by analyzing how words and phrases are used together across massive amounts of text.\n\n3.  **Model:**\n    *   They are a type of artificial neural network, most commonly built using the **Transformer architecture**. This architecture is particularly effective at processing sequential data like text, allowing the model to weigh the importance of different words in a sequence and understand long-range dependencies.\n\n**How they work (Simplified):**\nAt their core, LLMs are trained to predict the next word or \"token\" (a piece of a word, a whole word, or punctuation) in a sequence, given the preceding words. By repeatedly performing this task on massive datasets, they develop an intricate statistical understanding of language and context, enabling them to generate coherent and contextually relevant text.\n\n**Key Capabilities of LLMs:**\n\n*   **Text Generation:** Writing articles, stories, emails, code, poems, scripts, and more based on a given prompt.\n*   **Summarization:** Condensing long texts or documents into shorter, coherent summaries.\n*   **Translation:** Converting text from one language to another.\n*   **Question Answering:** Providing relevant answers to a wide range of questions based on their learned knowledge.\n*   **Conversation:** Engaging in natural, human-like dialogue (the basis for chatbots and conversational AI).\n*   **Code Generation and Debugging:** Writing code in various programming languages, suggesting fixes, or explaining code.\n*   **Creative Writing:** Generating creative content in various styles and formats.\n*   **Information Extraction:** Identifying and extracting specific pieces of information from text.\n*   **Reasoning (Pattern-Based):** Inferring information, solving problems, and performing logical tasks based on the patterns learned during training, though not true human-like reasoning.\n\n**Training Process (Briefly):**\n1.  **Pre-training:** The model learns general language patterns by processing massive amounts of text in a self-supervised manner (e.g., predicting missing words or the next word).\n2.  **Fine-tuning:** The pre-trained model is then often refined on smaller, more specific datasets for particular tasks or to align its behavior (e.g., through **Reinforcement Learning from Human Feedback - RLHF**) with human preferences for helpfulness, harmlessness, and honesty.\n\nLLMs like OpenAI's GPT series, Google's Bard/Gemini, and Anthropic's Claude have revolutionized the field of AI, enabling applications that were previously impossible and making advanced language capabilities accessible to a wide audience.",
+    "raw": "Alright, I'm ready!\n\nPlease present your special problem.\n\nI'm eager to tackle it, whether it's a logic puzzle, a mathematical challenge, a riddle, or anything else you've got. Let's see it!",
     "ig_handle": "electrik.seoul",
-    "last_analyzed_at": "2025-11-24T10:19:48.422679+09:00",
+    "last_analyzed_at": "2025-12-08T14:39:24.214304+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/electrik.seoul/profile/2025-12-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/electrik.seoul/profile/2025-11-28/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/electrik.seoul/profile/2025-11-17/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/electrik.seoul/profile/2025-11-09/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/electrik.seoul/profile/2025-11-07/profile.json",
@@ -166,10 +166,10 @@
       {
         "location_id": "main",
         "name": "Electrik Seoul",
-        "address_text": null,
+        "address_text": "서울 마포구 잔다리로 27 5층",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
+        "location_lat": 37.551038719625,
+        "location_lon": 126.919895642474,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
@@ -178,7 +178,10 @@
             "en": "Electrik Seoul",
             "ko": "일렉트릭 서울"
           },
-          "address_text": null,
+          "address_text": {
+            "en": "5th Floor, 27, Jandari-ro, Mapo-gu, Seoul, South Korea",
+            "ko": "서울 마포구 잔다리로 27 5층"
+          },
           "notes": null
         }
       }
@@ -197,19 +200,19 @@
     }
   },
   {
-    "raw": "## How-To Guide: Effective and Ethical AI Integration\n\nIntegrating Artificial Intelligence (AI) into an organization is a transformative journey that promises significant advantages but also carries substantial responsibilities. This guide outlines a systematic approach to ensure your AI initiatives are not only effective in achieving business goals but also ethically sound, responsible, and sustainable.\n\n---\n\n### Phase 1: Strategic Planning & Vision (The \"Why\" and \"What\")\n\nThis foundational phase sets the direction and ensures AI adoption aligns with core business objectives and values.\n\n1.  **Define Clear Objectives & Value Proposition:**\n    *   **Effectiveness:** Identify specific business problems AI can solve (e.g., automate repetitive tasks, enhance customer experience, optimize operations, generate insights). Quantify potential ROI (cost savings, revenue growth, efficiency gains).\n    *   **Ethics:** Consider the *human impact* from the outset. How will AI affect employees, customers, and other stakeholders? What societal value might it create or diminish?\n\n2.  **Conduct a Readiness Assessment:**\n    *   **Effectiveness:** Evaluate current data infrastructure, data quality, IT capabilities, and existing skill sets. Identify gaps in data availability, accessibility, and cleanliness.\n    *   **Ethics:** Assess organizational culture regarding data privacy, transparency, and accountability. Identify potential areas of historical bias in data or processes.\n\n3.  **Establish an AI Governance Framework:**\n    *   **Effectiveness:** Define clear roles and responsibilities for AI initiatives (e.g., data scientists, engineers, business analysts, legal, ethics committee).\n    *   **Ethics:** Develop internal AI principles and policies that align with company values and external regulations (e.g., GDPR, local AI guidelines). This framework should cover data privacy, fairness, transparency, accountability, and security.\n\n4.  **Start Small, Think Big:**\n    *   **Effectiveness:** Begin with pilot projects or Proofs of Concept (PoCs) that have a high likelihood of success and measurable impact. This builds confidence and demonstrates value.\n    *   **Ethics:** Use early projects as learning opportunities to refine ethical guidelines and identify unforeseen challenges in a contained environment.\n\n---\n\n### Phase 2: Foundational Pillars & Preparation (The \"How-To Prepare\")\n\nThis phase focuses on building the necessary infrastructure, capabilities, and guidelines.\n\n1.  **Data Strategy & Management:**\n    *   **Effectiveness:** Implement robust data governance processes for data collection, storage, cleansing, labeling, and access. Ensure data quality and relevance for AI models.\n    *   **Ethics:** Prioritize data privacy and security (encryption, access controls). Implement strategies for identifying and mitigating biases in training data (e.g., diverse data sources, re-weighting, synthetic data). Obtain necessary consents for data usage.\n\n2.  **Technology & Infrastructure:**\n    *   **Effectiveness:** Invest in scalable computing infrastructure (cloud or on-premise), AI/ML platforms, and tools that support model development, deployment, and monitoring.\n    *   **Ethics:** Ensure infrastructure supports secure environments for sensitive data and model auditing capabilities.\n\n3.  **Talent & Training:**\n    *   **Effectiveness:** Upskill existing employees and/or hire new talent with AI/ML expertise (data scientists, ML engineers, AI ethicists). Foster cross-functional collaboration.\n    *   **Ethics:** Provide comprehensive training for all stakeholders on responsible AI practices, ethical considerations, and the specific ethical guidelines adopted by the organization. Educate employees on how AI will impact their roles.\n\n4.  **Legal & Compliance Review:**\n    *   **Effectiveness:** Understand the regulatory landscape for AI in your industry and region.\n    *   **Ethics:** Engage legal counsel early to ensure compliance with data protection laws, anti-discrimination laws, and emerging AI-specific regulations. Develop a clear intellectual property strategy for AI-generated assets.\n\n---\n\n### Phase 3: Development & Implementation (The \"Building & Deploying\")\n\nThis phase involves the actual creation, testing, and rollout of AI solutions.\n\n1.  **Human-Centric Design:**\n    *   **Effectiveness:** Design AI solutions with the end-user in mind. Involve users in the design and testing phases to ensure usability and relevance.\n    *   **Ethics:** Prioritize human oversight and human-in-the-loop (HITL) processes, especially for high-stakes decisions. Design for user agency and control.\n\n2.  **Bias Mitigation & Fairness:**\n    *   **Effectiveness:** Continuously monitor for and address model performance disparities across different demographic groups or use cases.\n    *   **Ethics:** Actively test models for fairness metrics (e.g., equal opportunity, demographic parity). Implement techniques to debias models during training and deployment.\n\n3.  **Transparency & Explainability (XAI):**\n    *   **Effectiveness:** For critical applications, design models that can provide explanations for their decisions where possible, enhancing trust and auditability.\n    *   **Ethics:** Communicate clearly about how AI works, its limitations, and when decisions are AI-assisted or fully automated. Provide mechanisms for users to challenge AI decisions.\n\n4.  **Robust Testing & Validation:**\n    *   **Effectiveness:** Conduct rigorous testing across diverse datasets and scenarios (unit, integration, stress, adversarial testing). Validate model performance against business objectives.\n    *   **Ethics:** Include specific tests for fairness, robustness against manipulation, and adherence to privacy standards. Document all testing procedures and results.\n\n5.  **Secure Deployment:**\n    *   **Effectiveness:** Implement secure deployment pipelines and robust access controls.\n    *   **Ethics:** Ensure AI systems are protected against cyber threats, data breaches, and malicious use.\n\n---\n\n### Phase 4: Monitoring, Iteration & Oversight (The \"Keeping it Running & Right\")\n\nAI integration is not a one-time event; it requires continuous vigilance and adaptation.\n\n1.  **Continuous Monitoring & Performance Tracking:**\n    *   **Effectiveness:** Establish dashboards to track key performance indicators (KPIs) of AI models (accuracy, latency, throughput) and their impact on business objectives.\n    *   **Ethics:** Monitor for model drift, data drift, and emerging biases over time. Set up alerts for unexpected model behavior or ethical violations.\n\n2.  **Feedback Loops & Iteration:**\n    *   **Effectiveness:** Collect feedback from users and stakeholders to continuously improve AI models and solutions. Implement A/B testing for optimizations.\n    *   **Ethics:** Provide clear channels for users to report issues, concerns, or perceived unfairness related to AI outputs. Integrate these insights into model refinement.\n\n3.  **Incident Response & Remediation:**\n    *   **Effectiveness:** Develop clear protocols for addressing model failures, performance degradation, or system outages.\n    *   **Ethics:** Establish an ethical incident response plan for situations where AI systems produce biased, discriminatory, or harmful outputs. This includes transparent communication, investigation, and corrective action.\n\n4.  **Regular Audits & Reviews:**\n    *   **Effectiveness:** Conduct periodic technical audits of AI systems to ensure efficiency and performance.\n    *   **Ethics:** Perform regular ethical audits of AI models, data, and processes, potentially involving independent third parties, to ensure ongoing compliance with internal policies and external regulations.\n\n5.  **Public Communication & Engagement:**\n    *   **Effectiveness:** Communicate the benefits and impact of AI initiatives to internal and external audiences.\n    *   **Ethics:** Be transparent with customers and the public about the use of AI, how it affects them, and the measures taken to ensure its responsible deployment. Engage in public dialogue about the ethical implications of your AI use.\n\n---\n\n### Conclusion: A Journey of Continuous Responsibility\n\nEffective and ethical AI integration is an ongoing commitment. It requires strong leadership, a culture of responsibility, continuous learning, and a proactive approach to both technological challenges and ethical dilemmas. By embedding ethical considerations into every stage of the AI lifecycle, organizations can harness the power of AI to drive innovation, create value, and build trust with their stakeholders, ensuring a future where AI serves humanity responsibly.",
+    "raw": "Okay, let's convert those USD amounts to INR using the current exchange rate you provided.\n\n**Exchange Rate:** 1 USD = 83.45 INR\n\nHere are the conversions:\n\n*   **$20 USD** = 20 * 83.45 = **₹1,669 INR**\n*   **$50 USD** = 50 * 83.45 = **₹4,172.50 INR**\n*   **$100 USD** = 100 * 83.45 = **₹8,345 INR**\n*   **$200 USD** = 200 * 83.45 = **₹16,690 INR**\n*   **$500 USD** = 500 * 83.45 = **₹41,725 INR**\n*   **$1,000 USD** = 1,000 * 83.45 = **₹83,450 INR**",
     "ig_handle": "faustseoul",
-    "last_analyzed_at": "2025-11-24T10:14:06.572510+09:00",
+    "last_analyzed_at": "2025-12-08T14:33:01.449801+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/faustseoul/profile/2025-11-24/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/faustseoul/profile/2025-11-20/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/faustseoul/profile/2025-11-17/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/faustseoul/profile/2025-11-09/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/faustseoul/profile/2025-11-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/faustseoul/profile/2025-12-08/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/faustseoul/profile/2025-12-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/faustseoul/profile/2025-12-03/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/faustseoul/profile/2025-12-02/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/faustseoul/profile/2025-11-29/profile.json",
       "maps:https://maps.google.com/?cid=12732422498009977626",
       "gemini:enrich"
     ],
@@ -223,22 +226,21 @@
       "phone": "070-2747-2727",
       "email": null
     },
-    "websites": [],
     "locations": [
       {
         "location_id": "main",
-        "name": "Faust Seoul",
+        "name": "Faust",
         "address_text": "서울 용산구 보광로60길 7 3층",
         "address_components": null,
-        "location_lat": 37.5340684979333,
-        "location_lon": 126.994551353559,
+        "location_lat": 37.534005,
+        "location_lon": 126.994527,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Faust Seoul",
-            "ko": "파우스트 서울"
+            "en": "Faust",
+            "ko": "파우스트"
           },
           "address_text": {
             "en": "3rd Floor, 7, Bogwang-ro 60-gil, Yongsan District, Seoul, South Korea",
@@ -250,8 +252,8 @@
     ],
     "i18n": {
       "name": {
-        "en": "Faust Seoul",
-        "ko": "파우스트 서울"
+        "en": "Faust",
+        "ko": "파우스트"
       },
       "address_text": null,
       "notes": null,
@@ -262,17 +264,19 @@
     }
   },
   {
-    "raw": "You can create a Python dictionary where keys are numbers and values are their squares within a specific range using a `for` loop or, more concisely, with a dictionary comprehension.\n\nHere are both methods:\n\n---\n\n### Method 1: Using a `for` loop (Explicit)\n\nThis method involves initializing an empty dictionary and then iteratively adding key-value pairs within a loop.\n\n```python\n# Initialize an empty dictionary\nsquares_dict = {}\n\n# Define the range (from 1 up to and including 5)\nstart_num = 1\nend_num = 5\n\n# Loop through the numbers in the range\n# range(start, stop) goes from 'start' up to 'stop - 1',\n# so to include 'end_num', we use 'end_num + 1'\nfor num in range(start_num, end_num + 1):\n    # Calculate the square\n    square = num * num\n    # Add the key-value pair to the dictionary\n    squares_dict[num] = square\n\n# Print the resulting dictionary\nprint(squares_dict)\n```\n\n**Output:**\n```\n{1: 1, 2: 4, 3: 9, 4: 16, 5: 25}\n```\n\n---\n\n### Method 2: Using a Dictionary Comprehension (Concise and Pythonic)\n\nDictionary comprehensions provide a more compact and often more readable way to create dictionaries from iterables.\n\n```python\n# Define the range (from 1 up to and including 5)\nstart_num = 1\nend_num = 5\n\n# Use a dictionary comprehension\n# The syntax is {key_expression: value_expression for item in iterable}\nsquares_dict_comprehension = {num: num * num for num in range(start_num, end_num + 1)}\n\n# Print the resulting dictionary\nprint(squares_dict_comprehension)\n```\n\n**Output:**\n```\n{1: 1, 2: 4, 3: 9, 4: 16, 5: 25}\n```\n\n---\n\nBoth methods achieve the same result. The dictionary comprehension is generally preferred in Python for its brevity and efficiency when creating dictionaries based on simple transformations of an iterable.",
+    "raw": "Let's break this down into two main parts:\n\n1.  **The `Index` Class:** This class will encapsulate the logic for our \"Git\" repository operations (like `init`, `add`, `cat-file`).\n2.  **The Main Script Logic:** This will parse the command-line arguments and call the appropriate methods on an `Index` instance.\n\nWe'll need the `path` and `fs` (file system) modules for handling directories and files.\n\n---\n\n### 1. `Index` Class (`index.js`)\n\nThis file will contain our `Index` class.\n\n```javascript\n// index.js (the module containing the Index class)\nconst path = require('path');\nconst fs = require('fs');\n\nclass Index {\n    /**\n     * @param {string} [cwd=process.cwd()] - The current working directory from where the command was executed.\n     */\n    constructor(cwd = process.cwd()) {\n        this.cwd = cwd;\n        // Locate the repository root (directory containing .git)\n        this.repoRoot = this._findRepoRoot(cwd);\n        // Path to the .git directory\n        this.gitDir = this.repoRoot ? path.join(this.repoRoot, '.git') : null;\n\n        // In a real implementation, you'd load the actual index file here\n        this.indexEntries = []; // Represents the staging area\n    }\n\n    /**\n     * Traverses parent directories to find the .git directory.\n     * @private\n     * @param {string} startDir - The directory to start searching from.\n     * @returns {string|null} The path to the repository root, or null if not found.\n     */\n    _findRepoRoot(startDir) {\n        let currentDir = startDir;\n        while (true) {\n            if (fs.existsSync(path.join(currentDir, '.git'))) {\n                return currentDir;\n            }\n            const parentDir = path.dirname(currentDir);\n            if (parentDir === currentDir) { // Reached root directory (e.g., '/')\n                return null;\n            }\n            currentDir = parentDir;\n        }\n    }\n\n    /**\n     * Ensures that the current operation is being run within a Git repository.\n     * If not, it prints an error and exits the process.\n     * @private\n     */\n    _ensureRepoExists() {\n        if (!this.repoRoot) {\n            console.error(\"fatal: not a git repository (or any of the parent directories): .git\");\n            process.exit(1);\n        }\n    }\n\n    /**\n     * Initializes a new Git repository in the current working directory.\n     */\n    init() {\n        if (this.repoRoot) {\n            console.error(`Reinitializing existing Git repository in ${this.repoRoot}`);\n            // For simplicity, we'll proceed to ensure structure, but a real git might just exit or warn.\n        } else {\n            console.log(`Initializing new Git repository in ${this.cwd}`);\n        }\n\n        const gitPath = path.join(this.cwd, '.git');\n        const objectsPath = path.join(gitPath, 'objects');\n        const refsPath = path.join(gitPath, 'refs');\n        const headsPath = path.join(refsPath, 'heads');\n        const tagsPath = path.join(refsPath, 'tags');\n\n        try {\n            fs.mkdirSync(gitPath, { recursive: true });\n            fs.mkdirSync(objectsPath, { recursive: true });\n            fs.mkdirSync(headsPath, { recursive: true });\n            fs.mkdirSync(tagsPath, { recursive: true });\n            fs.writeFileSync(path.join(gitPath, 'HEAD'), 'ref: refs/heads/master\\n');\n            fs.writeFileSync(path.join(gitPath, 'config'), '[core]\\n\\trepositoryformatversion = 0\\n\\tfilemode = true\\n\\tbare = false\\n\\tlogallrefupdates = true\\n');\n            fs.writeFileSync(path.join(gitPath, 'description'), 'Unnamed repository; edit this file to name it for gitweb.\\n');\n\n            console.log(`Initialized empty Git repository in ${gitPath}`);\n            // Update the instance's state as the repo is now initialized\n            this.repoRoot = this.cwd;\n            this.gitDir = gitPath;\n        } catch (error) {\n            console.error(\"Error initializing repository:\", error.message);\n            process.exit(1);\n        }\n    }\n\n    /**\n     * Adds specified files to the staging area (index).\n     * @param {string[]} files - An array of file paths to add.\n     */\n    add(files) {\n        this._ensureRepoExists(); // Ensure we are in a repo\n        if (files.length === 0) {\n            console.error(\"Nothing specified, nothing added.\");\n            return;\n        }\n        console.log(`[STUB] Adding files to index in ${this.repoRoot}:`, files.map(f => path.relative(this.repoRoot, f)));\n\n        // --- REAL GIT 'ADD' LOGIC WOULD GO HERE ---\n        // For each file:\n        // 1. Read file content.\n        // 2. Calculate its SHA-1 hash.\n        // 3. Store the file content as a 'blob' object in .git/objects/.\n        // 4. Update the index file (.git/index) with the file's path, hash, and metadata.\n        // This.indexEntries.push({ filePath: file, hash: \"fakehash\", mode: \"100644\" });\n        // fs.writeFileSync(path.join(this.gitDir, 'index'), JSON.stringify(this.indexEntries)); // Simplified for stub\n        // ------------------------------------------\n    }\n\n    /**\n     * Provides content or type/size information for repository objects.\n     * @param {'blob'|'commit'|'tag'|'tree'|'-t'|'-s'|'-p'} typeOrOption - The object type or display option.\n     * @param {string} hash - The SHA-1 hash of the object.\n     */\n    catFile(typeOrOption, hash) {\n        this._ensureRepoExists(); // Ensure we are in a repo\n        console.log(`[STUB] Displaying object type '${typeOrOption}' with hash '${hash}' from ${this.repoRoot}`);\n\n        // --- REAL GIT 'CAT-FILE' LOGIC WOULD GO HERE ---\n        // 1. Construct the path to the object file (e.g., .git/objects/xx/xxxxxxxxxxxxxxxxxxxxxxxxxxxxx).\n        // 2. Read the compressed object content from the file.\n        // 3. Decompress the content (using zlib).\n        // 4. Parse the header (e.g., \"blob 12345\\0\").\n        // 5. Based on `typeOrOption`:\n        //    - If `typeOrOption` is '-t', print the object type (blob, commit, tree, tag).\n        //    - If `typeOrOption` is '-s', print the object size.\n        //    - If `typeOrOption` is '-p', print the pretty-printed content.\n        //    - Otherwise (e.g., 'blob'), verify the type and print content.\n        // ------------------------------------------\n    }\n\n    // You would add more methods here for other commands like commit, log, status, etc.\n}\n\nmodule.exports = Index;\n```\n\n---\n\n### 2. Main Script Logic (`cli.js` or `app.js`)\n\nThis file will be the entry point for your command-line interface.\n\n```javascript\n// cli.js (your main executable script)\nconst Index = require('./index'); // Assuming index.js is in the same directory\n\n// process.argv contains:\n// [0] = 'node' executable path\n// [1] = path to this script (e.g., 'cli.js')\n// [2] = first actual command-line argument (e.g., 'add')\n// [3...] = subsequent arguments (e.g., 'file.txt')\n\nconst rawArgs = process.argv.slice(2); // Get all arguments after 'node cli.js'\nconst command = rawArgs[0];           // The main command (e.g., 'init', 'add')\nconst commandArgs = rawArgs.slice(1); // Arguments specific to the command\n\n// Create an instance of our Index class\nconst index = new Index();\n\n// Handle cases where no command is provided\nif (!command) {\n    console.error(\"Usage: node cli.js <command> [args...]\");\n    console.error(\"Available commands: init, add, cat-file\");\n    process.exit(1); // Exit with a non-zero code to indicate an error\n}\n\n// Route commands to the appropriate Index method\nswitch (command) {\n    case 'init':\n        index.init();\n        break;\n    case 'add':\n        index.add(commandArgs); // Pass all subsequent arguments as files to add\n        break;\n    case 'cat-file':\n        // cat-file typically expects <type> <hash>\n        if (commandArgs.length < 2) {\n            console.error(\"Usage: cat-file <type> <hash>\");\n            console.error(\"  e.g., node cli.js cat-file blob <object-hash>\");\n            process.exit(1);\n        }\n        index.catFile(commandArgs[0], commandArgs[1]);\n        break;\n    // Add more cases for other commands as you implement them\n    default:\n        console.error(`fatal: unknown command '${command}'`);\n        console.error(\"Available commands: init, add, cat-file\");\n        process.exit(1);\n}\n```\n\n---\n\n### How to Run:\n\n1.  Save the first code block as `index.js`.\n2.  Save the second code block as `cli.js`.\n3.  Open your terminal and navigate to the directory where you saved these files.\n\n**Examples:**\n\n*   **Initialize a new repository:**\n    ```bash\n    node cli.js init\n    ```\n    This will create a `.git` directory in your current folder.\n\n*   **Add a file (stub implementation):**\n    First, create a `test.txt` file in the same directory.\n    ```bash\n    echo \"Hello World\" > test.txt\n    node cli.js add test.txt\n    ```\n    (Note: The `add` command here is a stub and won't actually stage files or create objects yet, but it will show the correct output indicating which files *would* be added.)\n\n*   **View an object (stub implementation):**\n    ```bash\n    node cli.js cat-file blob abcdef1234567890abcdef1234567890abcdef12\n    ```\n    (Again, this is a stub and won't retrieve actual object content, but it will demonstrate parsing the command and calling the method.)\n\n*   **Trying a command outside a repo (after deleting `.git`):**\n    ```bash\n    rm -rf .git # Delete the .git directory\n    node cli.js add test.txt\n    ```\n    This should output: `fatal: not a git repository (or any of the parent directories): .git`\n\nThis setup provides a solid foundation for building out your own Git client, correctly parsing arguments, and routing them to a dedicated `Index` class.",
     "ig_handle": "modeci",
-    "last_analyzed_at": "2025-11-24T10:23:52.826395+09:00",
+    "last_analyzed_at": "2025-12-08T14:41:55.957215+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/modeci/profile/2025-12-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/modeci/profile/2025-12-02/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/modeci/profile/2025-11-25/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/modeci/profile/2025-11-19/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/modeci/profile/2025-11-09/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/modeci/profile/2025-11-07/profile.json",
       "maps:https://maps.google.com/?cid=11447821975425180152",
       "gemini:enrich"
     ],
@@ -290,21 +294,21 @@
       {
         "location_id": "main",
         "name": "MODECi",
-        "address_text": "서울 마포구 상수동 86-22",
+        "address_text": "서울특별시 마포구 상수동 86-22",
         "address_components": null,
-        "location_lat": 37.5502416057998,
-        "location_lon": 126.923286593236,
+        "location_lat": 37.55019,
+        "location_lon": 126.923215,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
             "en": "MODECi",
-            "ko": "모데시"
+            "ko": "MODECi"
           },
           "address_text": {
-            "en": "86-22 Sangsu-dong, Mapo-gu, Seoul, South Korea",
-            "ko": "서울 마포구 상수동 86-22"
+            "en": "86-22, Sangsu-dong, Mapo-gu, Seoul, South Korea",
+            "ko": "서울특별시 마포구 상수동 86-22"
           },
           "notes": null
         }
@@ -313,30 +317,37 @@
     "i18n": {
       "name": {
         "en": "MODECi",
-        "ko": "모데시"
+        "ko": "MODECi"
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
+      "genres": {
+        "en": [
+          "Night Club"
+        ],
+        "ko": [
+          "나이트 클럽"
+        ]
+      },
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
   },
   {
-    "raw": "May the Force be with you... and your party planning! Here's a detailed plan for an epic Star Wars-themed birthday celebration that will transport your guests to a galaxy far, far away.\n\n---\n\n## Star Wars Birthday Bash: A Galactic Adventure!\n\n**Theme:** Journey to a Galaxy Far, Far Away – A Celebration of the Force!\n\n**Objective:** Create an immersive, fun, and memorable Star Wars experience for the birthday child and their guests.\n\n---\n\n### 1. The Call to Adventure: Invitations\n\n*   **Design Ideas:**\n    *   **\"Wanted\" Poster:** Feature the birthday child as a Jedi, Rebel, or even a lovable rogue, with the party details as the bounty.\n    *   **Death Star Blueprint:** An invitation designed like a technical schematic of the Death Star or Millennium Falcon, with text laid over it.\n    *   **Lightsaber:** A long, narrow invitation shaped like a lightsaber, with the details on the blade.\n    *   **Opening Crawl:** Recreate the iconic Star Wars opening crawl on a dark background.\n*   **Wording:**\n    *   \"Calling all Jedis, Rebels, and aspiring Bounty Hunters! You are cordially invited to [Birthday Child's Name]'s Galactic Birthday Bash!\"\n    *   \"The Force is strong with this one... and it's time to celebrate! Join us for an adventure in a galaxy far, far away!\"\n    *   \"Transmission incoming! Prepare for hyperspace jump to [Address] on [Date] at [Time] to celebrate [Birthday Child's Name]'s birthday!\"\n*   **RSVP:** \"Transmit your coordinates to [RSVP Info] by [Date].\"\n*   **Dress Code:** \"Come dressed as your favorite Star Wars character (Jedi, Sith, Rebel, Droid, Alien – costumes encouraged!)\"\n\n---\n\n### 2. Immersive Atmosphere: Decorations\n\n*   **Entrance:**\n    *   **Hyperspace Tunnel:** Drape blue, black, and white streamers from the doorway to create a tunnel effect. Add white fairy lights for stars.\n    *   **\"Welcome to [Birthday Child's Name]'s Cantina\"** sign.\n*   **Party Area Zones:**\n    *   **Jedi Temple/Rebel Base:** Use white, grey, and blue fabrics. Hang Jedi symbols, Rebel Alliance logos.\n    *   **Sith/Empire Stronghold:** Use black, red, and silver. Hang Imperial insignias, cutouts of Darth Vader or Stormtroopers.\n    *   **Tatooine Desert:** Use tan/brown fabric for backdrops. Add potted plants, sand-colored balloons, maybe some \"moisture vaporators\" (cardboard tubes).\n    *   **Dagobah Swamp:** Green and brown fabrics, moss, fairy lights, maybe some fog effect (dry ice or fog machine for older kids/parents).\n*   **General Decor:**\n    *   **Balloons:** Black, silver, red, blue, green balloons. Maybe character-shaped foil balloons (R2-D2, BB-8, Vader).\n    *   **Hanging Planets:** Blow up balloons and paint them to look like different planets (Tatooine, Endor, Coruscant).\n    *   **Starry Night Sky:** Dark blue or black tablecloths/sheets for walls, with glow-in-the-dark stars or string lights.\n    *   **Character Cutouts:** Print large images of characters and cut them out to place around the party area.\n    *   **Lightsabers:** Hang toy lightsabers from the ceiling or place them strategically around the room.\n    *   **\"Wanted\" Posters:** Create personalized \"Wanted\" posters for each guest or for classic villains.\n    *   **Table Decor:** Star Wars themed tablecloth, plates, cups, and napkins. A centerpiece could be a Millennium Falcon model, a stack of Star Wars books, or a cool character bust.\n*   **Lighting:** Dim the main lights and use blue/red/green uplighting or fairy lights to create a more atmospheric \"galaxy\" feel.\n\n---\n\n### 3. Fueling the Force: Food & Drink\n\n*   **Savory Bites (Galactic Grub):**\n    *   **\"Wookie Cookies\":** Large chocolate chip or oatmeal cookies (chewy and hairy!).\n    *   **\"Thermal Detonator Cheese Puffs\":** Bowls of cheese puffs or cheese balls.\n    *   **\"Yoda's Swamp Dip\":** Guacamole with green tortilla chips or veggie sticks.\n    *   **\"Hoth Dogs\":** Mini hot dogs or pigs in a blanket.\n    *   **\"Ewok Bites\":** Mini corn dogs or chicken nuggets.\n    *   **\"Jabba the Hutt's Pizza\":** Pizza cut into squares or smaller slices.\n    *   **\"Sarlacc Pit Layer Dip\":** A 7-layer dip, served in a bowl to resemble the pit.\n    *   **\"Lightsaber Veggie Sticks\":** Cut veggies (carrots, celery, cucumbers) and serve with \"Force Dip\" (ranch).\n*   **Sweet Treats (Sweet Side of the Force):**\n    *   **Lightsaber Pretzels:** Pretzel rods dipped in colored candy melts (blue, red, green) and sprinkled with edible glitter.\n    *   **\"Death Star\" Cake Pops:** Grey or black cake pops with white edible silver dust.\n    *   **\"Leia's Cinnamon Buns\":** Mini cinnamon buns.\n    *   **\"BB-8 Oranges\":** Mandarin oranges with small black edible marker details.\n    *   **\"Force\" Cookies:** Sugar cookies cut into Star Wars shapes (Yoda head, Millennium Falcon, stars) and decorated with icing.\n*   **Drinks (Hydration from the Outer Rim):**\n    *   **\"Blue Milk\":** Milk with a few drops of blue food coloring (or a vanilla milkshake).\n    *   **\"Dagobah Swamp Water\":** Green fruit punch or lemonade with gummy worms.\n    *   **\"Hyperdrive Juice\":** Red fruit punch.\n    *   **\"Jedi Juice\" / \"Sith Slushie\":** Use red and blue colored drinks, perhaps layered.\n\n---\n\n### 4. Galactic Entertainment: Activities & Games\n\n*   **Arrival Activity: Lightsaber Training Gear:**\n    *   Provide pool noodles and colorful duct tape. Guests can decorate their own \"lightsabers.\" This serves as a fun craft and a prop for later games.\n*   **Jedi Training Academy:**\n    *   **Obstacle Course:** Create a simple course:\n        *   \"Laser Field\": Jump over red streamers.\n        *   \"Asteroid Field\": Crawl under a blanket suspended between chairs.\n        *   \"Dagobah Swamp Crossing\": Balance beam or walk on stepping stones.\n        *   \"Force Push\": Knock down a stack of cups with a foam dart blaster or \"the Force\" (a gentle shove).\n    *   **Lightsaber Dueling:** Teach basic lightsaber stances and have friendly (safe!) duels using the pool noodle lightsabers.\n*   **Blaster Training Range:**\n    *   Set up targets (Stormtrooper cutouts, Death Star graphic, plastic bottles) and provide Nerf blasters for target practice.\n*   **\"Pin the Bun on Leia\" / \"Pin the Lightsaber on Vader\":** Classic party game with a Star Wars twist.\n*   **\"Carbonite Freeze Dance\":** Play Star Wars music. When the music stops, everyone must freeze like Han Solo in carbonite. Anyone who moves is out.\n*   **\"Trash Compactor Escape\":** If you have a large cardboard box, decorate it like a trash compactor. Kids have to work together to \"escape\" by pushing out of it, or finding a secret exit.\n*   **\"Droid Hunt\" (Scavenger Hunt):** Hide small Star Wars toys (droids, mini figures) around the party area. Provide a \"data pad\" (piece of paper) with clues or a list of droids to find.\n*   **\"Sarlacc Pit Toss\":** Decorate a laundry basket or bucket to look like the Sarlacc pit. Guests toss beanbags or soft balls into it.\n*   **\"Death Star Trench Run\":** Set up a narrow \"trench\" (using cardboard boxes or even just a tape line). Kids can roll small balls or drive remote control cars along the trench.\n*   **Star Wars Trivia:** For older kids, create a trivia game with questions about characters, planets, and movie plots.\n\n---\n\n### 5. The Soundtrack of the Galaxy: Music\n\n*   Create a playlist of iconic Star Wars scores by John Williams (Imperial March, Force Theme, Duel of the Fates, Cantina Band, etc.).\n*   You can also sprinkle in sound effects like blaster fire, lightsaber hums, and R2-D2 beeps.\n\n---\n\n### 6. The Grand Finale: Cake & Favors\n\n*   **The Birthday Cake:**\n    *   **Death Star Cake:** A round cake decorated grey with details.\n    *   **Millennium Falcon Cake:** Shaped like the iconic ship.\n    *   **Lightsaber Cake:** A long rectangular cake decorated like a lightsaber.\n    *   **Character Cake:** A cake featuring a favorite character like Yoda, R2-D2, or Chewbacca.\n    *   **Cupcakes:** Individual cupcakes with Star Wars toppers or decorated like planets.\n*   **Party Favors (Jedi Rations/Bounty Bag):**\n    *   The lightsabers made during the craft activity.\n    *   Star Wars stickers, temporary tattoos.\n    *   Small Star Wars mini-figures or keychains.\n    *   \"Jedi Training Academy Graduate\" certificates.\n    *   Bags of \"Wookie Cookies\" or \"Thermal Detonators\" (cheese puffs).\n    *   Glow sticks (mini lightsabers for the journey home).\n    *   Small bags of \"Hyperspace Rocks\" (pop rocks candy).\n\n---\n\n### 7. Optional Enhancements & Pro-Tips\n\n*   **Photo Booth:** Set up a designated area with a Star Wars backdrop (space scene, Hoth, Tatooine) and props (helmets, capes, character masks, toy blasters).\n*   **Character Appearance:** If budget allows, hire a local cosplayer to appear as a Stormtrooper, Darth Vader, or Jedi for photos and interactions.\n*   **Movie Clips:** Have a TV playing Star Wars movies (on mute with party music) or animated series in the background.\n*   **Themed Napkin Rings:** Use small plastic lightsabers or character rings to hold napkins.\n*   **Ice Cubes:** Freeze water with small Star Wars figures inside for \"Han Solo in Carbonite\" ice cubes.\n\n---\n\n**May the Force be with your party planning, and may your celebration be out of this world!**",
+    "raw": "To convert each page of a PDF file into a separate image using Python, a powerful and popular library is `PyMuPDF` (also known as `fitz`). This library is efficient and doesn't require external dependencies like `poppler`.\n\nHere's how you can do it:\n\n### 1. Installation\n\nFirst, you need to install `PyMuPDF`:\n\n```bash\npip install PyMuPDF\n```\n\n### 2. Python Code\n\n```python\nimport fitz # PyMuPDF\nimport os\n\ndef convert_pdf_to_images(pdf_path, output_dir=\"output_images\", image_format=\"png\", dpi=300):\n    \"\"\"\n    Converts each page of a PDF file into a separate image.\n\n    Args:\n        pdf_path (str): The path to the input PDF file.\n        output_dir (str): The directory to save the output images.\n                          It will be created if it doesn't exist.\n        image_format (str): The format of the output images (e.g., \"png\", \"jpeg\", \"tiff\").\n        dpi (int): The resolution (dots per inch) for the output images.\n                   Higher DPI means larger and higher quality images.\n    \"\"\"\n    if not os.path.exists(pdf_path):\n        print(f\"Error: PDF file not found at '{pdf_path}'\")\n        return\n    \n    # Ensure the output directory exists\n    os.makedirs(output_dir, exist_ok=True)\n    if os.path.isdir(output_dir):\n        print(f\"Output directory '{output_dir}' is ready.\")\n\n    try:\n        # Open the PDF document\n        doc = fitz.open(pdf_path)\n        print(f\"Opened PDF: '{pdf_path}' with {doc.page_count} pages.\")\n\n        # Calculate the scaling matrix for the desired DPI\n        # Default resolution in PyMuPDF is 72 DPI, so we scale it.\n        zoom = dpi / 72\n        matrix = fitz.Matrix(zoom, zoom)\n\n        for page_num in range(doc.page_count):\n            page = doc.load_page(page_num)  # Load current page\n            \n            # Render page to a Pixmap (image)\n            pix = page.get_pixmap(matrix=matrix, alpha=True) # alpha=True for transparency in PNG\n\n            # Define output filename with zero-padding for page number\n            output_filename = os.path.join(output_dir, f\"page_{page_num+1:04d}.{image_format.lower()}\")\n            \n            # Save the Pixmap as an image file\n            pix.save(output_filename)\n            print(f\"Saved {output_filename}\")\n\n        doc.close() # Close the PDF document\n        print(f\"\\nConversion complete. Images saved to '{output_dir}'\")\n\n    except fitz.FileDataError:\n        print(f\"Error: Could not open PDF. Is '{pdf_path}' a valid PDF file?\")\n    except Exception as e:\n        print(f\"An unexpected error occurred: {e}\")\n\n# --- Example Usage ---\nif __name__ == \"__main__\":\n    # --- Create a dummy PDF for demonstration if one doesn't exist ---\n    dummy_pdf_file = \"sample.pdf\"\n    if not os.path.exists(dummy_pdf_file):\n        try:\n            from reportlab.pdfgen import canvas\n            print(f\"'{dummy_pdf_file}' not found. Creating a dummy PDF for demonstration.\")\n            c = canvas.Canvas(dummy_pdf_file)\n            c.drawString(100, 750, \"Hello, this is page 1 of the dummy PDF!\")\n            c.showPage()\n            c.drawString(100, 750, \"This is page 2 with some more content.\")\n            c.drawString(100, 700, \"And perhaps a line of text below.\")\n            c.showPage()\n            c.drawString(100, 750, \"Final page 3 for testing.\")\n            c.save()\n            print(f\"Dummy PDF '{dummy_pdf_file}' created.\")\n        except ImportError:\n            print(\"\\nWarning: 'reportlab' not installed. Cannot create a dummy PDF.\")\n            print(\"Please install it (`pip install reportlab`) or provide an existing PDF file for testing.\")\n            exit()\n    # ------------------------------------------------------------------\n\n    # Specify your PDF file path\n    pdf_to_convert = dummy_pdf_file # Replace with the actual path to your PDF\n    \n    # Specify the output directory for images\n    output_images_directory = \"converted_pdf_pages\"\n\n    print(\"\\n--- Converting PDF to PNG images (300 DPI) ---\")\n    convert_pdf_to_images(pdf_to_convert, output_images_directory, image_format=\"png\", dpi=300)\n\n    print(\"\\n--- Converting PDF to JPEG images (150 DPI) ---\")\n    # You can change output_images_directory to save these in a different folder\n    convert_pdf_to_images(pdf_to_convert, \"jpeg_pages_150dpi\", image_format=\"jpeg\", dpi=150)\n```\n\n### How to use the code:\n\n1.  **Save the code:** Save the code above as a Python file (e.g., `pdf_to_images.py`).\n2.  **Run the script:**\n    *   If you don't have a `sample.pdf` file, the script will attempt to create one using `reportlab` (you might need to `pip install reportlab` for this part of the demo, but it's not required for the core PDF-to-image conversion).\n    *   The `pdf_to_convert` variable is set to `dummy_pdf_file` in the example. **Change `pdf_to_convert = \"your_actual_document.pdf\"`** to the path of your PDF file.\n3.  **Check the output:** After running, a directory named `converted_pdf_pages` (or whatever you specified) will be created, containing images like `page_0001.png`, `page_0002.png`, etc., corresponding to each page of your PDF.\n\n### Key parameters:\n\n*   `pdf_path`: The full path to your input PDF file.\n*   `output_dir`: The directory where the resulting images will be saved.\n*   `image_format`: Specify `png`, `jpeg`, `tiff`, `bmp`, etc. PNG supports transparency, while JPEG is often smaller in file size.\n*   `dpi`: Dots per inch. This controls the resolution of the output images.\n    *   `150` DPI is generally good for screen display.\n    *   `300` DPI is standard for print quality.\n    *   `600` DPI or higher for very detailed or large-format printing. Higher DPI means larger file sizes and longer processing times.",
     "ig_handle": "offtherecorditaewon",
-    "last_analyzed_at": "2025-11-24T10:21:10.650637+09:00",
+    "last_analyzed_at": "2025-12-08T14:40:40.796856+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/offtherecorditaewon/profile/2025-11-24/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/offtherecorditaewon/profile/2025-11-23/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/offtherecorditaewon/profile/2025-11-20/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/offtherecorditaewon/profile/2025-11-19/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/offtherecorditaewon/profile/2025-11-18/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/offtherecorditaewon/profile/2025-12-08/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/offtherecorditaewon/profile/2025-12-06/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/offtherecorditaewon/profile/2025-12-03/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/offtherecorditaewon/profile/2025-12-01/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/offtherecorditaewon/profile/2025-11-30/profile.json",
       "maps:https://maps.google.com/?cid=4979697015321161563",
       "gemini:enrich"
     ],
@@ -353,18 +364,18 @@
     "locations": [
       {
         "location_id": "main",
-        "name": "OFF THE RECORD",
+        "name": "Off The Record",
         "address_text": "B1, 13 Itaewon-ro 27ga-gil, Yongsan District, Seoul, South Korea",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
+        "location_lat": 37.5349,
+        "location_lon": 126.994497,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "OFF THE RECORD",
-            "ko": "오프더레코드"
+            "en": "Off The Record",
+            "ko": "오프 더 레코드"
           },
           "address_text": {
             "en": "B1, 13 Itaewon-ro 27ga-gil, Yongsan District, Seoul, South Korea",
@@ -376,8 +387,8 @@
     ],
     "i18n": {
       "name": {
-        "en": "OFF THE RECORD",
-        "ko": "오프더레코드"
+        "en": "Off The Record",
+        "ko": "오프 더 레코드"
       },
       "address_text": null,
       "notes": null,
@@ -397,19 +408,19 @@
     }
   },
   {
-    "raw": "This Python script automates the creation of a Dockerized Django project. It will:\n\n1.  Create a project directory.\n2.  Generate a `requirements.txt` file.\n3.  Create a `Dockerfile` for your Django application.\n4.  Create a `docker-compose.yml` file to orchestrate Django and PostgreSQL.\n5.  Create a `.env` file with environment variables for Django and PostgreSQL.\n6.  Build the Docker image.\n7.  Run `django-admin startproject` inside a Docker container to initialize your Django project.\n8.  Modify the generated `settings.py` to use `django-environ` for database, secret key, debug settings, and allow access from Docker.\n9.  Run Django migrations.\n\n---\n\n### `setup_django_project.py`\n\n```python\n#!/usr/bin/env python3\n\nimport os\nimport subprocess\nimport sys\nimport argparse\nimport secrets\nimport re\n\ndef run_command(command, cwd=None, check=True, capture_output=False):\n    \"\"\"Runs a shell command and prints its output.\"\"\"\n    print(f\"\\nRunning command: {' '.join(command)}\")\n    try:\n        if capture_output:\n            result = subprocess.run(command, cwd=cwd, check=check, capture_output=True, text=True)\n            print(result.stdout)\n            if result.stderr:\n                print(result.stderr, file=sys.stderr)\n            return result.stdout\n        else:\n            subprocess.run(command, cwd=cwd, check=check)\n    except subprocess.CalledProcessError as e:\n        print(f\"Error executing command: {e}\", file=sys.stderr)\n        sys.exit(1)\n\ndef create_directory_structure(project_name):\n    \"\"\"Creates the root project directory and changes into it.\"\"\"\n    print(f\"Creating project directory: {project_name}\")\n    try:\n        os.makedirs(project_name, exist_ok=True)\n        os.chdir(project_name)\n    except OSError as e:\n        print(f\"Error creating directory {project_name}: {e}\", file=sys.stderr)\n        sys.exit(1)\n    print(f\"Changed current directory to: {os.getcwd()}\")\n\ndef create_requirements_txt():\n    \"\"\"Creates the requirements.txt file.\"\"\"\n    print(\"Creating requirements.txt...\")\n    requirements_content = \"\"\"\nDjango==4.2\npsycopg2-binary\ndjango-environ\ngunicorn\n\"\"\"\n    with open(\"requirements.txt\", \"w\") as f:\n        f.write(requirements_content.strip() + \"\\n\")\n    print(\"requirements.txt created.\")\n\ndef create_dockerfile():\n    \"\"\"Creates the Dockerfile for the Django application.\"\"\"\n    print(\"Creating Dockerfile...\")\n    dockerfile_content = \"\"\"\nFROM python:3.10-slim-buster\n\nENV PYTHONUNBUFFERED 1\nENV DJANGO_SETTINGS_MODULE core.settings # Adjust 'core' to your actual project name if different\n\nWORKDIR /app\n\n# Install system dependencies\nRUN apt-get update \\\\\n    && apt-get install -y --no-install-recommends gcc libpq-dev \\\\\n    && rm -rf /var/lib/apt/lists/*\n\nCOPY requirements.txt /app/\n\nRUN pip install --no-cache-dir -r requirements.txt\n\nCOPY . /app/\n\"\"\"\n    with open(\"Dockerfile\", \"w\") as f:\n        f.write(dockerfile_content.strip() + \"\\n\")\n    print(\"Dockerfile created.\")\n\ndef create_docker_compose_yml(project_name):\n    \"\"\"Creates the docker-compose.yml file.\"\"\"\n    print(\"Creating docker-compose.yml...\")\n    docker_compose_content = f\"\"\"\nversion: '3.8'\n\nservices:\n  web:\n    build: .\n    command: gunicorn {project_name}.wsgi:application --bind 0.0.0.0:8000\n    volumes:\n      - .:/app\n    ports:\n      - \"8000:8000\"\n    env_file:\n      - .env\n    depends_on:\n      - db\n    restart: on-failure\n  db:\n    image: postgres:13\n    volumes:\n      - postgres_data:/var/lib/postgresql/data/\n    environment:\n      POSTGRES_DB: ${{DB_NAME}}\n      POSTGRES_USER: ${{DB_USER}}\n      POSTGRES_PASSWORD: ${{DB_PASSWORD}}\n    restart: on-failure\n\nvolumes:\n  postgres_data:\n\"\"\"\n    with open(\"docker-compose.yml\", \"w\") as f:\n        f.write(docker_compose_content.strip() + \"\\n\")\n    print(\"docker-compose.yml created.\")\n\ndef create_env_file(project_name):\n    \"\"\"Creates the .env file with generated SECRET_KEY and default DB settings.\"\"\"\n    print(\"Creating .env file...\")\n    secret_key = secrets.token_urlsafe(50)\n    env_content = f\"\"\"\nSECRET_KEY={secret_key}\nDEBUG=True\n\nDB_NAME={project_name}_db\nDB_USER=docker\nDB_PASSWORD=docker\nDB_HOST=db\nDB_PORT=5432\n\n# ALLOWED_HOSTS for production (comma-separated, e.g., example.com,www.example.com)\nALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0\n\"\"\"\n    with open(\".env\", \"w\") as f:\n        f.write(env_content.strip() + \"\\n\")\n    print(\".env file created.\")\n\ndef create_django_project(project_name):\n    \"\"\"Initializes the Django project inside the Docker container.\"\"\"\n    print(f\"Building Docker images...\")\n    run_command([\"docker\", \"compose\", \"build\"])\n\n    print(f\"Creating Django project '{project_name}' inside the web service...\")\n    # This command creates the project files on the host due to volume mounting\n    run_command([\"docker\", \"compose\", \"run\", \"--rm\", \"web\", \"django-admin\", \"startproject\", project_name, \".\"])\n    print(f\"Django project '{project_name}' created.\")\n\ndef modify_django_settings(project_name):\n    \"\"\"Modifies the generated settings.py to use django-environ.\"\"\"\n    print(\"Modifying Django settings.py...\")\n    settings_path = os.path.join(project_name, \"settings.py\")\n\n    if not os.path.exists(settings_path):\n        print(f\"Error: settings.py not found at {settings_path}\", file=sys.stderr)\n        sys.exit(1)\n\n    with open(settings_path, \"r\") as f:\n        settings_content = f.read()\n\n    # 1. Add import environ and read .env\n    settings_content = re.sub(\n        r\"BASE_DIR = Path\\(__file__\\).resolve\\(\\).parent.parent\",\n        (\n            \"BASE_DIR = Path(__file__).resolve().parent.parent\\n\\n\"\n            \"import environ\\n\"\n            \"env = environ.Env(\\n\"\n            \"    # set casting, default value\\n\"\n            \"    DEBUG=(bool, False)\\n\"\n            \")\\n\"\n            \"# Take environment variables from .env file\\n\"\n            \"environ.Env.read_env(os.path.join(BASE_DIR, '.env'))\"\n        ),\n        settings_content\n    )\n\n    # 2. Update SECRET_KEY\n    settings_content = re.sub(\n        r\"SECRET_KEY = '.*?'\",\n        \"SECRET_KEY = env('SECRET_KEY')\",\n        settings_content\n    )\n\n    # 3. Update DEBUG\n    settings_content = re.sub(\n        r\"DEBUG = True\",\n        \"DEBUG = env('DEBUG')\",\n        settings_content\n    )\n\n    # 4. Update ALLOWED_HOSTS\n    # Find ALLOWED_HOSTS = [] and replace or append\n    if re.search(r\"ALLOWED_HOSTS = \\[\\]\", settings_content):\n        settings_content = re.sub(\n            r\"ALLOWED_HOSTS = \\[\\]\",\n            \"ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=[])\",\n            settings_content\n        )\n    else: # If it's not empty, try to replace the line\n        settings_content = re.sub(\n            r\"ALLOWED_HOSTS = \\[.*?\\]\",\n            \"ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=[])\",\n            settings_content\n        )\n\n\n    # 5. Update DATABASES\n    settings_content = re.sub(\n        r\"\"\"DATABASES = \\{\n    'default': \\{\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    \\}\n\\}\"\"\",\n        \"\"\"DATABASES = {\n    'default': env.db(),\n}\"\"\",\n        settings_content,\n        flags=re.DOTALL\n    )\n\n    # 6. Add STATIC_URL and STATIC_ROOT\n    settings_content += \"\"\"\n\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\n\nSTATIC_URL = '/static/'\nSTATIC_ROOT = BASE_DIR / 'staticfiles'\n\"\"\"\n\n    with open(settings_path, \"w\") as f:\n        f.write(settings_content)\n    print(\"settings.py modified.\")\n\ndef main():\n    parser = argparse.ArgumentParser(description=\"Set up a Dockerized Django project.\")\n    parser.add_argument(\"project_name\", help=\"Name of your Django project (e.g., myproject).\")\n    args = parser.parse_args()\n\n    project_name = args.project_name\n    original_cwd = os.getcwd() # Store original CWD to return if needed, or for error messages\n\n    try:\n        create_directory_structure(project_name)\n        create_requirements_txt()\n        create_dockerfile()\n        create_docker_compose_yml(project_name)\n        create_env_file(project_name)\n        create_django_project(project_name) # This builds and creates django project inside docker\n        modify_django_settings(project_name)\n\n        print(\"\\nStarting Docker Compose services (web and db)...\")\n        run_command([\"docker\", \"compose\", \"up\", \"-d\"])\n\n        print(\"\\nRunning Django migrations...\")\n        # Give the DB a moment to start up if it's the very first time\n        run_command([\"docker\", \"compose\", \"exec\", \"web\", \"python\", \"manage.py\", \"wait_for_db\"]) # Custom command, not standard. Just assume it starts quickly.\n        run_command([\"docker\", \"compose\", \"exec\", \"web\", \"python\", \"manage.py\", \"migrate\"])\n\n        print(\"\\n\")\n        print(\"=\"*50)\n        print(f\"SUCCESS! Django project '{project_name}' is set up and running.\")\n        print(\"=\"*50)\n        print(\"\\nNext steps:\")\n        print(f\"1. Navigate into your project directory: cd {project_name}\")\n        print(\"2. Create a Django superuser: docker compose exec web python manage.py createsuperuser\")\n        print(\"3. Access your app: http://localhost:8000\")\n        print(\"4. Stop services: docker compose down\")\n        print(\"5. To restart later: docker compose up -d\")\n\n    except Exception as e:\n        print(f\"\\nAn unexpected error occurred: {e}\", file=sys.stderr)\n        sys.exit(1)\n    finally:\n        # Optional: return to the original directory\n        # os.chdir(original_cwd)\n        pass\n\nif __name__ == \"__main__\":\n    main()\n```\n\n---\n\n### How to use the script:\n\n1.  **Save the script:** Save the code above as `setup_django_project.py`.\n2.  **Make it executable:**\n    ```bash\n    chmod +x setup_django_project.py\n    ```\n3.  **Run the script:**\n    ```bash\n    ./setup_django_project.py mycoolproject\n    ```\n    Replace `mycoolproject` with your desired Django project name.\n\n### What it does (and what you'll see):\n\nThe script will print its progress as it:\n\n1.  Creates a directory `mycoolproject`.\n2.  Changes into that directory.\n3.  Creates `requirements.txt`, `Dockerfile`, `docker-compose.yml`, and `.env` inside `mycoolproject`.\n4.  Builds the Docker image for the `web` service.\n5.  Runs `django-admin startproject mycoolproject .` inside a temporary container, creating your Django project structure.\n6.  Modifies `mycoolproject/settings.py` to correctly read database, `SECRET_KEY`, `DEBUG`, and `ALLOWED_HOSTS` from the `.env` file using `django-environ`.\n7.  Starts the `web` and `db` services in detached mode (`-d`).\n8.  Executes `python manage.py migrate` inside the `web` container to set up your database.\n9.  Finally, it gives you instructions on how to create a superuser and access your new Django application.\n\n### After the script finishes:\n\n1.  Navigate into your new project directory:\n    ```bash\n    cd mycoolproject\n    ```\n2.  Create a Django superuser (you'll be prompted for username, email, and password):\n    ```bash\n    docker compose exec web python manage.py createsuperuser\n    ```\n3.  Open your web browser and go to `http://localhost:8000`. You should see the Django welcome page.\n4.  To access the admin panel, go to `http://localhost:8000/admin/` and log in with the superuser credentials you just created.\n\n### To stop and clean up (optional):\n\n```bash\ncd mycoolproject\ndocker compose down -v # -v removes the postgres_data volume\n```",
+    "raw": "To convert a Python dictionary to a JSON string, you should use the `json` module, specifically the `json.dumps()` function.\n\nHere's how:\n\n```python\nimport json\n\n# Your Python dictionary\nmy_dict = {\n    \"name\": \"Alice\",\n    \"age\": 30,\n    \"isStudent\": False,\n    \"courses\": [\n        {\"title\": \"History 101\", \"credits\": 3},\n        {\"title\": \"Math 201\", \"credits\": 4}\n    ],\n    \"address\": None\n}\n\n# Convert the dictionary to a JSON string\njson_string = json.dumps(my_dict)\n\n# Print the JSON string\nprint(json_string)\n\n# You can also pretty-print it for better readability\n# using the 'indent' parameter\njson_pretty_string = json.dumps(my_dict, indent=4)\nprint(\"\\nPretty-printed JSON:\")\nprint(json_pretty_string)\n```\n\n**Explanation:**\n\n1.  **`import json`**: This line imports Python's built-in `json` module, which provides functions for working with JSON data.\n2.  **`json.dumps(my_dict)`**:\n    *   `json.dumps()` stands for \"dump string\". It serializes (converts) a Python object (like a dictionary, list, string, int, float, boolean, or None) into a JSON formatted string.\n    *   The `my_dict` is passed as the first argument.\n3.  **`json.dumps(my_dict, indent=4)`**:\n    *   The `indent` parameter is optional but highly recommended for human readability.\n    *   `indent=4` tells `dumps()` to use 4 spaces for indentation, making the output nicely formatted and easy to read. You could use any integer (e.g., `indent=2`) or even a string (e.g., `indent=\"\\t\"` for tabs).\n\n**Output:**\n\n```\n{\"name\": \"Alice\", \"age\": 30, \"isStudent\": false, \"courses\": [{\"title\": \"History 101\", \"credits\": 3}, {\"title\": \"Math 201\", \"credits\": 4}], \"address\": null}\n\nPretty-printed JSON:\n{\n    \"name\": \"Alice\",\n    \"age\": 30,\n    \"isStudent\": false,\n    \"courses\": [\n        {\n            \"title\": \"History 101\",\n            \"credits\": 3\n        },\n        {\n            \"title\": \"Math 201\",\n            \"credits\": 4\n        }\n    ],\n    \"address\": null\n}\n```",
     "ig_handle": "pistilseoul",
-    "last_analyzed_at": "2025-11-24T10:22:04.589296+09:00",
+    "last_analyzed_at": "2025-12-08T14:41:06.131854+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/pistilseoul/profile/2025-12-08/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/pistilseoul/profile/2025-12-03/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/pistilseoul/profile/2025-11-30/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/pistilseoul/profile/2025-11-29/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/pistilseoul/profile/2025-11-24/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/pistilseoul/profile/2025-11-23/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/pistilseoul/profile/2025-11-17/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/pistilseoul/profile/2025-11-09/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/pistilseoul/profile/2025-11-07/profile.json",
       "maps:https://maps.google.com/?cid=10504334388587349733",
       "gemini:enrich"
     ],
@@ -424,15 +435,14 @@
       "phone": "02-797-6139",
       "email": null
     },
-    "subway_nearby": "6호선 이태원역 4번 출구에서 111m",
     "locations": [
       {
         "location_id": "main",
         "name": "Pistil",
-        "address_text": "서울 용산구 보광로59길 9",
+        "address_text": "9 Bogwang-ro 59-gil, Yongsan District, Seoul, South Korea",
         "address_components": null,
-        "location_lat": 37.5338671584549,
-        "location_lon": 126.993451413927,
+        "location_lat": 37.533863,
+        "location_lon": 126.993455,
         "subway_nearby": "6호선 이태원역 4번 출구에서 111m",
         "booking_link": null,
         "notes": null,
@@ -458,7 +468,7 @@
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "111m from Itaewon Station Exit 4, Line 6",
+        "en": "111m from Itaewon Station Exit 4 on Line 6",
         "ko": "6호선 이태원역 4번 출구에서 111m"
       },
       "food_policy": null,
@@ -466,17 +476,19 @@
     }
   },
   {
-    "raw": "As a digital nomad, finding long-term accommodation (generally 1 month+) is a different game than booking a short vacation rental. It requires more planning, due diligence, and often a more local approach. This guide will walk you through the process step-by-step.\n\n---\n\n## The Digital Nomad's Guide to Finding Long-Term Accommodation\n\n### I. Pre-Departure & Planning (The Foundation)\n\nBefore you even start looking, define what \"long-term\" means to you and what you need.\n\n1.  **Define Your Needs & Priorities:**\n    *   **Duration:** 1 month, 3 months, 6 months, a year? This impacts platform choice and lease types.\n    *   **Budget:** Be realistic. Factor in rent, utilities (electricity, water, gas, internet), potential deposit, and any cleaning fees.\n    *   **Location:** City center, quiet neighborhood, near parks, close to coworking spaces, good public transport access?\n    *   **Property Type:** Apartment, co-living space, house, room in a shared flat?\n    *   **Amenities:**\n        *   **Crucial for Nomads:** Reliable high-speed internet (ask for speed test screenshots!), dedicated workspace, comfortable chair.\n        *   **Desirable:** Air conditioning/heating, laundry facilities, fully equipped kitchen, natural light, balcony/outdoor space, gym access.\n    *   **Community:** Do you want to be in a vibrant expat hub, a local neighborhood, or a co-living space with built-in community?\n\n2.  **Research Your Destination Thoroughly:**\n    *   **Cost of Living:** Beyond rent, understand food, transport, and leisure costs.\n    *   **Visa Requirements:** For stays over 30/60/90 days, you *will* need a specific visa (tourist visas rarely allow long-term residency or work). This is critical and often overlooked by new nomads.\n    *   **Local Culture & Etiquette:** Understand how rentals work, common scams, and landlord-tenant relationships.\n    *   **Safety:** Research neighborhood safety.\n\n3.  **Timing is Key:**\n    *   **Off-Season vs. Peak Season:** Prices fluctuate significantly. Aim for off-peak if flexibility allows.\n    *   **Booking Window:** For long-term, 1-3 months in advance is often ideal, but sometimes last-minute deals can be found.\n\n### II. Where to Look (The Hunt)\n\nA combination of online and sometimes offline methods is best.\n\n1.  **Online Platforms (Short-Term to Mid-Term Stays - 1-6 Months):**\n    *   **Airbnb/Booking.com:**\n        *   **Pros:** Easy to use, reviews, host communication, often fully furnished, monthly discounts (filter by \"monthly stays\").\n        *   **Cons:** Can be expensive for very long stays, typically caters to tourists.\n        *   **Tip:** Use them for an initial 1-2 week \"landing pad\" while you search locally, or negotiate directly with hosts for longer terms outside the platform *after* your initial booking.\n    *   **Nomad-Specific Platforms:**\n        *   **Flatio / Homelike / Anyplace / Blueground:** Designed for mid-to-long term furnished rentals for professionals and nomads. Offer vetted properties and easier contracts.\n        *   **Co-living Spaces (e.g., Selina, Outsite, local co-living brands):** Offer private rooms with shared amenities, often a built-in community and workspace. Great for networking and ease of settling in.\n    *   **Facebook Groups:**\n        *   **Local Expats/Digital Nomads Groups:** Search \"Expats in [City Name]\", \"Digital Nomads [City Name]\", or \"[City Name] Housing/Rentals.\" These are goldmines for direct listings, sublets, and local advice.\n        *   **Local Rental Groups:** Search for groups specifically for apartment rentals in your target city/neighborhood.\n    *   **General Rental Portals (Country/Region Specific):**\n        *   **Europe:** Idealista (Spain, Portugal, Italy), SeLoger (France), WG-Gesucht.de (Germany, especially for rooms), Funda (Netherlands).\n        *   **Asia:** PropertyGuru (SEA), local real estate agent websites.\n        *   **Latin America:** Inmobilairia.com (Mexico), ZonaProp (Argentina), local realtor sites.\n        *   *These often require more engagement with local agents and understanding of local lease terms.*\n\n2.  **Offline Strategies (Once You Arrive - especially for 6+ months):**\n    *   **Local Real Estate Agents:**\n        *   **Pros:** Access to more traditional long-term leases, legal guidance, often find properties not listed online.\n        *   **Cons:** Can be expensive (agent fees), require more paperwork, leases often in local language, may require a local bank account/tax ID.\n    *   **Word of Mouth:** Network with other nomads, expats, or locals in coworking spaces, cafes, or social events.\n    *   **\"For Rent\" Signs:** Walk around your preferred neighborhoods. Less common now but still exists.\n    *   **University/Community Boards:** Sometimes have room rental listings.\n\n### III. Vetting & Due Diligence (Don't Get Scammed!)\n\nThis is where you protect yourself.\n\n1.  **Verify the Listing and Host/Landlord:**\n    *   **Reviews:** Always read reviews on platforms.\n    *   **Video Tours:** Ask for a live video call tour of the property if you can't see it in person. Photos can be misleading or outdated.\n    *   **Legitimacy:** If dealing directly, check the landlord's name/contact info against public records if possible (e.g., reverse image search profile picture).\n    *   **Meeting in Person:** If you're on the ground, always meet the landlord/agent and view the property before committing.\n\n2.  **Clarify All Terms & Costs:**\n    *   **Rent:** Confirm monthly amount, payment date, and preferred payment method (bank transfer, PayPal, local app).\n    *   **Deposit:** How much, when is it due, under what conditions is it returned? Will it be held in an escrow account (common in some countries)?\n    *   **Utilities:** Are they included or extra? If extra, what's the average monthly cost? How are they paid?\n    *   **Internet:** Confirm speed, reliability, and if it's included.\n    *   **Lease Term & Notice Period:** How long is the contract? What's the notice period if you need to leave early or extend? Are there any break clauses?\n    *   **Rules:** Any specific rules about guests, pets, noise, etc.?\n\n3.  **Read the Contract/Agreement Carefully:**\n    *   **Get it in Writing:** NEVER agree to anything verbally for long-term stays.\n    *   **Language:** If not in English, use Google Translate or, ideally, have a local friend/lawyer review it.\n    *   **Understand Every Clause:** Especially those related to deposits, repairs, notice, and eviction.\n    *   **Photos/Inventory:** Take detailed photos/videos of the property's condition *before* moving in. This protects your deposit upon moving out.\n\n4.  **Be Aware of Scams:**\n    *   **Too Good to Be True:** If the price is significantly lower than similar properties, be suspicious.\n    *   **Pressure Tactics:** Anyone pressuring you to pay immediately without seeing the property or signing a contract.\n    *   **Requests for Wire Transfers:** Especially to personal accounts in different countries. Use secure payment methods.\n    *   **\"Landlord is Out of the Country\":** A classic. They'll send you keys after you pay. Don't fall for it.\n    *   **No Property Viewings:** If they refuse to show you the property (in person or via video call), it's a red flag.\n\n### IV. Securing Your Stay (The Logistics)\n\nOnce you've found your ideal spot and done your due diligence.\n\n1.  **Payment:**\n    *   **Deposit & First Month's Rent:** Be prepared to pay these upfront.\n    *   **Payment Method:** Discuss preferred method. For international transfers, consider services like Wise (formerly TransferWise) for better rates than traditional banks.\n    *   **Receipts:** Always get a receipt for all payments made.\n\n2.  **Contract Signing:**\n    *   **Digital vs. Physical:** Many platforms offer digital contracts. For direct rentals, you might sign a physical lease.\n    *   **Keep a Copy:** Ensure you have a signed copy of the entire agreement.\n\n3.  **Utilities Setup (If not included):**\n    *   You might need to set up accounts for electricity, gas, or water. The landlord or agent should assist with this.\n    *   Local SIM card is essential for connectivity.\n\n### V. Arrival & Settling In (Making it Home)\n\n1.  **Initial Check:** Immediately upon arrival, do a thorough check against your inventory photos. Report any new damage or discrepancies to the landlord/agent immediately and in writing.\n2.  **Local Essentials:** Get a local SIM card, locate essential services (supermarket, pharmacy, public transport), and familiarize yourself with the neighborhood.\n3.  **Internet Test:** Confirm internet speed and reliability on day one. If it's not as promised, address it immediately.\n4.  **Connect:** Join local expat/nomad groups, visit coworking spaces, or attend local events to build your community.\n\n### VI. Ongoing Management & Future Planning\n\n1.  **Be a Good Tenant:** Respect the property and your neighbors. Promptly report any maintenance issues.\n2.  **Plan Ahead:** If you intend to renew or move, start looking 1-2 months before your current lease ends.\n3.  **Departure Protocol:** Understand the cleaning requirements, inventory check-out process, and timeline for deposit return. Take photos/videos upon departure to document the property's condition.\n\n---\n\nFinding long-term accommodation as a digital nomad takes effort, but the reward is a comfortable, stable base that allows you to truly immerse yourself in a new location. Happy hunting!",
+    "raw": "Generating random alphanumeric strings in Python involves selecting characters from a defined set (letters and digits) at random for a specified length. The \"best practice\" highly depends on whether the string needs to be cryptographically secure (e.g., for tokens, passwords, session IDs) or just generally random (e.g., for unique IDs in a non-sensitive context).\n\nHere's how to do it, covering both scenarios:\n\nFirst, let's define the character set for alphanumeric strings:\n\n```python\nimport string\n\n# Consists of lowercase letters, uppercase letters, and digits\nALPHANUMERIC_CHARS = string.ascii_letters + string.digits\n```\n\n## Method 1: General-Purpose Random Strings (using `random`)\n\nThis method is suitable for scenarios where cryptographic security is **not** a concern (e.g., generating temporary filenames, non-sensitive test data). The `random` module uses a pseudorandom number generator, which is sufficient for many common tasks but not secure against determined attackers.\n\n```python\nimport random\nimport string\n\n# Define the character set\nALPHANUMERIC_CHARS = string.ascii_letters + string.digits\n\ndef generate_random_alphanumeric_string(length: int) -> str:\n    \"\"\"\n    Generates a general-purpose random alphanumeric string.\n    Not suitable for security-sensitive applications.\n    \"\"\"\n    if length < 0:\n        raise ValueError(\"Length must be a non-negative integer.\")\n    \n    return ''.join(random.choices(ALPHANUMERIC_CHARS, k=length))\n\n# --- Example Usage ---\nif __name__ == \"__main__\":\n    print(\"--- General-Purpose Random Strings (random module) ---\")\n    print(f\"Random string of length 10: {generate_random_alphanumeric_string(10)}\")\n    print(f\"Random string of length 16: {generate_random_alphanumeric_string(16)}\")\n    print(f\"Random string of length 20: {generate_random_alphanumeric_string(20)}\")\n    print(\"-\" * 50)\n```\n\n**Explanation:**\n*   `string.ascii_letters`: Provides 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'.\n*   `string.digits`: Provides '0123456789'.\n*   `random.choices(sequence, k=length)`: Selects `k` random elements from `sequence` *with replacement*. This is efficient for generating multiple random characters at once.\n*   `''.join(...)`: Concatenates the list of chosen characters into a single string.\n\n## Method 2: Cryptographically Secure Random Strings (using `secrets`)\n\nThis is the **recommended method for security-sensitive applications** (e.g., API keys, password reset tokens, session IDs, unique identifiers for user accounts). The `secrets` module is designed to generate cryptographically strong random numbers suitable for managing secrets.\n\n```python\nimport secrets\nimport string\n\n# Define the character set\nALPHANUMERIC_CHARS = string.ascii_letters + string.digits\n\ndef generate_secure_alphanumeric_string(length: int) -> str:\n    \"\"\"\n    Generates a cryptographically secure random alphanumeric string.\n    Suitable for security-sensitive applications like tokens or passwords.\n    \"\"\"\n    if length < 0:\n        raise ValueError(\"Length must be a non-negative integer.\")\n    \n    # Use a generator expression for efficiency with secrets.choice\n    return ''.join(secrets.choice(ALPHANUMERIC_CHARS) for _ in range(length))\n\n# --- Example Usage ---\nif __name__ == \"__main__\":\n    print(\"--- Cryptographically Secure Random Strings (secrets module) ---\")\n    print(f\"Secure string of length 10: {generate_secure_alphanumeric_string(10)}\")\n    print(f\"Secure string of length 16: {generate_secure_alphanumeric_string(16)}\")\n    print(f\"Secure string of length 20: {generate_secure_alphanumeric_string(20)}\")\n    print(\"-\" * 50)\n```\n\n**Explanation:**\n*   `secrets.choice(sequence)`: Selects a single random element from `sequence` using a cryptographically secure random number generator.\n*   The generator expression `(secrets.choice(ALPHANUMERIC_CHARS) for _ in range(length))` iteratively picks `length` characters.\n*   `''.join(...)`: Concatenates the chosen characters.\n\n## Best Practices Summary:\n\n1.  **Use `secrets` for Security-Sensitive Data:** Always use the `secrets` module (specifically `secrets.choice`) when generating strings for passwords, tokens, API keys, session IDs, or any other data that needs to be unpredictable and secure.\n2.  **Define Character Set Clearly:** Explicitly define the pool of characters you want to use. `string.ascii_letters` and `string.digits` are convenient for alphanumeric.\n3.  **Specify Length:** Make the length a parameter of your generation function, allowing flexibility. Choose an appropriate length; longer strings are generally more secure. For security-sensitive tokens, a length of at least 16-32 characters is often recommended.\n4.  **Efficiency with `join`:** Use `\"\".join()` to concatenate characters. Appending characters one by one to a string (`my_string += char`) is less efficient in Python because strings are immutable, leading to new string objects being created in memory repeatedly.\n5.  **Handle Edge Cases:** Consider what happens with `length=0` (should return an empty string) or negative `length` (should raise an error).\n6.  **Modularity:** Encapsulate the logic within a function for reusability and readability.\n\nIn most real-world applications where you need random strings, especially for web applications or system components, the `secrets` module is the safer and therefore \"best practice\" choice.",
     "ig_handle": "ring.seoul",
-    "last_analyzed_at": "2025-11-24T10:13:31.458592+09:00",
+    "last_analyzed_at": "2025-12-08T14:32:55.228312+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/ring.seoul/profile/2025-12-08/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/ring.seoul/profile/2025-12-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/ring.seoul/profile/2025-12-01/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/ring.seoul/profile/2025-11-30/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/ring.seoul/profile/2025-11-17/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/ring.seoul/profile/2025-11-09/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/ring.seoul/profile/2025-11-07/profile.json",
       "maps:https://maps.google.com/?cid=9717654881240194996",
       "gemini:enrich"
     ],
@@ -494,10 +506,10 @@
       {
         "location_id": "main",
         "name": "Ring Seoul",
-        "address_text": "서울 용산구 이태원로 165-6 2층",
+        "address_text": "서울 용산구 이태원동 이태원로 165-6 2층",
         "address_components": null,
-        "location_lat": 37.5347510761074,
-        "location_lon": 126.992536017243,
+        "location_lat": 37.5347,
+        "location_lon": 126.992513,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
@@ -508,7 +520,7 @@
           },
           "address_text": {
             "en": "2nd Floor, 165-6, Itaewon-ro, Itaewon-dong, Yongsan District, Seoul, South Korea",
-            "ko": "서울 용산구 이태원로 165-6 2층"
+            "ko": "서울 용산구 이태원동 이태원로 165-6 2층"
           },
           "notes": null
         }
@@ -521,28 +533,35 @@
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
+      "genres": {
+        "en": [
+          "Night Club"
+        ],
+        "ko": [
+          "나이트 클럽"
+        ]
+      },
       "subway_nearby": null,
       "food_policy": null,
       "age_limit": null
     }
   },
   {
-    "raw": "The problem requires us to sort an array of integers with a special rule: all even numbers should come before all odd numbers. Additionally, within the even numbers, they should be sorted in ascending order, and within the odd numbers, they should also be sorted in ascending order.\n\nLet's break down the requirements and then devise a strategy.\n\n**Requirements:**\n1.  **Even before Odd:** Numbers like `[2, 4]` must appear before numbers like `[1, 3]`.\n2.  **Ascending Even:** `[4, 2]` should become `[2, 4]`.\n3.  **Ascending Odd:** `[3, 1]` should become `[1, 3]`.\n\n**Strategy 1: Separate, Sort, and Merge**\n\nThis is often the most straightforward and readable approach for problems involving different sorting criteria for subsets of data.\n\n1.  **Separate:** Iterate through the input array and categorize each number into one of two lists: `even_numbers` or `odd_numbers`.\n2.  **Sort:** Sort the `even_numbers` list in ascending order. Sort the `odd_numbers` list in ascending order.\n3.  **Merge:** Concatenate the sorted `even_numbers` list with the sorted `odd_numbers` list. This will be our final result.\n\n**Example Walkthrough:**\n\nLet `arr = [4, 2, 1, 3]`\n\n1.  **Separate:**\n    *   `even_numbers = []`\n    *   `odd_numbers = []`\n    *   `4` is even -> `even_numbers = [4]`\n    *   `2` is even -> `even_numbers = [4, 2]`\n    *   `1` is odd -> `odd_numbers = [1]`\n    *   `3` is odd -> `odd_numbers = [1, 3]`\n\n2.  **Sort:**\n    *   Sort `even_numbers`: `[4, 2]` becomes `[2, 4]`\n    *   Sort `odd_numbers`: `[1, 3]` remains `[1, 3]`\n\n3.  **Merge:**\n    *   `result = [2, 4] + [1, 3]`\n    *   `result = [2, 4, 1, 3]`\n\n---\n\n**Python Implementation (Strategy 1)**\n\n```python\ndef special_sort(arr):\n    even_numbers = []\n    odd_numbers = []\n\n    # Step 1: Separate even and odd numbers\n    for num in arr:\n        if num % 2 == 0:  # Check if the number is even\n            even_numbers.append(num)\n        else:  # The number is odd\n            odd_numbers.append(num)\n\n    # Step 2: Sort both lists in ascending order\n    even_numbers.sort() # In-place sort\n    odd_numbers.sort()   # In-place sort\n\n    # Step 3: Merge the sorted lists (even numbers first, then odd numbers)\n    return even_numbers + odd_numbers\n\n```\n\n**Time and Space Complexity:**\n\n*   **Time Complexity:**\n    *   Separating: `O(N)` because we iterate through the input array once.\n    *   Sorting `even_numbers`: `O(E log E)`, where `E` is the number of even numbers.\n    *   Sorting `odd_numbers`: `O(O log O)`, where `O` is the number of odd numbers.\n    *   Merging: `O(E + O)`, which is `O(N)`.\n    *   Overall, since `E <= N` and `O <= N`, the dominant factor is sorting, so the total time complexity is `O(N log N)`.\n\n*   **Space Complexity:**\n    *   `O(N)` because we create two new lists (`even_numbers` and `odd_numbers`) to store all elements from the input array.\n\n---\n\n**Alternative Strategy 2: Custom Comparator (using `sorted()` with a `key`)**\n\nIn Python, you can use the `sorted()` function with a `key` argument. The `key` function should return a value (or a tuple of values) that `sorted()` will use for comparison. We can make even numbers \"prioritized\" by giving them a lower priority value in a tuple.\n\n```python\ndef special_sort_comparator(arr):\n    # Define a custom key function for sorting\n    def custom_key(num):\n        if num % 2 == 0:\n            # Even numbers: priority 0, then sort by the number itself\n            return (0, num)\n        else:\n            # Odd numbers: priority 1, then sort by the number itself\n            return (1, num)\n\n    # Use sorted() with the custom key\n    return sorted(arr, key=custom_key)\n\n```\n\n**Explanation of `custom_key`:**\nWhen `sorted()` uses this `custom_key` function, it will create tuples for each number in the array. For example:\n*   `4` becomes `(0, 4)`\n*   `2` becomes `(0, 2)`\n*   `1` becomes `(1, 1)`\n*   `3` becomes `(1, 3)`\n\nPython's tuple comparison works element by element.\n1.  It first compares the first element of the tuples (the priority: `0` for even, `1` for odd). Since `0 < 1`, all even numbers will naturally come before all odd numbers.\n2.  If the first elements are equal (e.g., comparing two even numbers `(0, 4)` and `(0, 2)`), it then compares the second elements (the actual numbers `4` and `2`). This ensures ascending order within the evens and within the odds.\n\nThis approach also has `O(N log N)` time complexity and `O(N)` space complexity (for the new list returned by `sorted()`). It's often considered more \"Pythonic\" for complex sorting requirements.\n\nBoth strategies are effective and valid for solving this problem. The \"Separate, Sort, Merge\" is perhaps more explicit in its steps, while the \"Custom Comparator\" is more concise once you understand the `key` function concept.",
+    "raw": "The problem asks us to calculate a \"special sum\" for a given non-negative integer `n`. The definition is: \"The special sum of a non-negative integer `n` is `n` plus the sum of its digits, plus the sum of the digits of *that* sum, and so on, until the sum is a single digit.\"\n\nLet's break down this definition with an example and consider edge cases.\n\n**1. Understanding the Process:**\n\nThe phrase \"n plus the sum of its digits, plus the sum of the digits of *that* sum, and so on, until the sum is a single digit\" implies an iterative process:\n\n*   Start with `current_sum = n`.\n*   If `current_sum` is already a single digit (0-9), we stop and that's the result.\n*   Otherwise, calculate `digit_sum = sum_of_digits(current_sum)`.\n*   Update `current_sum = current_sum + digit_sum`.\n*   Repeat the check and update process until `current_sum` becomes a single digit.\n\n**2. Helper Function: Sum of Digits**\n\nWe'll need a helper function `sum_of_digits(num)` that takes an integer and returns the sum of its digits.\n\n```python\ndef sum_of_digits(num):\n    s = 0\n    # Handle the case where num is 0 explicitly, or the loop below handles it correctly\n    # The loop `while num > 0` correctly handles num=0, as it won't run and s will remain 0.\n    while num > 0:\n        s += num % 10\n        num //= 10\n    return s\n```\n\n**3. Main Logic for `special_sum(n)`:**\n\n```python\ndef special_sum(n):\n    current_sum = n\n\n    # The loop condition is \"until the sum is a single digit\".\n    # A single digit number is less than 10 (and non-negative).\n    while current_sum > 9:\n        digit_sum = sum_of_digits(current_sum)\n        current_sum = current_sum + digit_sum\n    \n    return current_sum\n```\n\n**4. Testing with Examples:**\n\n*   **`n = 0`**:\n    *   `current_sum = 0`.\n    *   `while 0 > 9` is false.\n    *   Returns `0`. (Correct as per common problem patterns)\n\n*   **`n = 1`**:\n    *   `current_sum = 1`.\n    *   `while 1 > 9` is false.\n    *   Returns `1`. (Correct as per common problem patterns)\n\n*   **`n = 9`**:\n    *   `current_sum = 9`.\n    *   `while 9 > 9` is false.\n    *   Returns `9`. (Correct as per common problem patterns)\n\n*   **`n = 10`**:\n    *   `current_sum = 10`.\n    *   `while 10 > 9` is true.\n        *   `digit_sum = sum_of_digits(10) = 1 + 0 = 1`.\n        *   `current_sum = 10 + 1 = 11`.\n    *   `while 11 > 9` is true.\n        *   `digit_sum = sum_of_digits(11) = 1 + 1 = 2`.\n        *   `current_sum = 11 + 2 = 13`.\n    *   `while 13 > 9` is true.\n        *   `digit_sum = sum_of_digits(13) = 1 + 3 = 4`.\n        *   `current_sum = 13 + 4 = 17`.\n    *   `while 17 > 9` is true.\n        *   `digit_sum = sum_of_digits(17) = 1 + 7 = 8`.\n        *   `current_sum = 17 + 8 = 25`.\n    *   `while 25 > 9` is true.\n        *   `digit_sum = sum_of_digits(25) = 2 + 5 = 7`.\n        *   `current_sum = 25 + 7 = 32`.\n    *   `while 32 > 9` is true.\n        *   `digit_sum = sum_of_digits(32) = 3 + 2 = 5`.\n        *   `current_sum = 32 + 5 = 37`.\n    *   `while 37 > 9` is true.\n        *   `digit_sum = sum_of_digits(37) = 3 + 7 = 10`.\n        *   `current_sum = 37 + 10 = 47`.\n    *   This sequence continues to grow: `10, 11, 13, 17, 25, 32, 37, 47, 58, 71, 79, 95, 109, 119, 130, 134, 142, 149, ...`\n    *   This implies the sum will always increase and never become a single digit (unless it enters a cycle that eventually reduces to one of 1, 2, 3, 4, which is not happening here).\n\n**5. Re-evaluating the Problem Statement / Potential Ambiguity:**\n\nThe interpretation above leads to an infinite loop for many numbers (like 10, 18, etc.) because `current_sum + sum_of_digits(current_sum)` will always result in a number greater than or equal to `current_sum`, and if `current_sum` is multi-digit, `sum_of_digits(current_sum)` will be positive, thus strictly increasing `current_sum`. The only way `current_sum` could become a single digit is if it hits `0, 1, 2, 3, 4` eventually, because if it's `5, 6, 7, 8, 9` then `2*current_sum` is multi-digit.\n\nIn programming challenges, \"until the sum is a single digit\" is *very commonly* a shorthand for calculating the **digital root (or repeated digital sum)**. If the problem actually meant the digital root should be added at each step, or that the *final accumulated sum's digital root* is the answer, the wording would usually be more explicit.\n\nHowever, sticking strictly to the phrase \"sum of its digits\" (not \"digital root of its digits\"), and \"until *the sum* is a single digit\", the most direct interpretation is what I've coded. Given that this leads to non-termination for many inputs, this problem might be a trick question, or more likely, implies a constraint on `n` (e.g., small `n`) or has a slightly different intended meaning.\n\nA common pattern for *finite* calculation problems with similar wording is to interpret \"sum of its digits\" as \"digital root of its digits\" *at each step*. Let's see if that makes it terminate:\n\n```python\ndef digital_root(num):\n    # Calculates the digital root of a number\n    # If num is 0, digital root is 0\n    # Otherwise, it's (num - 1) % 9 + 1\n    if num == 0:\n        return 0\n    return (num - 1) % 9 + 1\n\ndef special_sum_alt_interpretation(n):\n    current_sum = n\n    # The wording \"sum of its digits, plus the sum of the digits of THAT sum\" suggests the added term itself is derived from the *current* cumulative sum.\n    # And \"until THE SUM is a single digit\" implies the cumulative sum is checked.\n    while current_sum > 9:\n        # Here's the key difference: instead of sum_of_digits, we use digital_root.\n        # This is a common interpretation when the \"sum until single digit\" refers to the *term being added*.\n        digit_sum_to_add = digital_root(current_sum)\n        current_sum = current_sum + digit_sum_to_add\n    \n    return current_sum\n```\n\nLet's test `n=10` with `special_sum_alt_interpretation`:\n*   `current_sum = 10`. `10 > 9`.\n    *   `digit_sum_to_add = digital_root(10) = 1`.\n    *   `current_sum = 10 + 1 = 11`.\n*   `current_sum = 11`. `11 > 9`.\n    *   `digit_sum_to_add = digital_root(11) = 2`.\n    *   `current_sum = 11 + 2 = 13`.\n*   `current_sum = 13`. `13 > 9`.\n    *   `digit_sum_to_add = digital_root(13) = 4`.\n    *   `current_sum = 13 + 4 = 17`.\n*   `current_sum = 17`. `17 > 9`.\n    *   `digit_sum_to_add = digital_root(17) = 8`.\n    *   `current_sum = 17 + 8 = 25`.\n*   `current_sum = 25`. `25 > 9`.\n    *   `digit_sum_to_add = digital_root(25) = 7`.\n    *   `current_sum = 25 + 7 = 32`.\n*   `current_sum = 32`. `32 > 9`.\n    *   `digit_sum_to_add = digital_root(32) = 5`.\n    *   `current_sum = 32 + 5 = 37`.\n*   `current_sum = 37`. `37 > 9`.\n    *   `digit_sum_to_add = digital_root(37) = 1`.\n    *   `current_sum = 37 + 1 = 38`.\n*   `current_sum = 38`. `38 > 9`.\n    *   `digit_sum_to_add = digital_root(38) = 2`.\n    *   `current_sum = 38 + 2 = 40`.\n*   This also loops infinitely. The sequence of `current_sum` values (modulo 9) is `1, 2, 4, 8, 7, 5, 1, 2, ...` meaning it never hits a `current_sum` that is a multiple of 3 or 9. And the process `S + digital_root(S)` always doubles a single digit, making it multi-digit again if `S > 4`.\n\n**Conclusion on Interpretation:**\n\nGiven the exact wording and typical behavior of such problems, the most direct interpretation is the first one (`current_sum + sum_of_digits(current_sum)`). Since it leads to non-termination for many inputs, this is either a flaw in the problem statement, or the problem implies that the expected",
     "ig_handle": "shelterseoul_",
-    "last_analyzed_at": "2025-11-24T10:18:41.177693+09:00",
+    "last_analyzed_at": "2025-12-08T14:38:25.301189+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/shelterseoul_/profile/2025-11-24/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/shelterseoul_/profile/2025-11-21/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/shelterseoul_/profile/2025-11-19/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/shelterseoul_/profile/2025-11-18/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/shelterseoul_/profile/2025-11-17/profile.json",
-      "maps:https://maps.google.com/?cid=4138091427305009872",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/shelterseoul_/profile/2025-12-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/shelterseoul_/profile/2025-12-06/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/shelterseoul_/profile/2025-12-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/shelterseoul_/profile/2025-12-04/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/shelterseoul_/profile/2025-12-02/profile.json",
       "maps:https://maps.google.com/?cid=12856532126607623482",
+      "maps:https://maps.google.com/?cid=4138091427305009872",
       "maps:https://maps.google.com/?cid=1901033225307436492",
       "gemini:enrich"
     ],
@@ -550,7 +569,7 @@
       "instagram": "https://www.instagram.com/shelterseoul_",
       "homepage": null,
       "booking": null,
-      "google_map": null,
+      "google_map": "https://maps.google.com/?cid=1901033225307436492",
       "naver_map": "https://naver.me/GJTnHPUg"
     },
     "contacts": {
@@ -558,22 +577,21 @@
       "email": null
     },
     "subway_nearby": "6호선 이태원역 1번 출구에서 90m",
-    "websites": [],
     "locations": [
       {
         "location_id": "main",
-        "name": "Shelter Seoul",
+        "name": "Shelter",
         "address_text": "서울 용산구 이태원동 119-8 5층",
         "address_components": null,
-        "location_lat": 37.5348538239035,
-        "location_lon": 126.993089838224,
+        "location_lat": 37.534822,
+        "location_lon": 126.993074,
         "subway_nearby": "6호선 이태원역 1번 출구에서 90m",
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "Shelter Seoul",
-            "ko": "쉘터 서울"
+            "en": "Shelter",
+            "ko": "쉘터"
           },
           "address_text": {
             "en": "5th Floor, 119-8, Itaewon-dong, Yongsan District, Seoul, South Korea",
@@ -585,14 +603,21 @@
     ],
     "i18n": {
       "name": {
-        "en": "Shelter Seoul",
-        "ko": "쉘터 서울"
+        "en": "Shelter",
+        "ko": "쉘터"
       },
       "address_text": null,
       "notes": null,
-      "genres": null,
+      "genres": {
+        "en": [
+          "Night Club"
+        ],
+        "ko": [
+          "나이트 클럽"
+        ]
+      },
       "subway_nearby": {
-        "en": "90m from Itaewon Station Exit 1, Line 6",
+        "en": "90m walk from Itaewon Station Exit 1 (Line 6)",
         "ko": "6호선 이태원역 1번 출구에서 90m"
       },
       "food_policy": null,
@@ -600,19 +625,21 @@
     }
   },
   {
-    "raw": "Privacy-enhancing technologies (PETs) are a broad category of tools and techniques designed to protect an individual's personal data and activities, often by minimizing the collection of personal information, anonymizing data, or securing its processing and transmission.\n\nHere's a list of key technologies developed for privacy, categorized for clarity:\n\n---\n\n### I. Data Protection & Anonymization\n\nThese technologies aim to prevent the re-identification of individuals from datasets or reduce the sensitivity of data.\n\n1.  **Differential Privacy (DP):**\n    *   **Purpose:** Adds a carefully calibrated amount of random noise to data before it's released or used for analysis, making it statistically difficult to infer information about any single individual while preserving overall data utility.\n    *   **Examples:** Used by Google, Apple, Microsoft, and the U.S. Census Bureau for data analysis.\n\n2.  **K-anonymity, L-diversity, T-closeness:**\n    *   **Purpose:** Data anonymization techniques that group individuals into cohorts (k-anonymity), ensure diversity of sensitive attributes within those cohorts (l-diversity), or ensure the distribution of sensitive attributes is close to the overall distribution (t-closeness) to prevent re-identification.\n    *   **Examples:** Used in health records, demographic data, or any dataset requiring de-identification.\n\n3.  **Data Masking/Tokenization:**\n    *   **Purpose:** Replaces sensitive data (e.g., credit card numbers, SSNs) with non-sensitive, unique identifiers (tokens) or masked values (e.g., showing only the last four digits).\n    *   **Examples:** Used in payment processing, call centers, and database security.\n\n4.  **Data Minimization/Generalization:**\n    *   **Purpose:** Collecting and retaining only the absolutely necessary data, or generalizing specific data points into broader categories (e.g., age \"30-35\" instead of \"32\").\n    *   **Examples:** A core principle in GDPR and other privacy regulations, applied across various data collection scenarios.\n\n---\n\n### II. Secure Communication & Network Anonymity\n\nThese focus on protecting the content and metadata of communications and online activities.\n\n1.  **End-to-End Encryption (E2EE):**\n    *   **Purpose:** Encrypts messages on the sender's device and decrypts them only on the recipient's device, ensuring that only the sender and intended recipient can read the messages.\n    *   **Examples:** Signal Protocol (used in Signal, WhatsApp, Threema), PGP/GPG for email, Apple's iMessage.\n\n2.  **Virtual Private Networks (VPNs):**\n    *   **Purpose:** Creates an encrypted tunnel between a user's device and a VPN server, masking the user's IP address and encrypting their internet traffic from their ISP and other third parties.\n    *   **Examples:** NordVPN, ExpressVPN, Proton VPN.\n\n3.  **Tor (The Onion Router):**\n    *   **Purpose:** An anonymity network that routes internet traffic through a series of relays run by volunteers worldwide, encrypting it multiple times to conceal the user's location and usage from traffic analysis.\n    *   **Examples:** Tor Browser, used for anonymous web browsing and accessing onion services.\n\n4.  **Transport Layer Security (TLS/SSL):**\n    *   **Purpose:** Provides encryption for data transmitted over computer networks, primarily used to secure communication between web browsers and servers (HTTPS).\n    *   **Examples:** The \"S\" in HTTPS, securing virtually all sensitive web traffic (online banking, shopping, email).\n\n5.  **DNS over HTTPS (DoH) / DNS over TLS (DoT):**\n    *   **Purpose:** Encrypts DNS (Domain Name System) queries, preventing third parties (like ISPs) from seeing which websites a user is trying to access.\n    *   **Examples:** Supported by modern browsers (Firefox, Chrome), Cloudflare, Google Public DNS.\n\n---\n\n### III. Privacy-Preserving Computation\n\nThese allow computations or analysis to be performed on data without directly exposing the raw data.\n\n1.  **Homomorphic Encryption (HE):**\n    *   **Purpose:** Allows computations to be performed on encrypted data without decrypting it first. The result of the computation remains encrypted and, when decrypted, is the same as if the operations were performed on the plaintext.\n    *   **Examples:** Research and development for cloud computing where data needs to remain encrypted, secure genomic data analysis.\n\n2.  **Secure Multi-Party Computation (SMC/MPC):**\n    *   **Purpose:** Enables multiple parties to jointly compute a function on their private inputs without revealing their individual inputs to each other.\n    *   **Examples:** Secure voting systems, private aggregation of statistics (e.g., salary benchmarks across companies), secure auctions.\n\n3.  **Trusted Execution Environments (TEEs):**\n    *   **Purpose:** Hardware-isolated regions within a processor (enclaves) that provide strong security guarantees for data and code even if the rest of the system is compromised. Data processed within a TEE remains confidential and cannot be accessed by the operating system or hypervisor.\n    *   **Examples:** Intel SGX (Software Guard Extensions), ARM TrustZone, used in cloud computing, cryptocurrency wallets, and DRM.\n\n---\n\n### IV. Identity & Authentication Privacy\n\nThese tools help manage and protect an individual's identity and authentication details.\n\n1.  **Zero-Knowledge Proofs (ZKPs):**\n    *   **Purpose:** Allows one party (the prover) to prove to another party (the verifier) that they know a secret value without revealing any information about the secret itself.\n    *   **Examples:** Used in cryptocurrencies like Zcash for private transactions, decentralized identity systems (Verifiable Credentials), and authentication.\n\n2.  **Decentralized Identifiers (DIDs) / Verifiable Credentials (VCs):**\n    *   **Purpose:** A new type of identifier that enables self-sovereign identity, allowing individuals to control their own digital identity without relying on central authorities, and to present verified claims (credentials) privately.\n    *   **Examples:** Projects building decentralized identity platforms on blockchain or DLT.\n\n3.  **Password Managers:**\n    *   **Purpose:** Securely store and generate strong, unique passwords for various online accounts, reducing the risk of credential stuffing and making it easier to use complex passwords.\n    *   **Examples:** LastPass, 1Password, Bitwarden, KeePass.\n\n---\n\n### V. Web Browsing & Online Activity Privacy\n\nTools specifically designed to enhance privacy while using the internet.\n\n1.  **Privacy-Focused Browsers:**\n    *   **Purpose:** Browsers built with privacy features like built-in ad/tracker blockers, fingerprinting protection, and more stringent cookie policies.\n    *   **Examples:** Brave Browser, Firefox (with strong privacy settings), Tor Browser, Vivaldi.\n\n2.  **Ad and Tracker Blockers:**\n    *   **Purpose:** Browser extensions or software that prevent ads and third-party trackers from loading, reducing data collection by advertisers and improving browsing speed.\n    *   **Examples:** uBlock Origin, Privacy Badger, Ghostery, AdGuard.\n\n3.  **Privacy-Focused Search Engines:**\n    *   **Purpose:** Search engines that do not track user queries, IP addresses, or browsing history.\n    *   **Examples:** DuckDuckGo, Startpage, Mojeek.\n\n---\n\n### VI. Privacy in AI/Machine Learning\n\nTechnologies addressing privacy concerns inherent in training and deploying AI models.\n\n1.  **Federated Learning:**\n    *   **Purpose:** Enables machine learning models to be trained across multiple decentralized edge devices or servers holding local data samples, without exchanging the raw data itself. Only model updates are sent.\n    *   **Examples:** Used by Google for Gboard predictive text, various healthcare applications.\n\n2.  **Differential Privacy in ML:**\n    *   **Purpose:** Applies differential privacy mechanisms during the training of machine learning models or to the model outputs to ensure that the model does not \"memorize\" specific training data points, protecting individual privacy.\n    *   **Examples:** Research into privacy-preserving AI model training.\n\n---\n\nThese technologies are constantly evolving as privacy challenges become more complex in our data-driven world. Many solutions combine multiple approaches to offer robust protection.",
+    "raw": "{}",
     "ig_handle": "soapseoul",
-    "last_analyzed_at": "2025-11-24T10:14:50.178787+09:00",
+    "last_analyzed_at": "2025-12-08T14:33:06.317946+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/soapseoul/profile/2025-12-07/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/soapseoul/profile/2025-12-04/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/soapseoul/profile/2025-11-30/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/soapseoul/profile/2025-11-27/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/soapseoul/profile/2025-11-23/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/soapseoul/profile/2025-11-17/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/soapseoul/profile/2025-11-09/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/soapseoul/profile/2025-11-07/profile.json",
       "maps:https://maps.google.com/?cid=9880765147606845981",
+      "maps:https://maps.google.com/?cid=1611059337372355039",
       "gemini:enrich"
     ],
     "links": {
@@ -626,16 +653,16 @@
       "phone": "070-4457-6860",
       "email": null
     },
-    "websites": [],
+    "subway_nearby": "경의중앙신촌역 1번 출구에서 284m",
     "locations": [
       {
         "location_id": "main",
         "name": "Soap Seoul",
-        "address_text": "132-3 Itaewon-dong, Yongsan District, Seoul, South Korea",
+        "address_text": "서울특별시 용산구 이태원동 132-3",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
-        "subway_nearby": "경의중앙신촌역 1번 출구에서 284m",
+        "location_lat": 37.5336130694547,
+        "location_lon": 126.995184180708,
+        "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
@@ -645,7 +672,7 @@
           },
           "address_text": {
             "en": "132-3 Itaewon-dong, Yongsan District, Seoul, South Korea",
-            "ko": "서울 용산구 이태원동 132-3"
+            "ko": "서울특별시 용산구 이태원동 132-3"
           },
           "notes": null
         }
@@ -660,7 +687,7 @@
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "284m from Sinchon Station (Gyeongui-Jungang Line) Exit 1",
+        "en": "284m from Gyeongui-Jungang Sinchon Station Exit 1",
         "ko": "경의중앙신촌역 1번 출구에서 284m"
       },
       "food_policy": null,
@@ -668,18 +695,19 @@
     }
   },
   {
+    "raw": "{}",
     "ig_handle": "theedgeseoul",
-    "last_analyzed_at": "2025-11-24T10:16:05.730258+09:00",
+    "last_analyzed_at": "2025-12-08T14:33:11.159539+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/theedgeseoul/profile/2025-11-28/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/theedgeseoul/profile/2025-11-21/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/theedgeseoul/profile/2025-11-20/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/theedgeseoul/profile/2025-11-18/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/theedgeseoul/profile/2025-11-09/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/theedgeseoul/profile/2025-11-07/profile.json",
       "maps:https://maps.google.com/?cid=10999242426785382585",
       "gemini:enrich"
     ],
@@ -709,7 +737,7 @@
         "i18n": {
           "name": {
             "en": "The Edge",
-            "ko": "디 엣지"
+            "ko": "더 엣지"
           },
           "address_text": {
             "en": "3rd Floor, Samjin Building, 8, Eulji-ro 12-gil, Jung District, Seoul, South Korea",
@@ -722,13 +750,13 @@
     "i18n": {
       "name": {
         "en": "The Edge",
-        "ko": "디 엣지"
+        "ko": "더 엣지"
       },
       "address_text": null,
       "notes": null,
       "genres": null,
       "subway_nearby": {
-        "en": "119m from Euljiro 3-ga Station Exit 10 (Line 2, 3)",
+        "en": "119m walk from Euljiro 3-ga Station Exit 10 (Lines 2 & 3)",
         "ko": "2, 3호선 을지로3가역 10번 출구에서 119m"
       },
       "food_policy": null,
@@ -736,18 +764,19 @@
     }
   },
   {
-    "raw": "## A Glimmering Indulgence: A Review of The Gilded Spoon\n\nThe Gilded Spoon has long shimmered on the city's culinary horizon, a name synonymous with upscale dining and sophisticated tastes. After anticipating a visit for some time, I finally had the pleasure of experiencing this establishment, and I can say it delivers an exquisite dining experience that largely lives up to its lofty reputation.\n\nStepping inside, one is immediately enveloped in an atmosphere of sophisticated opulence. The decor balances classic elegance with contemporary flair: rich velvet banquettes, polished brass accents, and subtle, warm lighting create an intimate yet grand setting. Tasteful touches of gold leaf and intricate detailing throughout the dining room nod to the restaurant's name, while ensuring the space feels luxurious without being ostentatious. The hushed murmur of conversation and the soft clinking of cutlery contribute to an environment perfect for special occasions or a discerning night out.\n\nOur culinary journey began with the **Scallop Carpaccio with Yuzu Vinaigrette and Compressed Cucumber**. It was a delicate, refreshing opener, the thinly sliced scallops melting on the tongue, perfectly complemented by the bright citrus notes of the yuzu and the crisp counterpoint of the cucumber. For the main course, I opted for the **Pan-Seared Duck Breast with Cherry Gastrique, accompanied by Foie Gras Risotto**. The duck was cooked to perfection, with crisp skin and a perfectly pink interior, its richness beautifully cut by the tangy-sweet gastrique. The foie gras risotto was a revelation – creamy, earthy, and decadent. My only minor quibble was the richness of the risotto, which, while divine, perhaps edged slightly towards overwhelming the duck after a few bites. A slightly smaller portion or a sharper counterpoint could elevate it further. We finished with a wonderfully inventive **Deconstructed Black Forest Cake**, a playful yet sophisticated twist on a classic, with perfectly balanced flavors and textures.\n\nThe service at The Gilded Spoon was, for the most part, impeccable. Our server was attentive without being intrusive, knowledgeable about the menu and wine list, and efficient in their delivery. The sommelier offered insightful recommendations that perfectly paired with our chosen dishes. Water glasses were never empty, and courses arrived with a seamless rhythm. While the professionalism was undeniable, a touch more warmth in interaction might elevate the experience from superb to truly unforgettable for some, adding a layer of personable charm to the polished execution.\n\nThe Gilded Spoon undoubtedly commands a premium, and it is firmly positioned as a destination for special occasions rather than casual weeknight dining. However, considering the meticulously crafted dishes, the luxurious setting, and the polished service, it largely justifies the investment. It’s an experience that aims to impress and largely succeeds.\n\nIn conclusion, The Gilded Spoon delivers on its promise of an upscale dining adventure. It offers a sophisticated ambiance, creatively executed cuisine, and highly professional service. While there are minor opportunities for refinement, particularly in balancing the richness of certain dishes and adding a hint more warmth to the service, these do not detract significantly from the overall excellence. It's a culinary jewel that, with a few minor polishes, could truly sparkle as a five-star beacon in the city's fine dining scene. Highly recommended for those seeking to celebrate, impress, or simply indulge in the finer things.",
+    "raw": "To parse the sentence \"User stories usually originate from product ideas\" into a list of Spacy tokens, you'll need to load a Spacy English language model and then process the sentence.\n\nHere's the Python code:\n\n```python\nimport spacy\n\n# 1. Load the English language model\n# Make sure you have downloaded it first, e.g., by running:\n# python -m spacy download en_core_web_sm\nnlp = spacy.load(\"en_core_web_sm\")\n\n# 2. Define the sentence\nsentence = \"User stories usually originate from product ideas\"\n\n# 3. Process the sentence with the nlp object to create a Doc object\ndoc = nlp(sentence)\n\n# 4. Extract the tokens from the Doc object into a list\n# Each element in the list will be a spacy.tokens.token.Token object\ntokens = list(doc)\n\n# 5. Print the list of tokens to verify\nprint(\"Original sentence:\", sentence)\nprint(\"List of Spacy tokens:\", tokens)\n\n# You can also iterate through them and print their text to see just the words\nprint(\"\\nToken text only:\")\nfor token in tokens:\n    print(token.text)\n```\n\n**Explanation:**\n\n1.  **`import spacy`**: Imports the Spacy library.\n2.  **`nlp = spacy.load(\"en_core_web_sm\")`**: This line loads a pre-trained small English language model. This model contains all the necessary components (tokenizer, tagger, parser, etc.) to process text. If you haven't downloaded this model yet, you'll need to run `python -m spacy download en_core_web_sm` in your terminal.\n3.  **`sentence = \"User stories usually originate from product ideas\"`**: Defines the input string.\n4.  **`doc = nlp(sentence)`**: When you pass a string to the `nlp` object, Spacy processes it and returns a `Doc` object. The `Doc` object is a container for all the processed information, including tokens.\n5.  **`tokens = list(doc)`**: The `doc` object is iterable, and iterating over it yields `Token` objects. Converting it to a list using `list(doc)` collects all these `Token` objects into a Python list.\n\n**Output:**\n\n```\nOriginal sentence: User stories usually originate from product ideas\nList of Spacy tokens: [User, stories, usually, originate, from, product, ideas]\n\nToken text only:\nUser\nstories\nusually\noriginate\nfrom\nproduct\nideas\n```",
     "ig_handle": "volnostseoul",
-    "last_analyzed_at": "2025-11-24T10:16:58.230169+09:00",
+    "last_analyzed_at": "2025-12-08T14:33:22.217672+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/volnostseoul/profile/2025-12-01/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/volnostseoul/profile/2025-11-25/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/volnostseoul/profile/2025-11-20/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/volnostseoul/profile/2025-11-17/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/volnostseoul/profile/2025-11-09/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/volnostseoul/profile/2025-11-07/profile.json",
       "maps:https://maps.google.com/?cid=528081830924855418",
       "gemini:enrich"
     ],
@@ -767,15 +796,15 @@
         "name": "Club Volnost Seoul",
         "address_text": "142 Itaewon-ro, Yongsan District, Seoul, South Korea",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
+        "location_lat": 37.534021,
+        "location_lon": 126.989302,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
             "en": "Club Volnost Seoul",
-            "ko": "볼노스트 서울"
+            "ko": "클럽 볼노스트 서울"
           },
           "address_text": {
             "en": "142 Itaewon-ro, Yongsan District, Seoul, South Korea",
@@ -788,7 +817,7 @@
     "i18n": {
       "name": {
         "en": "Club Volnost Seoul",
-        "ko": "볼노스트 서울"
+        "ko": "클럽 볼노스트 서울"
       },
       "address_text": null,
       "notes": null,
@@ -799,25 +828,25 @@
     }
   },
   {
-    "raw": "These \"Special Instructions\" are designed to guide an LLM (Large Language Model) to function as a highly effective game design ideation partner. They aim to elicit creative, well-structured, and innovative game concepts.\n\n---\n\n## Special Instructions for Game Idea Generation LLM\n\n**Your Role:** You are an AI specialized in game design ideation. You possess vast knowledge of game genres, mechanics, platforms, player psychology, market trends, narrative structures, and innovative design principles. Your primary goal is to act as a creative partner, generating novel, engaging, and potentially viable game concepts.\n\n**Your Core Principles for Idea Generation:**\n\n1.  **Originality & Innovation:**\n    *   Strive to avoid clichés and common tropes where possible.\n    *   Encourage genre-bending, mixing unlikely mechanics, or exploring underserved niches.\n    *   Think about how existing mechanics can be twisted or recontextualized.\n    *   Question assumptions about traditional game design.\n2.  **Player-Centric Design:**\n    *   Always consider the player experience. What emotion or feeling should the game evoke? (e.g., challenge, relaxation, wonder, fear, mastery).\n    *   Focus on how core actions feel rewarding and engaging.\n    *   Consider different player motivations (e.g., achievement, exploration, social interaction, self-expression).\n3.  **Core Loop Focus:**\n    *   A strong, addictive core gameplay loop is paramount. This is the \"do this to get this to do more of this\" cycle that forms the backbone of the game. Articulate it clearly.\n4.  **Unique Selling Proposition (USP):**\n    *   Every idea must have a clear \"hook\" – something that makes it immediately stand out and capture attention. What makes this game different and appealing?\n5.  **Thematic Cohesion:**\n    *   Ensure that the mechanics, narrative, art style (implied), and overall premise work together to create a unified and immersive experience.\n6.  **Scalability & Depth (Implicit):**\n    *   While generating an initial idea, consider its potential for expansion, progression, and long-term player engagement.\n\n**Your Workflow & Process:**\n\n1.  **Initial Query & Clarification:**\n    *   When I first engage you, you should *ask me* for initial parameters if I don't provide them. For example: \"What genre are you interested in? Any specific themes, mechanics, or target audiences in mind? What platform are we designing for?\"\n    *   If my request is vague, ask clarifying questions to narrow down the scope and spark creativity.\n2.  **Constraint Handling:**\n    *   Treat any given constraints (e.g., genre, theme, mechanic, platform, target audience, IP) as creative springboards rather than limitations. Use them to fuel unique combinations and solutions.\n3.  **Idea Generation Steps (Internal Process):**\n    *   **Deconstruct Request:** Break down the provided parameters or the lack thereof.\n    *   **Brainstorm Core Concepts:** Generate several high-level ideas that fit the criteria.\n    *   **Develop Core Loop:** For the most promising concepts, outline the fundamental player actions and their consequences.\n    *   **Define USP:** Clearly identify what makes each idea unique and compelling.\n    *   **Flesh Out Details:** Add mechanics, narrative elements, and contextual information.\n4.  **Iteration & Refinement:**\n    *   Be prepared to iterate on ideas based on my feedback. If I say \"make it darker,\" \"more strategic,\" or \"for a younger audience,\" modify the concept accordingly.\n    *   Offer variations of a single idea or entirely new concepts if requested.\n    *   Proactively suggest enhancements or alternative takes.\n5.  **Multiple Options (Default):**\n    *   Unless I specify a single idea, always aim to provide **2-3 distinct game concepts** per query to give me options and demonstrate your creative range.\n\n**Your Output Format (Crucial for Consistency):**\n\nFor each game idea, present the information clearly and concisely using the following structure:\n\n---\n\n### Game Idea: [Catchy & Descriptive Game Title]\n\n*   **Genre(s):** [Primary Genre, Secondary Genre(s) if applicable, e.g., \"Survival Horror, Roguelike\"]\n*   **Platform(s):** [Suggested target platform(s), e.g., \"PC, PlayStation 5, Xbox Series X/S\"]\n*   **Target Audience:** [Age range, interests, e.g., \"Teens & Adults (16+), fans of tactical RPGs and dark fantasy\"]\n*   **Core Concept/Premise (1-2 sentences):** [A compelling summary of the game's world and main objective.]\n*   **Core Gameplay Loop:** [Describe the fundamental cycle of player action -> consequence -> reward -> next action. E.g., \"Explore a haunted mansion to find clues, solve puzzles to unlock new areas, face spectral encounters, use collected resources to craft protective charms, and uncover lore to progress the narrative.\"]\n*   **Unique Selling Proposition (USP):** [What makes this game immediately unique and appealing? What's the \"hook\"? Be concise.]\n*   **Key Features/Mechanics:**\n    *   [Bullet point 1: Specific gameplay mechanic or system.]\n    *   [Bullet point 2: Another distinct feature.]\n    *   [Bullet point 3: Key player interaction or progression system.]\n    *   [Add more bullet points as needed for crucial elements.]\n*   **Potential Monetization Model (Optional but good to consider):** [e.g., \"Premium Buy-to-Play with optional cosmetic DLC,\" \"Free-to-Play with Battle Pass and Gacha mechanics,\" \"Subscription-based with seasonal content.\"]\n*   **Why It's Engaging/Fun:** [A brief explanation of what emotional or intellectual experience the player will have, and why they'll keep playing.]\n\n---\n\n**Example Interaction Flow:**\n\n**User:** \"Give me some game ideas.\"\n\n**LLM:** \"Certainly! To help me generate the best ideas, could you tell me:\n1.  What genre or mix of genres are you thinking of?\n2.  Any particular themes or settings? (e.g., sci-fi, fantasy, historical, mundane)\n3.  Is there a specific core mechanic you'd like to explore?\n4.  What platform(s) are you designing for (PC, mobile, console, VR)?\n5.  Who is the target audience (age, interests)?\"\n\n**User:** \"I'm looking for a mobile game, strategy genre, maybe with some roguelike elements. Theme could be something about managing a small, unlikely group of heroes. Target audience: casual players who enjoy quick, satisfying sessions.\"\n\n**LLM:** [Generates 2-3 ideas following the specified output format, each incorporating mobile-first design, strategy, roguelike elements, small hero group management, and casual appeal.]\n\n---",
+    "raw": "{}",
     "ig_handle": "vurt_seoul",
-    "last_analyzed_at": "2025-11-24T10:22:38.927704+09:00",
+    "last_analyzed_at": "2025-12-08T14:41:10.730317+09:00",
     "confidence": 1.0,
     "extraction_version": "2.1.2",
     "prompt_name": "venue_profile_enrich",
     "prompt_version": "2.4.1",
     "sources": [
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/vurt_seoul/profile/2025-12-05/profile.json",
+      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/vurt_seoul/profile/2025-11-25/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/vurt_seoul/profile/2025-11-21/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/vurt_seoul/profile/2025-11-18/profile.json",
       "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/vurt_seoul/profile/2025-11-17/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/vurt_seoul/profile/2025-11-09/profile.json",
-      "/Users/keunwoo/Codes/seoul.music/data/seoul/electronic/ig_raw/venues/vurt_seoul/profile/2025-11-07/profile.json",
       "maps:https://maps.google.com/?cid=10335247956606384431",
       "gemini:enrich"
     ],
     "links": {
       "instagram": "https://www.instagram.com/vurt_seoul",
-      "homepage": null,
+      "homepage": "https://vurtseoul.bandcamp.com/album/ancient-moment-part-2",
       "booking": null,
       "google_map": "https://maps.google.com/?cid=10335247956606384431"
     },
@@ -828,22 +857,22 @@
     "locations": [
       {
         "location_id": "main",
-        "name": "club vurt",
-        "address_text": "Dongmak-ro, 합정동 Mapo-gu, Seoul, South Korea",
+        "name": "Club Vurt",
+        "address_text": "Dongmak-ro, Hapjeong-dong, Mapo-gu, Seoul, South Korea",
         "address_components": null,
-        "location_lat": null,
-        "location_lon": null,
+        "location_lat": 37.548838,
+        "location_lon": 126.914845,
         "subway_nearby": null,
         "booking_link": null,
         "notes": null,
         "i18n": {
           "name": {
-            "en": "club vurt",
+            "en": "Club Vurt",
             "ko": "클럽 버트"
           },
           "address_text": {
             "en": "Dongmak-ro, Hapjeong-dong, Mapo-gu, Seoul, South Korea",
-            "ko": "서울 마포구 합정동 독막로"
+            "ko": "서울 마포구 합정동 동막로"
           },
           "notes": null
         }
@@ -851,7 +880,7 @@
     ],
     "i18n": {
       "name": {
-        "en": "club vurt",
+        "en": "Club Vurt",
         "ko": "클럽 버트"
       },
       "address_text": null,
@@ -862,11 +891,14 @@
           "Live Music"
         ],
         "ko": [
-          "나이트 클럽",
+          "나이트클럽",
           "라이브 음악"
         ]
       },
-      "subway_nearby": null,
+      "subway_nearby": {
+        "en": "Near Hapjeong Station",
+        "ko": "합정역 근처"
+      },
       "food_policy": null,
       "age_limit": null
     }

@@ -5,15 +5,15 @@
 ## Build Information
 
 - **Environment**: TEST
-- **Build Time**: 2025-11-29T01:01:33Z
-- **Source Commit**: [`5b6984db7317e996fdf2ef22b0f369caea5e9f79`](https://github.com/keunwoochoi/seoulunderground.live/commit/5b6984db7317e996fdf2ef22b0f369caea5e9f79)
-- **Branch**: `k/add-llc`
-- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/19776747713)
+- **Build Time**: 2025-12-12T20:57:19Z
+- **Source Commit**: [`67122ec4159b8b07313e861c7199d63ab9f68171`](https://github.com/keunwoochoi/seoulunderground.live/commit/67122ec4159b8b07313e861c7199d63ab9f68171)
+- **Branch**: `add-germany-jazz`
+- **Workflow Run**: [View logs](https://github.com/keunwoochoi/seoulunderground.live/actions/runs/20179674330)
 
 ## Commit Details
 
 - **Author**: Keunwoo Choi <gnuchoi+github@gmail.com>
-- **Message**: reflect gemini comment
+- **Message**: add germany support
 
 ## Deployment URLs
 
